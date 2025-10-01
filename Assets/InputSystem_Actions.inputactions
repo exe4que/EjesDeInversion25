@@ -898,11 +898,33 @@
                 },
                 {
                     "name": "",
+                    "id": "9aa5f83f-4b33-4d31-ae69-eff51fec20fd",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1eb12340-c036-4ad0-9700-6eee873a5944",
                     "path": "<Touchscreen>/touch0/press",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
+                    "action": "Point1Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "efcea4e1-172e-41ca-b7fa-f5b19c31c736",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Point1Button",
                     "isComposite": false,
                     "isPartOfComposite": false

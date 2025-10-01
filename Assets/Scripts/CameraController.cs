@@ -10,8 +10,10 @@ public class CameraController : MonoBehaviour
     [SerializeField] private InputActionReference Touch2;
     [SerializeField] private InputActionReference Touch1Button;
     [SerializeField] private InputActionReference Touch2Button;
+    [SerializeField] private InputActionReference ScrollWheel;
     
-    [SerializeField] private float ZoomSensitivity = 0.1f;
+    [SerializeField] private float ZoomSensitivityMobile = 1f;
+    [SerializeField] private float ZoomSensitivityDesktop = 20f;
 
     private CinemachineCamera _cinemachineCamera;
     private CinemachineConfiner3D _cinemachineConfiner3D;
@@ -37,7 +39,8 @@ public class CameraController : MonoBehaviour
         Vector2 touch1Pos = Touch1.action.ReadValue<Vector2>();
         Vector2 touch2Pos = Touch2.action.ReadValue<Vector2>();
         
-        if (Touch1Button.action.IsPressed() && Touch2Button.action.IsPressed())
+        float scrollValue = ScrollWheel.action.ReadValue<Vector2>().y;
+        if ((Touch1Button.action.IsPressed() && Touch2Button.action.IsPressed()) || Mathf.Abs(scrollValue) > 0f)
         {
             if (_touchCount != 2)
             {
@@ -50,10 +53,13 @@ public class CameraController : MonoBehaviour
             // Both touches are active, handle pinch to zoom
             float initialDistance = Vector2.Distance(_touch1StartPos, _touch2StartPos);
             float currentDistance = Vector2.Distance(touch1Pos, touch2Pos);
-            float distanceDelta = currentDistance - initialDistance;
+            float distanceDelta = (currentDistance - initialDistance) * ZoomSensitivityMobile;
+            
+            // If using scroll wheel, override distanceDelta
+            distanceDelta += scrollValue * ZoomSensitivityDesktop;
 
-            Debug.Log($"Distance Delta: {distanceDelta}");
-            this.transform.localPosition = _initialCameraPosition + this.transform.forward * (distanceDelta * ZoomSensitivity);
+            //Debug.Log($"Distance Delta: {distanceDelta}");
+            this.transform.localPosition = _initialCameraPosition + this.transform.forward * distanceDelta;
         }
         else if (Touch1Button.action.IsPressed())
         {
@@ -73,14 +79,14 @@ public class CameraController : MonoBehaviour
             Vector3 touchWorldDelta = currentWorldPos - startWorldPos;
             //translate from screen space to world space
             this.transform.position = _initialCameraPosition - touchWorldDelta;
-            Debug.Log($"touchWorldDelta: {touchWorldDelta}");
+            //Debug.Log($"touchWorldDelta: {touchWorldDelta}");
         }
         else
         {
             _touchCount = 0;
         }
 
-        Debug.Log($"Touch count: {_touchCount}, Touch1: {Touch1Button.action.IsPressed()}, Touch2: {Touch2Button.action.IsPressed()}" );
+        //Debug.Log($"Touch count: {_touchCount}, Touch1: {Touch1Button.action.IsPressed()}, Touch2: {Touch2Button.action.IsPressed()}" );
     }
     
 }

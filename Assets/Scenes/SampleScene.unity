@@ -635,7 +635,9 @@ MonoBehaviour:
   Touch2: {fileID: 6679873570203291358, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   Touch1Button: {fileID: 5873305618572481084, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   Touch2Button: {fileID: 8237798066415147460, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  ZoomSensitivity: 1
+  ScrollWheel: {fileID: 6240969308177333660, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  ZoomSensitivityMobile: 1
+  ZoomSensitivityDesktop: 40
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
