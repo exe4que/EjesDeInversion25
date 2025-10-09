@@ -16,7 +16,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float ZoomSensitivityDesktop = 20f;
 
     private CinemachineCamera _cinemachineCamera;
-    private CinemachineConfiner3D _cinemachineConfiner3D;
+    private MyCinemachineConfiner3D _cinemachineConfiner3D;
     private int _touchCount = 0;
     private Vector3 _initialCameraPosition;
     private Vector2 _touch1StartPos;
@@ -25,7 +25,7 @@ public class CameraController : MonoBehaviour
     private void Awake()
     {
         _cinemachineCamera = GetComponent<CinemachineCamera>();
-        _cinemachineConfiner3D = GetComponent<CinemachineConfiner3D>();
+        _cinemachineConfiner3D = GetComponent<MyCinemachineConfiner3D>();
     }
 
     // Update is called once per frame
@@ -48,6 +48,7 @@ public class CameraController : MonoBehaviour
                 _touch1StartPos = touch1Pos;
                 _touch2StartPos = touch2Pos;
                 _touchCount = 2;
+                _cinemachineConfiner3D.FreezeY = false;
             }
             
             // Both touches are active, handle pinch to zoom
@@ -59,7 +60,7 @@ public class CameraController : MonoBehaviour
             distanceDelta += scrollValue * ZoomSensitivityDesktop;
 
             //Debug.Log($"Distance Delta: {distanceDelta}");
-            this.transform.localPosition = _initialCameraPosition + this.transform.forward * distanceDelta;
+            this.transform.position = _initialCameraPosition + this.transform.forward * distanceDelta;
         }
         else if (Touch1Button.action.IsPressed())
         {
@@ -69,6 +70,7 @@ public class CameraController : MonoBehaviour
                 _touch1StartPos = touch1Pos;
                 _touch2StartPos = touch2Pos;
                 _touchCount = 1;
+                _cinemachineConfiner3D.FreezeY = true;
             }
 
             // Single touch active, handle panning
@@ -85,6 +87,8 @@ public class CameraController : MonoBehaviour
         {
             _touchCount = 0;
         }
+
+        this.transform.position = _cinemachineConfiner3D.ConfinePoint(this.transform.position);
 
         //Debug.Log($"Touch count: {_touchCount}, Touch1: {Touch1Button.action.IsPressed()}, Touch2: {Touch2Button.action.IsPressed()}" );
     }
