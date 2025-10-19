@@ -31,6 +31,21 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // if cursor is over UI, do not process camera movement
+        if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+        //if cursor is out of screen, do not process camera movement
+        if (Mouse.current != null)
+        {
+            Vector2 mousePosition = Mouse.current.position.ReadValue();
+            if (mousePosition.x < 0 || mousePosition.x > Screen.width || mousePosition.y < 0 || mousePosition.y > Screen.height)
+            {
+                return;
+            }
+        }
+        
         if (_cinemachineConfiner3D.CameraWasDisplaced(_cinemachineCamera))
         {
             this.transform.position = _camera.transform.position;

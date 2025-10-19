@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c542e3b8d58a7f22687522f87e983cd6, type: 3}
+  m_Name: MainBarData
+  m_EditorClassIdentifier: Assembly-CSharp::MainBarData
+  InvestmentAxisButtons:
+  - Id: infraestructura_social
+    Name: Infraestructura Social
+    Icon: {fileID: 0}
+    Color: {r: 0.91, g: 0.18, b: 0.23, a: 1}
+    Categories:
+    - Id: viviendas
+      Name: Viviendas
+    - Id: hospitales
+      Name: Hospitales y Centros de Salud
+    - Id: escuelas
+      Name: Escuelas y Universidades
+    - Id: espacios_culturales
+      Name: Espacios Culturales y Deportivos
+    - Id: centros_comunitarios
+      Name: Centros Comunitarios y Sociales
+  - Id: infraestructura_productiva_conectividad
+    Name: Infraestructura Productiva y Conectividad
+    Icon: {fileID: 0}
+    Color: {r: 0.15, g: 0.68, b: 0.38, a: 1}
+    Categories:
+    - Id: parques_industriales
+      Name: Parques Industriales
+    - Id: centros_tecnologicos
+      Name: "Centros Tecnol\xF3gicos e Innovaci\xF3n"
+    - Id: telecomunicaciones
+      Name: "Redes de Fibra \xD3ptica y Telecomunicaciones"
+    - Id: energia_industrial
+      Name: "Energ\xEDa para Uso Industrial"
+    - Id: zonas_francas
+      Name: "Zonas Francas y Parques Tecnol\xF3gicos"
+  - Id: infraestructura_logistica
+    Name: "Infraestructura Log\xEDstica"
+    Icon: {fileID: 0}
+    Color: {r: 0.24, g: 0.52, b: 0.88, a: 1}
+    Categories:
+    - Id: puertos
+      Name: Puertos Comerciales e Industriales
+    - Id: aeropuertos
+      Name: Aeropuertos y Terminales de Carga
+    - Id: rutas
+      Name: Rutas y Caminos Provinciales
+    - Id: centros_distribucion
+      Name: "Centros de Distribuci\xF3n y Almacenamiento"
+    - Id: corredores_bioceanicos
+      Name: "Corredores Bioce\xE1nicos y V\xEDas Ferroviarias"
+  - Id: recursos_energeticos
+    Name: "Recursos Energ\xE9ticos"
+    Icon: {fileID: 0}
+    Color: {r: 0.96, g: 0.73, b: 0.2, a: 1}
+    Categories:
+    - Id: centrales_electricas
+      Name: "Centrales El\xE9ctricas (T\xE9rmicas y Renovables)"
+    - Id: parques_eolicos
+      Name: "Parques E\xF3licos y Solares"
+    - Id: ductos
+      Name: Gasoductos y Oleoductos
+    - Id: biogas
+      Name: "Plantas de Biog\xE1s e Hidr\xF3geno Verde"
+    - Id: infraestructura_transmision
+      Name: "Infraestructura de Transmisi\xF3n y Distribuci\xF3n"
+  - Id: desarrollo_productivo
+    Name: Desarrollo Productivo
+    Icon: {fileID: 0}
+    Color: {r: 0.11, g: 0.11, b: 0.12, a: 1}
+    Categories:
+    - Id: industrias_tecnologicas
+      Name: "Industrias Tecnol\xF3gicas"
+    - Id: pesca
+      Name: "Producci\xF3n Pesquera y Acu\xEDcola"
+    - Id: agroindustria
+      Name: "Agroindustria y Transformaci\xF3n de Recursos"
+    - Id: industria_maderera
+      Name: Industria Maderera y Forestal
+    - Id: startups
+      Name: Emprendimientos Innovadores y Startups
+  - Id: soberania
+    Name: "Soberan\xEDa"
+    Icon: {fileID: 0}
+    Color: {r: 0.8, g: 0.3, b: 0.7, a: 1}
+    Categories:
+    - Id: bases_cientificas
+      Name: "Bases Cient\xEDficas y Ant\xE1rticas"
+    - Id: defensa
+      Name: Infraestructura de Defensa y Seguridad
+    - Id: observatorios
+      Name: Observatorios y Centros de Monitoreo
+    - Id: investigacion_polar
+      Name: "Instalaciones de Investigaci\xF3n Polar"
+    - Id: identidad_nacional
+      Name: Monumentos y Espacios de Identidad Nacional

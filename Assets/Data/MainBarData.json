@@ -1,0 +1,76 @@
+{
+  "InvestmentAxisButtons": [
+    {
+      "Id": "infraestructura_social",
+      "Name": "Infraestructura Social",
+      "Color": { "r": 0.91, "g": 0.18, "b": 0.23, "a": 1.0 },
+      "Categories": [
+        { "Id": "viviendas", "Name": "Viviendas" },
+        { "Id": "hospitales", "Name": "Hospitales y Centros de Salud" },
+        { "Id": "escuelas", "Name": "Escuelas y Universidades" },
+        { "Id": "espacios_culturales", "Name": "Espacios Culturales y Deportivos" },
+        { "Id": "centros_comunitarios", "Name": "Centros Comunitarios y Sociales" }
+      ]
+    },
+    {
+      "Id": "infraestructura_productiva_conectividad",
+      "Name": "Infraestructura Productiva y Conectividad",
+      "Color": { "r": 0.15, "g": 0.68, "b": 0.38, "a": 1.0 },
+      "Categories": [
+        { "Id": "parques_industriales", "Name": "Parques Industriales" },
+        { "Id": "centros_tecnologicos", "Name": "Centros Tecnológicos e Innovación" },
+        { "Id": "telecomunicaciones", "Name": "Redes de Fibra Óptica y Telecomunicaciones" },
+        { "Id": "energia_industrial", "Name": "Energía para Uso Industrial" },
+        { "Id": "zonas_francas", "Name": "Zonas Francas y Parques Tecnológicos" }
+      ]
+    },
+    {
+      "Id": "infraestructura_logistica",
+      "Name": "Infraestructura Logística",
+      "Color": { "r": 0.24, "g": 0.52, "b": 0.88, "a": 1.0 },
+      "Categories": [
+        { "Id": "puertos", "Name": "Puertos Comerciales e Industriales" },
+        { "Id": "aeropuertos", "Name": "Aeropuertos y Terminales de Carga" },
+        { "Id": "rutas", "Name": "Rutas y Caminos Provinciales" },
+        { "Id": "centros_distribucion", "Name": "Centros de Distribución y Almacenamiento" },
+        { "Id": "corredores_bioceanicos", "Name": "Corredores Bioceánicos y Vías Ferroviarias" }
+      ]
+    },
+    {
+      "Id": "recursos_energeticos",
+      "Name": "Recursos Energéticos",
+      "Color": { "r": 0.96, "g": 0.73, "b": 0.20, "a": 1.0 },
+      "Categories": [
+        { "Id": "centrales_electricas", "Name": "Centrales Eléctricas (Térmicas y Renovables)" },
+        { "Id": "parques_eolicos", "Name": "Parques Eólicos y Solares" },
+        { "Id": "ductos", "Name": "Gasoductos y Oleoductos" },
+        { "Id": "biogas", "Name": "Plantas de Biogás e Hidrógeno Verde" },
+        { "Id": "infraestructura_transmision", "Name": "Infraestructura de Transmisión y Distribución" }
+      ]
+    },
+    {
+      "Id": "desarrollo_productivo",
+      "Name": "Desarrollo Productivo",
+      "Color": { "r": 0.11, "g": 0.11, "b": 0.12, "a": 1.0 },
+      "Categories": [
+        { "Id": "industrias_tecnologicas", "Name": "Industrias Tecnológicas" },
+        { "Id": "pesca", "Name": "Producción Pesquera y Acuícola" },
+        { "Id": "agroindustria", "Name": "Agroindustria y Transformación de Recursos" },
+        { "Id": "industria_maderera", "Name": "Industria Maderera y Forestal" },
+        { "Id": "startups", "Name": "Emprendimientos Innovadores y Startups" }
+      ]
+    },
+    {
+      "Id": "soberania",
+      "Name": "Soberanía",
+      "Color": { "r": 0.80, "g": 0.30, "b": 0.70, "a": 1.0 },
+      "Categories": [
+        { "Id": "bases_cientificas", "Name": "Bases Científicas y Antárticas" },
+        { "Id": "defensa", "Name": "Infraestructura de Defensa y Seguridad" },
+        { "Id": "observatorios", "Name": "Observatorios y Centros de Monitoreo" },
+        { "Id": "investigacion_polar", "Name": "Instalaciones de Investigación Polar" },
+        { "Id": "identidad_nacional", "Name": "Monumentos y Espacios de Identidad Nacional" }
+      ]
+    }
+  ]
+}
