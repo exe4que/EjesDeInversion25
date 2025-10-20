@@ -15,7 +15,7 @@ MonoBehaviour:
   InvestmentAxisButtons:
   - Id: infraestructura_social
     Name: Infraestructura Social
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 96d0c392f50602b48813b7e48aab88eb, type: 3}
     Color: {r: 0.91, g: 0.18, b: 0.23, a: 1}
     Categories:
     - Id: viviendas
@@ -30,7 +30,7 @@ MonoBehaviour:
       Name: Centros Comunitarios y Sociales
   - Id: infraestructura_productiva_conectividad
     Name: Infraestructura Productiva y Conectividad
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 9040aebb3abe44343995800cf24baacf, type: 3}
     Color: {r: 0.15, g: 0.68, b: 0.38, a: 1}
     Categories:
     - Id: parques_industriales
@@ -45,7 +45,7 @@ MonoBehaviour:
       Name: "Zonas Francas y Parques Tecnol\xF3gicos"
   - Id: infraestructura_logistica
     Name: "Infraestructura Log\xEDstica"
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 40e8972a1113c2148bf54d1d61acb5a4, type: 3}
     Color: {r: 0.24, g: 0.52, b: 0.88, a: 1}
     Categories:
     - Id: puertos
@@ -60,7 +60,7 @@ MonoBehaviour:
       Name: "Corredores Bioce\xE1nicos y V\xEDas Ferroviarias"
   - Id: recursos_energeticos
     Name: "Recursos Energ\xE9ticos"
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: a894828adef17a049bb6faa0d6931eeb, type: 3}
     Color: {r: 0.96, g: 0.73, b: 0.2, a: 1}
     Categories:
     - Id: centrales_electricas
@@ -75,7 +75,7 @@ MonoBehaviour:
       Name: "Infraestructura de Transmisi\xF3n y Distribuci\xF3n"
   - Id: desarrollo_productivo
     Name: Desarrollo Productivo
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: a6846a3887b696642b7970532e814839, type: 3}
     Color: {r: 0.11, g: 0.11, b: 0.12, a: 1}
     Categories:
     - Id: industrias_tecnologicas
@@ -90,7 +90,7 @@ MonoBehaviour:
       Name: Emprendimientos Innovadores y Startups
   - Id: soberania
     Name: "Soberan\xEDa"
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 262e5ee15994dcc4ea2e50b0ae5203a5, type: 3}
     Color: {r: 0.8, g: 0.3, b: 0.7, a: 1}
     Categories:
     - Id: bases_cientificas

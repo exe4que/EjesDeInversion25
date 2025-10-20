@@ -1,38 +1,79 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class MainBarButtonsContainerController : MonoBehaviour
+namespace EjesDeInversion
 {
-    [SerializeField] private RectTransform _viewportRectTransform;
-    [SerializeField] private RectTransform _buttonsContainerRectTransform;
-    [SerializeField] private ContentSizeFitter _buttonsContainerSizeFitter;
-    [SerializeField] private ScrollRect _scrollRect;
-    
-    private Rect _originalButtonsContainerRect;
-    private bool _isInitialized = false;
-
-    public void AdjustButtonsContainerWidth()
+    public class MainBarButtonsContainerController : MonoBehaviour
     {
-        if (!_isInitialized)
+        [SerializeField] private RectTransform _viewportRectTransform;
+        [SerializeField] private RectTransform _buttonsContainerRectTransform;
+        [SerializeField] private HorizontalLayoutGroup _buttonsContainerLayoutGroup;
+        [SerializeField] private ScrollRect _scrollRect;
+        [SerializeField] private RectTransform _buttonTemplateRectTransform;
+
+        private Rect _originalButtonsContainerRect;
+        private bool _isInitialized = false;
+        private List<MainBarButtonController> _buttonControllers = new ();
+        private MainBarController _mainBarController;
+
+        public void Initialize(MainBarController mainBarController)
         {
+            _mainBarController = mainBarController;
+            CreateButtons();
+            AdjustContainerSizeToContent();
+            AdjustButtonsContainerWidth();
+        }
+        
+        private void AdjustContainerSizeToContent()
+        {
+            float buttonWidth = _buttonTemplateRectTransform.rect.width;
+            float spacing = _buttonsContainerLayoutGroup.spacing;
+            int buttonCount = _buttonControllers.Count;
+            float paddingLeft = _buttonsContainerLayoutGroup.padding.left;
+            float paddingRight = _buttonsContainerLayoutGroup.padding.right;
+            
+            float totalWidth = (buttonWidth * buttonCount) + (spacing * (buttonCount - 1)) + paddingLeft + paddingRight;
+            _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, totalWidth);
+            
             _originalButtonsContainerRect = _buttonsContainerRectTransform.rect;
             _isInitialized = true;
         }
 
-        if (_originalButtonsContainerRect.width < _viewportRectTransform.rect.width)
+        private void CreateButtons()
         {
-            _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _viewportRectTransform.rect.width);
-            _buttonsContainerSizeFitter.enabled = false;
-            _scrollRect.enabled = false;
+            MainBarData mainBarData = DataManager.MainBarData;
+            for (int i = 0; i < mainBarData.InvestmentAxisButtons.Length; i++)
+            {
+                MainBarData.InvestmentAxisButtonData buttonData = mainBarData.InvestmentAxisButtons[i];
+                GameObject buttonObj = Instantiate(_buttonTemplateRectTransform.gameObject, _buttonsContainerRectTransform);
+                buttonObj.SetActive(true);
+                MainBarButtonController buttonController = buttonObj.GetComponent<MainBarButtonController>();
+                buttonController.Initialize(buttonData, _mainBarController);
+                _buttonControllers.Add(buttonController);
+            }
         }
-        else
+        
+        public void AdjustButtonsContainerWidth()
         {
-            // Restore original width if it was previously adjusted
-            _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
-                _originalButtonsContainerRect.width);
-            _buttonsContainerSizeFitter.enabled = true;
-            _scrollRect.enabled = true;
+            if (!_isInitialized)
+            {
+                return;
+            }
+
+            if (_originalButtonsContainerRect.width < _viewportRectTransform.rect.width)
+            {
+                _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
+                    _viewportRectTransform.rect.width);
+                _scrollRect.enabled = false;
+            }
+            else
+            {
+                // Restore original width if it was previously adjusted
+                _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
+                    _originalButtonsContainerRect.width);
+                _scrollRect.enabled = true;
+            }
         }
     }
 }

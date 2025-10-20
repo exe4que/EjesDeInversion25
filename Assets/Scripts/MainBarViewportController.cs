@@ -1,15 +1,18 @@
 using System;
 using UnityEngine;
 
-public class MainBarViewportController : MonoBehaviour
+namespace EjesDeInversion
 {
-    [SerializeField] private MainBarButtonsContainerController _mainBarButtonsController;
-
-    private void OnRectTransformDimensionsChange()
+    public class MainBarViewportController : MonoBehaviour
     {
-        if (_mainBarButtonsController != null)
+        [SerializeField] private MainBarButtonsContainerController _mainBarButtonsController;
+
+        private void OnRectTransformDimensionsChange()
         {
-            _mainBarButtonsController.AdjustButtonsContainerWidth();
+            if (_mainBarButtonsController != null)
+            {
+                _mainBarButtonsController.AdjustButtonsContainerWidth();
+            }
         }
     }
 }

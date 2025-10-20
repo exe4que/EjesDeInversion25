@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8236597924370906798}
   - component: {fileID: 4900653797011315629}
+  - component: {fileID: 6797621858058097771}
   m_Layer: 5
   m_Name: CategoriesList
   m_TagString: Untagged
@@ -63,6 +64,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &6797621858058097771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4656480438811204373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea7785a725b454d84d2288f4ea04d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.MainBarCategoryListController
+  _initialElementsPoolSize: 10
+  _categoryListElementPrefab: {fileID: 3944174719748722600}
+  _elementsContainer: {fileID: 8236597924370906798}
 --- !u!1001 &3352305381369621322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71,6 +87,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8236597924370906798}
     m_Modifications:
+    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 501.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 277.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -62.605
+      objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -85,7 +125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_AnchorMin.x
@@ -93,15 +133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 974
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 125.21
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_LocalPosition.x
@@ -133,11 +173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 487
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -499.1092
       objectReference: {fileID: 0}
     - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -155,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CategoryButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5025537377008341356, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -165,3 +209,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
   m_PrefabInstance: {fileID: 3352305381369621322}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3944174719748722600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1745498868379313378, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+  m_PrefabInstance: {fileID: 3352305381369621322}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cf93b01cf2480e80654d0b2fae0805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.MainBarCategoryListElementController
