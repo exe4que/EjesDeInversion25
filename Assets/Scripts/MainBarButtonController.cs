@@ -24,24 +24,36 @@ namespace EjesDeInversion
         private void OnEnable()
         {
             _button.onClick.AddListener(OnButtonClicked);
+            MainBarCategoryListController.OnCategorySelected += CategorySelected;
         }
         
         private void OnDisable()
         {
             _button.onClick.RemoveListener(OnButtonClicked);
+            MainBarCategoryListController.OnCategorySelected -= CategorySelected;
         }
-        
+
+        private void CategorySelected(string obj)
+        {
+            if (obj == _buttonData.Id)
+            {
+                AnimationIn();
+            }
+            else if (this.transform.localScale.x > 1)
+            {
+                AnimationOut();
+            }
+        }
+
         private void OnButtonClicked()
         {
-            if (_mainBarController.IsCategoryListVisible())
+            if (_mainBarController.IsCategoryListVisible(_buttonData.Id))
             {
                 _mainBarController.HideCategoryList();
-                AnimationOut();
             }
             else
             {
-                _mainBarController.ShowCategoryList(_buttonData.Categories);
-                AnimationIn();
+                _mainBarController.ShowCategoryList(_buttonData);
             }
         }
         
@@ -50,7 +62,11 @@ namespace EjesDeInversion
             this.transform.DOKill();
             this.transform.localScale = Vector3.one;
             this.transform.DOScale(_animationTargetScale, _animationDuration)
-                .SetEase(_animationInEase);
+                .SetEase(_animationInEase).OnUpdate(() =>
+                {
+                    // update horizontal layout group
+                    LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)this.transform.parent);
+                });
         }
         
         private void AnimationOut()
@@ -58,7 +74,11 @@ namespace EjesDeInversion
             this.transform.DOKill();
             this.transform.localScale = Vector3.one * _animationTargetScale;
             this.transform.DOScale(1f, _animationDuration)
-                .SetEase(_animationOutEase);
+                .SetEase(_animationOutEase).OnUpdate(() =>
+                {
+                    // update horizontal layout group
+                    LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)this.transform.parent);
+                });
         }
 
         public void Initialize(MainBarData.InvestmentAxisButtonData data, MainBarController mainBarController)

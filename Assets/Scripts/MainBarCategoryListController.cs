@@ -11,7 +11,9 @@ namespace EjesDeInversion
         [SerializeField] private Transform _elementsContainer;
 
         private List<MainBarCategoryListElementController> _elementsPool = new();
-        private bool _isVisible = false;
+        private string _idShowing = "";
+        
+        public static Action<string> OnCategorySelected;
 
         private void Start()
         {
@@ -28,16 +30,22 @@ namespace EjesDeInversion
             }
         }
 
-        public void Show(MainBarData.InvestmentAxisCategoryData[] categoriesData)
+        public void Show(MainBarData.InvestmentAxisButtonData buttonData)
         {
+            if (_idShowing != buttonData.Id)
+            {
+                Hide();
+            }
+            
             this.gameObject.SetActive(true);
-            for (int i = 0; i < categoriesData.Length; i++)
+            for (int i = 0; i < buttonData.Categories.Length; i++)
             {
                 MainBarCategoryListElementController element = GetPooledElement();
-                element.SetData(categoriesData[i]);
+                element.SetData(buttonData.Categories[i]);
                 element.gameObject.SetActive(true);
             }
-            _isVisible = true;
+            _idShowing = buttonData.Id;
+            OnCategorySelected?.Invoke(_idShowing);
         }
 
         public void Hide()
@@ -47,7 +55,8 @@ namespace EjesDeInversion
                 element.gameObject.SetActive(false);
             }
             this.gameObject.SetActive(false);
-            _isVisible = false;
+            _idShowing = "";
+            OnCategorySelected?.Invoke("");
         }
 
         private MainBarCategoryListElementController GetPooledElement()
@@ -66,9 +75,9 @@ namespace EjesDeInversion
             return newElement;
         }
 
-        public bool IsVisible()
+        public bool IsOpen(string id)
         {
-            return _isVisible;
+            return _idShowing == id;
         }
     }
 }

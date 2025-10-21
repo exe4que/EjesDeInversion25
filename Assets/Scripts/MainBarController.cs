@@ -1,30 +1,43 @@
+using DG.Tweening;
+using TMPro;
 using UnityEngine;
 
 namespace EjesDeInversion
 {
     public class MainBarController : MonoBehaviour
     {
+        [Header("General")]
         [SerializeField] private MainBarButtonsContainerController _mainBarButtonsContainerController;
         [SerializeField] private MainBarCategoryListController _mainBarCategoryListController;
+        [SerializeField] private TMP_Text _currentCategoryText;
+        
+        [Header("Animation")]
+        [SerializeField] private float _duration = 0.2f;
+        [SerializeField] private Ease _showEase = Ease.OutCubic;
+        [SerializeField] private Ease _hideEase = Ease.InCubic;
         
         private void Start()
         {
+            _currentCategoryText.alpha = 0;
             _mainBarButtonsContainerController.Initialize(this);
         }
         
-        public void ShowCategoryList(MainBarData.InvestmentAxisCategoryData[] categoriesData)
+        public void ShowCategoryList(MainBarData.InvestmentAxisButtonData buttonData)
         {
-            _mainBarCategoryListController.Show(categoriesData);
+            _mainBarCategoryListController.Show(buttonData);
+            _currentCategoryText.text = buttonData.Name;
+            _currentCategoryText.DOFade(1, _duration).SetEase(_showEase);
         }
         
-        public bool IsCategoryListVisible()
+        public bool IsCategoryListVisible(string id)
         {
-            return _mainBarCategoryListController.IsVisible();
+            return _mainBarCategoryListController.IsOpen(id);
         }
         
         public void HideCategoryList()
         {
             _mainBarCategoryListController.Hide();
+            _currentCategoryText.DOFade(0, _duration).SetEase(_hideEase);
         }
     }
 }
