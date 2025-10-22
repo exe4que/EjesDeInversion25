@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace EjesDeInversion
+namespace EjesDeInversion.Utils
 {
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
