@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace EjesDeInversion
+namespace EjesDeInversion.Data
 {
     [CreateAssetMenu(fileName = "MainBarData", menuName = "DATA/MainBarData", order = 1)]
     public class MainBarData : ScriptableObject

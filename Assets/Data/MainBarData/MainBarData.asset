@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MainBarData
   m_EditorClassIdentifier: Assembly-CSharp::MainBarData
   InvestmentAxisButtons:
-  - Id: infraestructura_social
+  - Id: infraestructura-social
     Name: Infraestructura Social
     Icon: {fileID: 21300000, guid: 96d0c392f50602b48813b7e48aab88eb, type: 3}
     Color: {r: 0.91, g: 0.18, b: 0.23, a: 1}
@@ -28,7 +28,7 @@ MonoBehaviour:
       Name: Espacios Culturales y Deportivos
     - Id: centros_comunitarios
       Name: Centros Comunitarios y Sociales
-  - Id: infraestructura_productiva_conectividad
+  - Id: infraestructura-productiva-conectividad
     Name: Infraestructura Productiva y Conectividad
     Icon: {fileID: 21300000, guid: 9040aebb3abe44343995800cf24baacf, type: 3}
     Color: {r: 0.15, g: 0.68, b: 0.38, a: 1}
@@ -43,7 +43,7 @@ MonoBehaviour:
       Name: "Energ\xEDa para Uso Industrial"
     - Id: zonas_francas
       Name: "Zonas Francas y Parques Tecnol\xF3gicos"
-  - Id: infraestructura_logistica
+  - Id: infraestructura-logistica
     Name: "Infraestructura Log\xEDstica"
     Icon: {fileID: 21300000, guid: 40e8972a1113c2148bf54d1d61acb5a4, type: 3}
     Color: {r: 0.24, g: 0.52, b: 0.88, a: 1}
@@ -58,7 +58,7 @@ MonoBehaviour:
       Name: "Centros de Distribuci\xF3n y Almacenamiento"
     - Id: corredores_bioceanicos
       Name: "Corredores Bioce\xE1nicos y V\xEDas Ferroviarias"
-  - Id: recursos_energeticos
+  - Id: recursos-energeticos
     Name: "Recursos Energ\xE9ticos"
     Icon: {fileID: 21300000, guid: a894828adef17a049bb6faa0d6931eeb, type: 3}
     Color: {r: 0.96, g: 0.73, b: 0.2, a: 1}
@@ -73,7 +73,7 @@ MonoBehaviour:
       Name: "Plantas de Biog\xE1s e Hidr\xF3geno Verde"
     - Id: infraestructura_transmision
       Name: "Infraestructura de Transmisi\xF3n y Distribuci\xF3n"
-  - Id: desarrollo_productivo
+  - Id: desarrollo-productivo
     Name: Desarrollo Productivo
     Icon: {fileID: 21300000, guid: a6846a3887b696642b7970532e814839, type: 3}
     Color: {r: 0.11, g: 0.11, b: 0.12, a: 1}

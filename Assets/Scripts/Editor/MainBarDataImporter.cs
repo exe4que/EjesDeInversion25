@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using EjesDeInversion.Data;
 
 namespace EjesDeInversion
 {
@@ -39,6 +40,13 @@ namespace EjesDeInversion
 
                 // Define la ruta de guardado para el nuevo asset
                 string assetPath = Path.ChangeExtension(path, ".asset");
+                
+                //if it already exists delete it
+                if (File.Exists(assetPath))
+                {
+                    AssetDatabase.DeleteAsset(assetPath);
+                }
+                
                 AssetDatabase.CreateAsset(asset, assetPath);
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();

@@ -1,4 +1,5 @@
 using DG.Tweening;
+using EjesDeInversion.Data;
 using TMPro;
 using UnityEngine;
 

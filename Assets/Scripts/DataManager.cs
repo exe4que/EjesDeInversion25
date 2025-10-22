@@ -1,3 +1,5 @@
+using EjesDeInversion.Data;
+using EjesDeInversion.Utilities;
 using UnityEngine;
 
 namespace EjesDeInversion

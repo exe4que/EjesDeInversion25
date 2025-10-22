@@ -1,4 +1,5 @@
 using System;
+using EjesDeInversion.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

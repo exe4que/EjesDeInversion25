@@ -1,6 +1,9 @@
 using System;
 using DG.Tweening;
+using EjesDeInversion.Data;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 
 namespace EjesDeInversion
@@ -54,9 +57,28 @@ namespace EjesDeInversion
             else
             {
                 _mainBarController.ShowCategoryList(_buttonData);
+                OpenFlyer();
             }
         }
-        
+
+        private void OpenFlyer()
+        {
+            string id = _buttonData.Id;
+            AsyncOperationHandle<FlyerData> handle = Addressables.LoadAssetAsync<FlyerData>(id);
+            handle.Completed += op =>
+            {
+                if (op.Status == AsyncOperationStatus.Succeeded)
+                {
+                    FlyerData flyerData = op.Result;
+                    FlyerController.Show(flyerData);
+                }
+                else
+                {
+                    Debug.LogError($"Failed to load FlyerData for id: {id}");
+                }
+            };
+        }
+
         private void AnimationIn()
         {
             this.transform.DOKill();

@@ -12,7 +12,7 @@ using Random = UnityEngine.Random;
 using UnityEditor;
 #endif
 
-namespace EjesDeInversion.Utils
+namespace EjesDeInversion.Utilities
 {
     public static class Utils
     {
