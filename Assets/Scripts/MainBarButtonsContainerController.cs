@@ -10,7 +10,7 @@ namespace EjesDeInversion
         [SerializeField] private RectTransform _buttonsContainerRectTransform;
         [SerializeField] private HorizontalLayoutGroup _buttonsContainerLayoutGroup;
         [SerializeField] private ScrollRect _scrollRect;
-        [SerializeField] private RectTransform _buttonTemplateRectTransform;
+        [SerializeField] private MainBarButtonController _buttonTemplate;
 
         private Rect _originalButtonsContainerRect;
         private bool _isInitialized = false;
@@ -24,17 +24,24 @@ namespace EjesDeInversion
             AdjustContainerSizeToContent();
             AdjustButtonsContainerWidth();
         }
-        
-        private void AdjustContainerSizeToContent()
+
+        public float GetDefaultContentWidth()
         {
-            float buttonWidth = _buttonTemplateRectTransform.rect.width;
+            float buttonWidth = ((RectTransform)_buttonTemplate.transform).rect.width;
             float spacing = _buttonsContainerLayoutGroup.spacing;
             int buttonCount = _buttonControllers.Count;
             float paddingLeft = _buttonsContainerLayoutGroup.padding.left;
             float paddingRight = _buttonsContainerLayoutGroup.padding.right;
             
-            float totalWidth = (buttonWidth * buttonCount) + (spacing * (buttonCount - 1)) + paddingLeft + paddingRight;
-            _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, totalWidth);
+            return (buttonWidth * (buttonCount - 1)) + // all buttons but one in normal size
+                   (buttonWidth * _buttonTemplate.AnimationTargetScale) + // one selected (bigger) button
+                   (spacing * (buttonCount - 1)) + // spacings
+                   paddingLeft + paddingRight; // paddings
+        }
+        
+        private void AdjustContainerSizeToContent()
+        {
+            _buttonsContainerRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, GetDefaultContentWidth());
             
             _originalButtonsContainerRect = _buttonsContainerRectTransform.rect;
             _isInitialized = true;
@@ -46,7 +53,7 @@ namespace EjesDeInversion
             for (int i = 0; i < mainBarData.InvestmentAxisButtons.Length; i++)
             {
                 MainBarData.InvestmentAxisButtonData buttonData = mainBarData.InvestmentAxisButtons[i];
-                GameObject buttonObj = Instantiate(_buttonTemplateRectTransform.gameObject, _buttonsContainerRectTransform);
+                GameObject buttonObj = Instantiate(_buttonTemplate.gameObject, _buttonsContainerRectTransform);
                 buttonObj.SetActive(true);
                 MainBarButtonController buttonController = buttonObj.GetComponent<MainBarButtonController>();
                 buttonController.Initialize(buttonData, _mainBarController);

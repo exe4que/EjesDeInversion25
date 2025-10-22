@@ -13,7 +13,7 @@ namespace EjesDeInversion
         [SerializeField] private Button _button;
         
         [Header("Animation")]
-        [SerializeField] private float _animationTargetScale = 1.1f;
+        public float AnimationTargetScale = 1.1f;
         [SerializeField] private float _animationDuration = 0.2f;
         [SerializeField] private Ease _animationInEase = Ease.OutCubic;
         [SerializeField] private Ease _animationOutEase = Ease.InCubic;
@@ -61,7 +61,7 @@ namespace EjesDeInversion
         {
             this.transform.DOKill();
             this.transform.localScale = Vector3.one;
-            this.transform.DOScale(_animationTargetScale, _animationDuration)
+            this.transform.DOScale(AnimationTargetScale, _animationDuration)
                 .SetEase(_animationInEase).OnUpdate(() =>
                 {
                     // update horizontal layout group
@@ -72,7 +72,7 @@ namespace EjesDeInversion
         private void AnimationOut()
         {
             this.transform.DOKill();
-            this.transform.localScale = Vector3.one * _animationTargetScale;
+            this.transform.localScale = Vector3.one * AnimationTargetScale;
             this.transform.DOScale(1f, _animationDuration)
                 .SetEase(_animationOutEase).OnUpdate(() =>
                 {
