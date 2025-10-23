@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
-  m_Name: infraestructura-logistica
+  m_Name: infraestructura-social_viviendas
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.FlyerData
-  Id: infraestructura-logistica
+  Id: desarrollo-productivo
   Title: "T\xEDtulo de ejemplo"
   Subtitle: Este es el subtitulo
   DescriptionTitle: Descripcion
@@ -24,5 +24,4 @@ MonoBehaviour:
     in culpa qui officia deserunt mollit anim id est laborum.
   CarouselImageNames:
   - "viviendas-tipolog\xEDa-agrupada"
-  - "viviendas-tipolog\xEDa-agrupada"
-  - "viviendas-tipolog\xEDa-agrupada"
+  - "viviendas-tipolog\xEDa-agrupada-2"

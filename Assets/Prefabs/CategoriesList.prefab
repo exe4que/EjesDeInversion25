@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8236597924370906798}
   - component: {fileID: 4900653797011315629}
   - component: {fileID: 6797621858058097771}
+  - component: {fileID: 5671626959515137037}
   m_Layer: 5
   m_Name: CategoriesList
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MonoBehaviour:
   _initialElementsPoolSize: 10
   _categoryListElementPrefab: {fileID: 3944174719748722600}
   _elementsContainer: {fileID: 8236597924370906798}
+  _categoryListCanvasGroup: {fileID: 5671626959515137037}
+  _fadeDuration: 0.3
+--- !u!225 &5671626959515137037
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4656480438811204373}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &3352305381369621322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -198,6 +213,18 @@ PrefabInstance:
     - target: {fileID: 5025537377008341356, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6470413060069037812, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.32382748
+      objectReference: {fileID: 0}
+    - target: {fileID: 6470413060069037812, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.5435942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6470413060069037812, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.8156863
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

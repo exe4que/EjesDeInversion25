@@ -50,7 +50,12 @@ namespace EjesDeInversion
 
         private void CreateButtons()
         {
-            MainBarData mainBarData = DataManager.MainBarData;
+            MainBarData mainBarData;
+            if (!DataManager.TryLoadData("MainBarData", out mainBarData))
+            {
+                Debug.LogError("Could not load MainBarData to create buttons.");
+                return;
+            }
             for (int i = 0; i < mainBarData.InvestmentAxisButtons.Length; i++)
             {
                 MainBarData.InvestmentAxisButtonData buttonData = mainBarData.InvestmentAxisButtons[i];

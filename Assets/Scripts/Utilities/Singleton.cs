@@ -7,7 +7,7 @@ namespace EjesDeInversion.Utilities
     {
     private static T _instance;
 
-    public static T Instance
+    protected static T instance
     {
         get
         {

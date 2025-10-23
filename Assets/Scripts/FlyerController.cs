@@ -5,6 +5,8 @@ using EjesDeInversion.Data;
 using EjesDeInversion.Utilities;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 
 public class FlyerController : Singleton<FlyerController>
@@ -39,10 +41,22 @@ public class FlyerController : Singleton<FlyerController>
     {
         _initialPosition = ((RectTransform)transform).anchoredPosition;
     }
+    
+    public static void TryShow(string id)
+    {
+        if(DataManager.TryLoadData(id, out FlyerData flyerData))
+        {
+            Show(flyerData);
+        }
+        else
+        {
+            Debug.LogWarning($"Could not show flyer for id: {id}");
+        }
+    }
 
     public static void Show(FlyerData flyerData)
     {
-        Instance.ShowInstance(flyerData);
+        instance.ShowInstance(flyerData);
     }
     
     private void ShowInstance(FlyerData flyerData)

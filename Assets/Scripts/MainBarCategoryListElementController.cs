@@ -10,8 +10,13 @@ namespace EjesDeInversion
     {
         [SerializeField] private TMP_Text _nameText;
         [SerializeField] private Button _button;
+        [SerializeField] private CanvasGroup _canvasGroup;
         
         private MainBarData.InvestmentAxisCategoryData _categoryData;
+        private MainBarController _mainBarController;
+        
+        public CanvasGroup CanvasGroup => _canvasGroup;
+        public MainBarData.InvestmentAxisCategoryData CategoryData => _categoryData;
 
         private void OnEnable()
         {
@@ -22,6 +27,11 @@ namespace EjesDeInversion
         {
             _button.onClick.RemoveListener(OnButtonClicked);
         }
+        
+        public void Initialize(MainBarController mainBarController)
+        {
+            _mainBarController = mainBarController;
+        }
 
         public void SetData(MainBarData.InvestmentAxisCategoryData categoryData)
         {
@@ -31,7 +41,9 @@ namespace EjesDeInversion
         
         private void OnButtonClicked()
         {
-            Debug.Log($"Category {_categoryData.Id} clicked.");
+            //Debug.Log($"Category {_categoryData.Id} clicked.");
+            _mainBarController.SelectCategory(this);
+            FlyerController.TryShow(_categoryData.Id);
         }
     }
 }

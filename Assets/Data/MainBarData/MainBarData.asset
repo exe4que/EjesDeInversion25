@@ -11,95 +11,95 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c542e3b8d58a7f22687522f87e983cd6, type: 3}
   m_Name: MainBarData
-  m_EditorClassIdentifier: Assembly-CSharp::MainBarData
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.MainBarData
   InvestmentAxisButtons:
   - Id: infraestructura-social
     Name: Infraestructura Social
     Icon: {fileID: 21300000, guid: 96d0c392f50602b48813b7e48aab88eb, type: 3}
     Color: {r: 0.91, g: 0.18, b: 0.23, a: 1}
     Categories:
-    - Id: viviendas
+    - Id: infraestructura-social_viviendas
       Name: Viviendas
-    - Id: hospitales
+    - Id: infraestructura-social_hospitales
       Name: Hospitales y Centros de Salud
-    - Id: escuelas
+    - Id: infraestructura-social_escuelas
       Name: Escuelas y Universidades
-    - Id: espacios_culturales
+    - Id: infraestructura-social_espacios-culturales
       Name: Espacios Culturales y Deportivos
-    - Id: centros_comunitarios
+    - Id: infraestructura-social_centros-comunitarios
       Name: Centros Comunitarios y Sociales
   - Id: infraestructura-productiva-conectividad
     Name: Infraestructura Productiva y Conectividad
     Icon: {fileID: 21300000, guid: 9040aebb3abe44343995800cf24baacf, type: 3}
     Color: {r: 0.15, g: 0.68, b: 0.38, a: 1}
     Categories:
-    - Id: parques_industriales
+    - Id: infraestructura-productiva-conectividad_parques-industriales
       Name: Parques Industriales
-    - Id: centros_tecnologicos
+    - Id: infraestructura-productiva-conectividad_centros-tecnologicos
       Name: "Centros Tecnol\xF3gicos e Innovaci\xF3n"
-    - Id: telecomunicaciones
+    - Id: infraestructura-productiva-conectividad_telecomunicaciones
       Name: "Redes de Fibra \xD3ptica y Telecomunicaciones"
-    - Id: energia_industrial
+    - Id: infraestructura-productiva-conectividad_energia-industrial
       Name: "Energ\xEDa para Uso Industrial"
-    - Id: zonas_francas
+    - Id: infraestructura-productiva-conectividad_zonas-francas
       Name: "Zonas Francas y Parques Tecnol\xF3gicos"
   - Id: infraestructura-logistica
     Name: "Infraestructura Log\xEDstica"
     Icon: {fileID: 21300000, guid: 40e8972a1113c2148bf54d1d61acb5a4, type: 3}
     Color: {r: 0.24, g: 0.52, b: 0.88, a: 1}
     Categories:
-    - Id: puertos
+    - Id: infraestructura-logistica_puertos
       Name: Puertos Comerciales e Industriales
-    - Id: aeropuertos
+    - Id: infraestructura-logistica_aeropuertos
       Name: Aeropuertos y Terminales de Carga
-    - Id: rutas
+    - Id: infraestructura-logistica_rutas
       Name: Rutas y Caminos Provinciales
-    - Id: centros_distribucion
+    - Id: infraestructura-logistica_centros-distribucion
       Name: "Centros de Distribuci\xF3n y Almacenamiento"
-    - Id: corredores_bioceanicos
+    - Id: infraestructura-logistica_corredores-bioceanicos
       Name: "Corredores Bioce\xE1nicos y V\xEDas Ferroviarias"
   - Id: recursos-energeticos
     Name: "Recursos Energ\xE9ticos"
     Icon: {fileID: 21300000, guid: a894828adef17a049bb6faa0d6931eeb, type: 3}
     Color: {r: 0.96, g: 0.73, b: 0.2, a: 1}
     Categories:
-    - Id: centrales_electricas
+    - Id: recursos-energeticos_centrales-electricas
       Name: "Centrales El\xE9ctricas (T\xE9rmicas y Renovables)"
-    - Id: parques_eolicos
+    - Id: recursos-energeticos_parques-eolicos
       Name: "Parques E\xF3licos y Solares"
-    - Id: ductos
+    - Id: recursos-energeticos_ductos
       Name: Gasoductos y Oleoductos
-    - Id: biogas
+    - Id: recursos-energeticos_biogas
       Name: "Plantas de Biog\xE1s e Hidr\xF3geno Verde"
-    - Id: infraestructura_transmision
+    - Id: recursos-energeticos_infraestructura-transmision
       Name: "Infraestructura de Transmisi\xF3n y Distribuci\xF3n"
   - Id: desarrollo-productivo
     Name: Desarrollo Productivo
     Icon: {fileID: 21300000, guid: a6846a3887b696642b7970532e814839, type: 3}
     Color: {r: 0.11, g: 0.11, b: 0.12, a: 1}
     Categories:
-    - Id: industrias_tecnologicas
+    - Id: desarrollo-productivo_industrias-tecnologicas
       Name: "Industrias Tecnol\xF3gicas"
-    - Id: pesca
+    - Id: desarrollo-productivo_pesca
       Name: "Producci\xF3n Pesquera y Acu\xEDcola"
-    - Id: agroindustria
+    - Id: desarrollo-productivo_agroindustria
       Name: "Agroindustria y Transformaci\xF3n de Recursos"
-    - Id: industria_maderera
+    - Id: desarrollo-productivo_industria-maderera
       Name: Industria Maderera y Forestal
-    - Id: startups
+    - Id: desarrollo-productivo_startups
       Name: Emprendimientos Innovadores y Startups
   - Id: soberania
     Name: "Soberan\xEDa"
     Icon: {fileID: 21300000, guid: 262e5ee15994dcc4ea2e50b0ae5203a5, type: 3}
     Color: {r: 0.8, g: 0.3, b: 0.7, a: 1}
     Categories:
-    - Id: bases_cientificas
+    - Id: soberania_bases-cientificas
       Name: "Bases Cient\xEDficas y Ant\xE1rticas"
-    - Id: defensa
+    - Id: soberania_defensa
       Name: Infraestructura de Defensa y Seguridad
-    - Id: observatorios
+    - Id: soberania_observatorios
       Name: Observatorios y Centros de Monitoreo
-    - Id: investigacion_polar
+    - Id: soberania_investigacion-polar
       Name: "Instalaciones de Investigaci\xF3n Polar"
-    - Id: identidad_nacional
+    - Id: soberania_identidad-nacional
       Name: Monumentos y Espacios de Identidad Nacional

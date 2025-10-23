@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5521069654173059922}
   - component: {fileID: 1745498868379313378}
   - component: {fileID: 1998840765573823725}
+  - component: {fileID: 5859265876119973324}
   m_Layer: 5
   m_Name: CategoryButton
   m_TagString: Untagged
@@ -74,6 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.MainBarCategoryListElementController
   _nameText: {fileID: 8293528583705532235}
   _button: {fileID: 6470413060069037812}
+  _canvasGroup: {fileID: 5859265876119973324}
 --- !u!114 &1998840765573823725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,6 +102,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!225 &5859265876119973324
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5025537377008341356}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7862892042464039231
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +352,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

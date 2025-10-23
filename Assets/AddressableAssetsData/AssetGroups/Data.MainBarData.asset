@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Data.FlyerData
+  m_Name: Data.MainBarData
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
-  m_GroupName: Data.FlyerData
-  m_GUID: 52297bf17f394700782cf5916ebd714d
+  m_GroupName: Data.MainBarData
+  m_GUID: 2d8e54c1cbb9dfe968e1c869d813cd99
   m_SerializeEntries:
-  - m_GUID: ae88b1bbf060b7275bdec656ae15266e
-    m_Address: infraestructura-social_viviendas
+  - m_GUID: 7122abab3770e2a2aa23d3307e53f46b
+    m_Address: MainBarData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -24,5 +24,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: f02989c3b7cf518ffb79da62b92030d2, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: e45e11c764f4e0b6586cdb2d6cbe6677, type: 2}
-    - {fileID: 11400000, guid: 5c49d343efd1163048b385138fb9e02c, type: 2}
+    - {fileID: 11400000, guid: d236ca89053dc5b7bbdc155241c8230d, type: 2}
+    - {fileID: 11400000, guid: 825b973ba41018fdb979f439c3e3a10c, type: 2}
