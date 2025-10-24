@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace EjesDeInversion.Data
 {
-    [CreateAssetMenu(fileName = "FlyerData", menuName = "DATA/FlyerData", order = 1)]
+    [CreateAssetMenu(fileName = "FlyerData", menuName = "DATA/FlyerData", order = 2)]
     public class FlyerData : ScriptableObject
     {
         public string Id;

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: infraestructura-social_viviendas
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.FlyerData
-  Id: desarrollo-productivo
+  Id: infraestructura-social_viviendas
   Title: "T\xEDtulo de ejemplo"
   Subtitle: Este es el subtitulo
   DescriptionTitle: Descripcion

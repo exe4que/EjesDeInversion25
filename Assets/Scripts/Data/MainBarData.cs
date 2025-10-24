@@ -20,6 +20,7 @@ namespace EjesDeInversion.Data
         [System.Serializable]
         public class InvestmentAxisCategoryData
         {
+            [Header("[Axis Name]_[Subcategory Name]")]
             public string Id;
             public string Name;
         }
