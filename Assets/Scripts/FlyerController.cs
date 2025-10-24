@@ -18,6 +18,8 @@ public class FlyerController : Singleton<FlyerController>
     [SerializeField] private TMP_Text _descriptionText;
     [SerializeField] private CarouselController _carousel;
     [SerializeField] private Button _closeButton;
+    [SerializeField] private PdfLinkController _pdfLinkTemplate;
+    [SerializeField] private GameObject _pdfLinksContainer;
     
     [Header("Animation")]
     [SerializeField] private float _animationDuration = 0.3f;
@@ -65,7 +67,19 @@ public class FlyerController : Singleton<FlyerController>
         _subtitleText.text = flyerData.Subtitle;
         _descriptionTitleText.text = flyerData.DescriptionTitle;
         _descriptionText.text = flyerData.Description;
-        _carousel.SetData(flyerData.CarouselImageNames);
+        
+        if (flyerData.CarouselImageNames == null || flyerData.CarouselImageNames.Length == 0)
+        {
+            _carousel.gameObject.SetActive(false);
+        }
+        else
+        {
+            _carousel.gameObject.SetActive(true);
+            _carousel.SetData(flyerData.CarouselImageNames);
+        }
+        
+        PopulatePdfLinks(flyerData);
+        
         AnimateOpen();
     }
 
@@ -82,5 +96,19 @@ public class FlyerController : Singleton<FlyerController>
         _rectTransform.DOAnchorPosX(_initialPosition.x, _animationDuration).SetEase(_animationEaseOut);
     }
 
+    private void PopulatePdfLinks(FlyerData flyerData)
+    {
+        foreach (Transform child in _pdfLinksContainer.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (var pdfLink in flyerData.PdfLinks)
+        {
+            var pdfLinkController = Instantiate(_pdfLinkTemplate, _pdfLinksContainer.transform);
+            pdfLinkController.SetData(pdfLink.Name, pdfLink.Url);
+            pdfLinkController.gameObject.SetActive(true);
+        }
+    }
 
 }

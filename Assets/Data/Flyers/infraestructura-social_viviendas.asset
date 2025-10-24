@@ -25,3 +25,8 @@ MonoBehaviour:
   CarouselImageNames:
   - "viviendas-tipolog\xEDa-agrupada"
   - "viviendas-tipolog\xEDa-agrupada-2"
+  PdfLinks:
+  - Name: TestLibro
+    Url: https://books.googleusercontent.com/books/content?req=AKW5QafBRctH_rNCZbxkxHDI-WHDUqw534o1fn00nFLLsypaa1KrFx2J3fIekmhB1BjXRRg7p-lQ81n2qe5lk8THddRGZ2ywRnO0D3yWKrQ4hb49nh1fDS8_iAE06WWWJBHG10zWzjMpu-b9573fG7NLTZNty9-1V9KwJVFKnDGdozKPC7KJKdUjQ-gMO3kHhh66ctlZnVNoK7F8n--qsmNtrgHJwZccw8YB-v9_LalC0JiKPz2au5kQJ8Dk5qDOhRNLr1lnj2jf
+  - Name: TestLibro 2
+    Url: https://books.googleusercontent.com/books/content?req=AKW5QafBRctH_rNCZbxkxHDI-WHDUqw534o1fn00nFLLsypaa1KrFx2J3fIekmhB1BjXRRg7p-lQ81n2qe5lk8THddRGZ2ywRnO0D3yWKrQ4hb49nh1fDS8_iAE06WWWJBHG10zWzjMpu-b9573fG7NLTZNty9-1V9KwJVFKnDGdozKPC7KJKdUjQ-gMO3kHhh66ctlZnVNoK7F8n--qsmNtrgHJwZccw8YB-v9_LalC0JiKPz2au5kQJ8Dk5qDOhRNLr1lnj2jf

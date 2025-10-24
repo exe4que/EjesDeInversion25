@@ -13,10 +13,18 @@ namespace EjesDeInversion.Data
         [TextArea]
         public string Description;
         public string[] CarouselImageNames;
+        public PdfLink[] PdfLinks;
         
         public void LoadFromJson(string json)
         {
             JsonUtility.FromJsonOverwrite(json, this);
+        }
+        
+        [System.Serializable]
+        public struct PdfLink
+        {
+            public string Name;
+            public string Url;
         }
     }
 }
