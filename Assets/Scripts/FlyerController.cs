@@ -2,6 +2,7 @@ using System;
 using DG.Tweening;
 using EjesDeInversion;
 using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using EjesDeInversion.Utilities;
 using TMPro;
 using UnityEngine;

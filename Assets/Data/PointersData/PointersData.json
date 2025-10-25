@@ -1,0 +1,54 @@
+{
+    "Pointers": [
+        {
+            "Id": "infraestructura-social_viviendas_vivienda 1",
+            "Name": "Vivienda",
+            "Position": {
+                "x": -24.834716796875,
+                "y": 5.000010013580322,
+                "z": 556.7742309570313
+            },
+            "ShortDescription": "10 pesitos"
+        },
+        {
+            "Id": "infraestructura-social_viviendas_hotel-turistico",
+            "Name": "Hotel turístico",
+            "Position": {
+                "x": 19.15606689453125,
+                "y": 5.000008583068848,
+                "z": 543.6068115234375
+            },
+            "ShortDescription": "$50.000.000"
+        },
+        {
+            "Id": "infraestructura-social_viviendas_complejo-viviendas",
+            "Name": "Complejo de viviendas",
+            "Position": {
+                "x": -52.06756591796875,
+                "y": 5.000012397766113,
+                "z": 576.2260131835938
+            },
+            "ShortDescription": "$150.000.000"
+        },
+        {
+            "Id": "infraestructura-social_hospitales_hospital-de-lujan",
+            "Name": "Hospital de Lujan",
+            "Position": {
+                "x": -51.3555908203125,
+                "y": 5.000009059906006,
+                "z": 548.4489135742188
+            },
+            "ShortDescription": "$30.000.000"
+        },
+        {
+            "Id": "infraestructura-social_hospitales_hospital-nuevo",
+            "Name": "Hospital Nuevo",
+            "Position": {
+                "x": -51.3555908203125,
+                "y": 5.000009059906006,
+                "z": 548.4489135742188
+            },
+            "ShortDescription": "$45.000.000"
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using UnityEngine;
 using UnityEngine.UI;
 namespace EjesDeInversion
