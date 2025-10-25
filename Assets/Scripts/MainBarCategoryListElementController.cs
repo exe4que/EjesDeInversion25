@@ -52,17 +52,19 @@ namespace EjesDeInversion
         private void OnButtonClicked()
         {
             //Debug.Log($"Category {_categoryData.Id} clicked.");
-            _mainBarController.SelectCategory(this);
-            
             if (_buttonData != null)
             {
                 PointersManager.FilterPointersByAxis(_buttonData);
             }
             else if (_categoryData != null)
             {
-                FlyerController.TryShow(_categoryData.Id);
+                if (!FlyerManager.HasBeenShown(_categoryData.Id))
+                {
+                    FlyerManager.TryShow(_categoryData.Id);
+                }
                 PointersManager.FilterPointersBySubcategory(_categoryData);
             }
+            _mainBarController.SelectCategory(this);
         }
     }
 }

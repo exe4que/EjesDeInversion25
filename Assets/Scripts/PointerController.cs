@@ -1,5 +1,5 @@
-using System;
 using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,7 +28,7 @@ namespace EjesDeInversion
         
         private void OnButtonClicked()
         {
-            FlyerController.TryShow(_data.Id);
+            FlyerManager.TryShow(_data.Id);
         }
 
         public void Initialize(PointerData data)

@@ -1,4 +1,6 @@
 using DG.Tweening;
+using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +14,7 @@ namespace EjesDeInversion
         [SerializeField] private Button _backButton;
         [SerializeField] private RectTransform _backButtonRectTransform;
         [SerializeField] private Image _backgroundImage;
+        [SerializeField] private MainBarCategoryListSelectedElementInfoButtonController _infoButtonController;
         
         [Header("Animation")]
         [SerializeField] private float _backButtonShownYPosition = 80f;
@@ -51,8 +54,9 @@ namespace EjesDeInversion
         public void Show(MainBarCategoryListElementController mainBarCategoryListElementController)
         {
             _mainBarCategoryListElementController = mainBarCategoryListElementController;
-            _nameText.text = _mainBarCategoryListElementController.CategoryData != null 
-                ? _mainBarCategoryListElementController.CategoryData.Name 
+            MainBarData.InvestmentAxisCategoryData categoryData = _mainBarCategoryListElementController.CategoryData;
+            _nameText.text = categoryData != null 
+                ? categoryData.Name 
                 : "Todos";
             _animationHiddenYPosition = _mainBarCategoryListElementController.transform.position.y;
             this.transform.position = _mainBarCategoryListElementController.transform.position;
@@ -61,6 +65,7 @@ namespace EjesDeInversion
 
         public void Hide()
         {
+            _infoButtonController.gameObject.SetActive(false);
             AnimateOut();
         }
         
@@ -78,6 +83,20 @@ namespace EjesDeInversion
             _backButtonSequence = DOTween.Sequence();
             _backButtonSequence.Append(_backButtonRectTransform.DOAnchorPosY(_backButtonShownYPosition, _backButtonAnimationDuration).SetEase(_backButtonShowEase));
             _backButtonSequence.Append(_rectTransform.DOAnchorPosY(_animationShownYPosition, _animationDuration).SetEase(_showEase));
+            _backButtonSequence.OnComplete(() =>
+            {
+                MainBarData.InvestmentAxisCategoryData categoryData = _mainBarCategoryListElementController.CategoryData;
+                if (categoryData != null &&
+                    FlyerManager.HasBeenShown(categoryData.Id))
+                {
+                    _infoButtonController.SetData(categoryData);
+                    _infoButtonController.gameObject.SetActive(true);
+                }
+                else
+                {
+                    _infoButtonController.gameObject.SetActive(false);
+                }
+            });
         }
 
         private void AnimateOut()
