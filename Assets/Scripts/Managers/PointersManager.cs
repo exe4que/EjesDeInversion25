@@ -26,7 +26,7 @@ namespace EjesDeInversion.Managers
                 _pointersData = data;
                 InitializeData();
                 InitializePool();
-                InitializePointers();
+                ShowAllPointersInternal();
             }
             else
             {
@@ -52,8 +52,9 @@ namespace EjesDeInversion.Managers
             }
         }
         
-        private void InitializePointers()
+        private void ShowAllPointersInternal()
         {
+            ClearPointers();
             foreach (PointerData pointerData in _pointersData.Pointers)
             {
                 PointerController pointer = GetPointerFromPool();
@@ -61,6 +62,11 @@ namespace EjesDeInversion.Managers
                 pointer.gameObject.SetActive(true);
                 _pointers.Add(pointer);
             }
+        }
+        
+        public static void ShowAllPointers()
+        {
+            instance.ShowAllPointersInternal();
         }
         
         private PointerController GetPointerFromPool()
@@ -76,6 +82,56 @@ namespace EjesDeInversion.Managers
                 PointerController pointer = Instantiate(PointerPrefab, PointersParent.transform);
                 return pointer;
             }
+        }
+        
+        private void FilterPointersByAxisInternal(MainBarData.InvestmentAxisButtonData axisData)
+        {
+            ClearPointers();
+            foreach (PointerData pointerData in _pointersData.Pointers)
+            {
+                if (pointerData.AxisId == axisData.Id)
+                {
+                    PointerController pointer = GetPointerFromPool();
+                    pointer.Initialize(pointerData);
+                    pointer.gameObject.SetActive(true);
+                    _pointers.Add(pointer);
+                }
+            }
+        }
+
+        public static void FilterPointersByAxis(MainBarData.InvestmentAxisButtonData axisData)
+        {
+            instance.FilterPointersByAxisInternal(axisData);
+        }
+        
+        private void FilterPointersBySubcategoryInternal(MainBarData.InvestmentAxisCategoryData categoryData)
+        {
+            ClearPointers();
+            foreach (PointerData pointerData in _pointersData.Pointers)
+            {
+                if ($"{pointerData.AxisId}_{pointerData.SubcategoryId}" == categoryData.Id)
+                {
+                    PointerController pointer = GetPointerFromPool();
+                    pointer.Initialize(pointerData);
+                    pointer.gameObject.SetActive(true);
+                    _pointers.Add(pointer);
+                }
+            }
+        }
+
+        public static void FilterPointersBySubcategory(MainBarData.InvestmentAxisCategoryData categoryData)
+        {
+            instance.FilterPointersBySubcategoryInternal(categoryData);
+        }
+
+        private void ClearPointers()
+        {
+            foreach (PointerController pointer in _pointers)
+            {
+                pointer.gameObject.SetActive(false);
+                _pointersPool.Add(pointer);
+            }
+            _pointers.Clear();
         }
     }
 }

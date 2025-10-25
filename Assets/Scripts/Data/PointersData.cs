@@ -17,6 +17,7 @@ namespace EjesDeInversion.Data
         public Vector3 Position;
         [TextArea]
         public string ShortDescription;
+        public bool IsLink;
         
         
         private string _axisId;

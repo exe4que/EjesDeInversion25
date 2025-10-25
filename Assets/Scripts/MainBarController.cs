@@ -1,5 +1,6 @@
 using DG.Tweening;
 using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using TMPro;
 using UnityEngine;
 
@@ -69,6 +70,7 @@ namespace EjesDeInversion
             _mainBarCategoryListSelectedElementController.Hide();
             _mainContainerCanvasGroup.interactable = true;
             FadeIn();
+            PointersManager.ShowAllPointers();
         }
 
         private void FadeIn()

@@ -804,6 +804,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7340408820707383630}
   - component: {fileID: 4126104079402434559}
+  - component: {fileID: 688418330688058677}
+  - component: {fileID: 1776035648877559538}
   m_Layer: 5
   m_Name: Flyer
   m_TagString: Untagged
@@ -856,6 +858,46 @@ MonoBehaviour:
   _animationDuration: 0.3
   _animationEaseIn: 9
   _animationEaseOut: 8
+--- !u!223 &688418330688058677
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369837012641390050}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 3
+  m_TargetDisplay: 0
+--- !u!114 &1776035648877559538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369837012641390050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &2523779316738789513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,7 +1232,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 873093689881134527}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.9701065
+  m_Size: 0.97010654
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

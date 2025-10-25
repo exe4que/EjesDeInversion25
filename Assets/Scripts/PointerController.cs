@@ -2,19 +2,40 @@ using System;
 using EjesDeInversion.Data;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace EjesDeInversion
 {
     public class PointerController : MonoBehaviour
     {
         [SerializeField] private TMP_Text _text;
+        [SerializeField] private Button _button;
+        [SerializeField] private Image _backgroundFillImage;
+        [SerializeField] private Color _normalColor;
+        [SerializeField] private Color _linkColor;
         
         private PointerData _data;
+
+        private void OnEnable()
+        {
+            _button.onClick.AddListener(OnButtonClicked);
+        }
         
+        private void OnDisable()
+        {
+            _button.onClick.RemoveListener(OnButtonClicked);
+        }
+        
+        private void OnButtonClicked()
+        {
+            FlyerController.TryShow(_data.Id);
+        }
+
         public void Initialize(PointerData data)
         {
             _data = data;
             _text.text = $"<b>{data.Name}</b>\n{data.ShortDescription}";
+            _backgroundFillImage.color = data.IsLink ? _linkColor : _normalColor;
         }
 
         private void LateUpdate()

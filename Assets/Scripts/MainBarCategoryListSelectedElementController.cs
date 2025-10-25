@@ -51,7 +51,9 @@ namespace EjesDeInversion
         public void Show(MainBarCategoryListElementController mainBarCategoryListElementController)
         {
             _mainBarCategoryListElementController = mainBarCategoryListElementController;
-            _nameText.text = _mainBarCategoryListElementController.CategoryData.Name;
+            _nameText.text = _mainBarCategoryListElementController.CategoryData != null 
+                ? _mainBarCategoryListElementController.CategoryData.Name 
+                : "Todos";
             _animationHiddenYPosition = _mainBarCategoryListElementController.transform.position.y;
             this.transform.position = _mainBarCategoryListElementController.transform.position;
             AnimateIn();

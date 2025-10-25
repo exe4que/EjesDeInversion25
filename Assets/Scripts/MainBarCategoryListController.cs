@@ -49,6 +49,9 @@ namespace EjesDeInversion
             }
             
             this.gameObject.SetActive(true);
+            MainBarCategoryListElementController element1 = GetPooledElement();
+            element1.SetData(buttonData);
+            element1.gameObject.SetActive(true);
             for (int i = 0; i < buttonData.Categories.Length; i++)
             {
                 MainBarCategoryListElementController element = GetPooledElement();

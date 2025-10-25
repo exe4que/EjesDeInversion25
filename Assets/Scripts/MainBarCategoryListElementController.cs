@@ -1,5 +1,6 @@
 using System;
 using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +12,8 @@ namespace EjesDeInversion
         [SerializeField] private TMP_Text _nameText;
         [SerializeField] private Button _button;
         [SerializeField] private CanvasGroup _canvasGroup;
-        
+
+        private MainBarData.InvestmentAxisButtonData _buttonData;
         private MainBarData.InvestmentAxisCategoryData _categoryData;
         private MainBarController _mainBarController;
         
@@ -35,15 +37,32 @@ namespace EjesDeInversion
 
         public void SetData(MainBarData.InvestmentAxisCategoryData categoryData)
         {
+            _buttonData = null;
             _categoryData = categoryData;
             _nameText.text = categoryData.Name;
+        }
+        
+        public void SetData(MainBarData.InvestmentAxisButtonData buttonData)
+        {
+            _buttonData = buttonData;
+            _categoryData = null;
+            _nameText.text = "Todos";
         }
         
         private void OnButtonClicked()
         {
             //Debug.Log($"Category {_categoryData.Id} clicked.");
             _mainBarController.SelectCategory(this);
-            FlyerController.TryShow(_categoryData.Id);
+            
+            if (_buttonData != null)
+            {
+                PointersManager.FilterPointersByAxis(_buttonData);
+            }
+            else if (_categoryData != null)
+            {
+                FlyerController.TryShow(_categoryData.Id);
+                PointersManager.FilterPointersBySubcategory(_categoryData);
+            }
         }
     }
 }

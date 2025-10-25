@@ -8,7 +8,8 @@
                 "y": 5.000010013580322,
                 "z": 556.7742309570313
             },
-            "ShortDescription": "10 pesitos"
+            "ShortDescription": "10 pesitos",
+            "IsLink": true
         },
         {
             "Id": "infraestructura-social_viviendas_hotel-turistico",
@@ -18,7 +19,8 @@
                 "y": 5.000008583068848,
                 "z": 543.6068115234375
             },
-            "ShortDescription": "$50.000.000"
+            "ShortDescription": "$50.000.000",
+            "IsLink": false
         },
         {
             "Id": "infraestructura-social_viviendas_complejo-viviendas",
@@ -28,7 +30,8 @@
                 "y": 5.000012397766113,
                 "z": 576.2260131835938
             },
-            "ShortDescription": "$150.000.000"
+            "ShortDescription": "$150.000.000",
+            "IsLink": false
         },
         {
             "Id": "infraestructura-social_hospitales_hospital-de-lujan",
@@ -38,7 +41,8 @@
                 "y": 5.000009059906006,
                 "z": 548.4489135742188
             },
-            "ShortDescription": "$30.000.000"
+            "ShortDescription": "$30.000.000",
+            "IsLink": false
         },
         {
             "Id": "infraestructura-social_hospitales_hospital-nuevo",
@@ -48,7 +52,8 @@
                 "y": 5.000009059906006,
                 "z": 548.4489135742188
             },
-            "ShortDescription": "$45.000.000"
+            "ShortDescription": "$45.000.000",
+            "IsLink": false
         }
     ]
 }
