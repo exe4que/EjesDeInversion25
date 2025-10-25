@@ -15,26 +15,26 @@ MonoBehaviour:
   Pointers:
   - Id: infraestructura-social_viviendas_vivienda 1
     Name: Vivienda
-    Position: {x: -24.834717, y: 5.00001, z: 556.77423}
+    Position: {x: -479.1186, y: 41.845894, z: 995}
     ShortDescription: 10 pesitos
     IsLink: 1
   - Id: infraestructura-social_viviendas_hotel-turistico
     Name: "Hotel tur\xEDstico"
-    Position: {x: 19.156067, y: 5.0000086, z: 543.6068}
+    Position: {x: -517.41547, y: 41.821022, z: 995}
     ShortDescription: $50.000.000
     IsLink: 0
   - Id: infraestructura-social_viviendas_complejo-viviendas
     Name: Complejo de viviendas
-    Position: {x: -52.067566, y: 5.0000124, z: 576.226}
+    Position: {x: -513.37445, y: 58.4807, z: 995}
     ShortDescription: $150.000.000
     IsLink: 0
   - Id: infraestructura-social_hospitales_hospital-de-lujan
     Name: Hospital de Lujan
-    Position: {x: -51.35559, y: 5.000009, z: 548.4489}
+    Position: {x: -542.0917, y: 61.659527, z: 995}
     ShortDescription: $30.000.000
     IsLink: 0
   - Id: infraestructura-social_hospitales_hospital-nuevo
     Name: Hospital Nuevo
-    Position: {x: -15.288513, y: 5.0000076, z: 537.90436}
+    Position: {x: -548.2284, y: 92.51333, z: 995}
     ShortDescription: $45.000.000
     IsLink: 0

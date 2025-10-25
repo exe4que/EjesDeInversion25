@@ -7,14 +7,17 @@ namespace EjesDeInversion.Editor
     [CustomEditor(typeof(PointersData))]
     public class PointersDataEditor : UnityEditor.Editor
     {
-        PointersData data;
-        SerializedProperty pointersProp;
+        private PointersData _data;
+        private SerializedProperty _pointersProp;
+        private GUIStyle _labelStyle;
 
         void OnEnable()
         {
-            data = (PointersData)target;
-            pointersProp = serializedObject.FindProperty("Pointers");
+            _data = (PointersData)target;
+            _pointersProp = serializedObject.FindProperty("Pointers");
             SceneView.duringSceneGui += OnSceneGUI;
+            _labelStyle = new GUIStyle(EditorStyles.label);
+            _labelStyle.normal.textColor = Color.black;
         }
 
         void OnDisable()
@@ -25,35 +28,36 @@ namespace EjesDeInversion.Editor
         public override void OnInspectorGUI()
         {
             serializedObject.Update();
-            EditorGUILayout.PropertyField(pointersProp, true);
+            EditorGUILayout.PropertyField(_pointersProp, true);
             if (GUILayout.Button("Repaint Scene")) SceneView.RepaintAll();
             serializedObject.ApplyModifiedProperties();
         }
 
         void OnSceneGUI(SceneView sceneView)
         {
-            if (data == null || data.Pointers == null) return;
+            if (_data == null || _data.Pointers == null) return;
 
             Handles.color = Color.yellow;
-            for (int i = 0; i < data.Pointers.Length; i++)
+            for (int i = 0; i < _data.Pointers.Length; i++)
             {
-                var p = data.Pointers[i];
+                var p = _data.Pointers[i];
                 EditorGUI.BeginChangeCheck();
                 Vector3 newPos = Handles.PositionHandle(p.Position, Quaternion.identity);
                 
                 //do raycast to ground plane
-                Ray ray = new Ray(newPos + Vector3.up * 10f, Vector3.down);
+                Ray ray = new Ray(newPos, Vector3.forward);
                 if (Physics.Raycast(ray, out RaycastHit hit, 10000f))
                 {
                     newPos = hit.point;
                 }
                 
-                Handles.Label(newPos + Vector3.up * 0.2f, p.Name);
+                Vector3 labelOffset = new Vector3(0.5f, 2f, 0);
+                Handles.Label(newPos + labelOffset, p.Name, _labelStyle);
                 if (EditorGUI.EndChangeCheck())
                 {
-                    Undo.RecordObject(data, "Move Pointer");
-                    data.Pointers[i].Position = newPos;
-                    EditorUtility.SetDirty(data);
+                    Undo.RecordObject(_data, "Move Pointer");
+                    _data.Pointers[i].Position = newPos;
+                    EditorUtility.SetDirty(_data);
                 }
             }
         }
