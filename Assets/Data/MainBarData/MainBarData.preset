@@ -1,0 +1,492 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainBarData
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: c542e3b8d58a7f22687522f87e983cd6, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: Assembly-CSharp::EjesDeInversion.Data.MainBarData
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Id
+    value: infraestructura-social
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Name
+    value: Infraestructura Social
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Icon
+    value: 
+    objectReference: {fileID: 21300000, guid: 96d0c392f50602b48813b7e48aab88eb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Color.r
+    value: 0.91
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Color.g
+    value: 0.18
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Color.b
+    value: 0.23
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[0].Id
+    value: infraestructura-social_viviendas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[0].Name
+    value: Viviendas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[1].Id
+    value: infraestructura-social_Centros-de-Salud
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[1].Name
+    value: Centros de Salud
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[2].Id
+    value: infraestructura-social_Plan-de-Escuelas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[2].Name
+    value: Plan de Escuelas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[3].Id
+    value: "infraestructura-social_Innovaci\xF3n"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[3].Name
+    value: "Innovaci\xF3n"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[4].Id
+    value: infraestructura-social_Infraestructura-Deportiva
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[4].Name
+    value: Infraestructura Deportiva
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[5].Id
+    value: "infraestructura-social_Servicios-B\xE1sicos"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[5].Name
+    value: "Servicios B\xE1sicos"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[6].Id
+    value: infraestructura-social_Equipamiento-Comunitario
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[6].Name
+    value: Equipamiento Comunitario
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[7].Id
+    value: infraestructura-social_Infraestructura-en-Seguridad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[0].Categories.Array.data[7].Name
+    value: Infraestructura en Seguridad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Id
+    value: infraestructura-productiva-conectividad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Name
+    value: Infraestructura Productiva y Conectividad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Icon
+    value: 
+    objectReference: {fileID: 21300000, guid: 9040aebb3abe44343995800cf24baacf, type: 3}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Color.r
+    value: 0.15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Color.g
+    value: 0.68
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Color.b
+    value: 0.38
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[0].Id
+    value: infraestructura-productiva-conectividad_parques-industriales
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[0].Name
+    value: Parques Industriales
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[1].Id
+    value: infraestructura-productiva-conectividad_centros-tecnologicos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[1].Name
+    value: "Centros Tecnol\xF3gicos e Innovaci\xF3n"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[2].Id
+    value: infraestructura-productiva-conectividad_telecomunicaciones
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[2].Name
+    value: "Redes de Fibra \xD3ptica y Telecomunicaciones"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[3].Id
+    value: infraestructura-productiva-conectividad_energia-industrial
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[3].Name
+    value: "Energ\xEDa para Uso Industrial"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[4].Id
+    value: infraestructura-productiva-conectividad_zonas-francas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[1].Categories.Array.data[4].Name
+    value: "Zonas Francas y Parques Tecnol\xF3gicos"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Id
+    value: infraestructura-logistica
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Name
+    value: "Infraestructura Log\xEDstica"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Icon
+    value: 
+    objectReference: {fileID: 21300000, guid: 40e8972a1113c2148bf54d1d61acb5a4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Color.r
+    value: 0.24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Color.g
+    value: 0.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Color.b
+    value: 0.88
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[0].Id
+    value: infraestructura-logistica_puertos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[0].Name
+    value: Puertos Comerciales e Industriales
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[1].Id
+    value: infraestructura-logistica_aeropuertos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[1].Name
+    value: Aeropuertos y Terminales de Carga
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[2].Id
+    value: infraestructura-logistica_rutas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[2].Name
+    value: Rutas y Caminos Provinciales
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[3].Id
+    value: infraestructura-logistica_centros-distribucion
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[3].Name
+    value: "Centros de Distribuci\xF3n y Almacenamiento"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[4].Id
+    value: infraestructura-logistica_corredores-bioceanicos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[2].Categories.Array.data[4].Name
+    value: "Corredores Bioce\xE1nicos y V\xEDas Ferroviarias"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Id
+    value: recursos-energeticos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Name
+    value: "Recursos Energ\xE9ticos"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Icon
+    value: 
+    objectReference: {fileID: 21300000, guid: a894828adef17a049bb6faa0d6931eeb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Color.r
+    value: 0.96
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Color.g
+    value: 0.73
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Color.b
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[0].Id
+    value: recursos-energeticos_centrales-electricas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[0].Name
+    value: "Centrales El\xE9ctricas (T\xE9rmicas y Renovables)"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[1].Id
+    value: recursos-energeticos_parques-eolicos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[1].Name
+    value: "Parques E\xF3licos y Solares"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[2].Id
+    value: recursos-energeticos_ductos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[2].Name
+    value: Gasoductos y Oleoductos
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[3].Id
+    value: recursos-energeticos_biogas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[3].Name
+    value: "Plantas de Biog\xE1s e Hidr\xF3geno Verde"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[4].Id
+    value: recursos-energeticos_infraestructura-transmision
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[3].Categories.Array.data[4].Name
+    value: "Infraestructura de Transmisi\xF3n y Distribuci\xF3n"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Id
+    value: desarrollo-productivo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Name
+    value: Desarrollo Productivo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Icon
+    value: 
+    objectReference: {fileID: 21300000, guid: a6846a3887b696642b7970532e814839, type: 3}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Color.r
+    value: 0.11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Color.g
+    value: 0.11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Color.b
+    value: 0.12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[0].Id
+    value: desarrollo-productivo_industrias-tecnologicas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[0].Name
+    value: "Industrias Tecnol\xF3gicas"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[1].Id
+    value: desarrollo-productivo_pesca
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[1].Name
+    value: "Producci\xF3n Pesquera y Acu\xEDcola"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[2].Id
+    value: desarrollo-productivo_agroindustria
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[2].Name
+    value: "Agroindustria y Transformaci\xF3n de Recursos"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[3].Id
+    value: desarrollo-productivo_industria-maderera
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[3].Name
+    value: Industria Maderera y Forestal
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[4].Id
+    value: desarrollo-productivo_startups
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[4].Categories.Array.data[4].Name
+    value: Emprendimientos Innovadores y Startups
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Id
+    value: soberania
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Name
+    value: "Soberan\xEDa"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Icon
+    value: 
+    objectReference: {fileID: 21300000, guid: 262e5ee15994dcc4ea2e50b0ae5203a5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Color.r
+    value: 0.8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Color.g
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Color.b
+    value: 0.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[0].Id
+    value: soberania_bases-cientificas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[0].Name
+    value: "Bases Cient\xEDficas y Ant\xE1rticas"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[1].Id
+    value: soberania_defensa
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[1].Name
+    value: Infraestructura de Defensa y Seguridad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[2].Id
+    value: soberania_observatorios
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[2].Name
+    value: Observatorios y Centros de Monitoreo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[3].Id
+    value: soberania_investigacion-polar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[3].Name
+    value: "Instalaciones de Investigaci\xF3n Polar"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[4].Id
+    value: soberania_identidad-nacional
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: InvestmentAxisButtons.Array.data[5].Categories.Array.data[4].Name
+    value: Monumentos y Espacios de Identidad Nacional
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []

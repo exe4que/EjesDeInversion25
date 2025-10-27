@@ -6,22 +6,25 @@
       "Color": { "r": 0.91, "g": 0.18, "b": 0.23, "a": 1.0 },
       "Categories": [
         { "Id": "infraestructura-social_viviendas", "Name": "Viviendas" },
-        { "Id": "infraestructura-social_hospitales", "Name": "Hospitales y Centros de Salud" },
-        { "Id": "infraestructura-social_escuelas", "Name": "Escuelas y Universidades" },
-        { "Id": "infraestructura-social_espacios-culturales", "Name": "Espacios Culturales y Deportivos" },
-        { "Id": "infraestructura-social_centros-comunitarios", "Name": "Centros Comunitarios y Sociales" }
+        { "Id": "infraestructura-social_centros-de-salud", "Name": "Centros de Salud" },
+        { "Id": "infraestructura-social_plan-de-escuelas", "Name": "Plan de Escuelas" },
+        { "Id": "infraestructura-social_innovación", "Name": "Innovación" },
+        { "Id": "infraestructura-social_infraestructura-deportiva", "Name": "Infraestructura Deportiva" },
+        { "Id": "infraestructura-social_servicios-básicos", "Name": "Servicios Básicos" },
+        { "Id": "infraestructura-social_equipamiento-comunitario", "Name": "Equipamiento Comunitario" },
+        { "Id": "infraestructura-social_infraestructura-en-seguridad", "Name": "Infraestructura en Seguridad" }
       ]
     },
     {
-      "Id": "infraestructura-productiva-conectividad",
+      "Id": "infraestructura-productiva-y-conectividad",
       "Name": "Infraestructura Productiva y Conectividad",
       "Color": { "r": 0.15, "g": 0.68, "b": 0.38, "a": 1.0 },
       "Categories": [
-        { "Id": "infraestructura-productiva-conectividad_parques-industriales", "Name": "Parques Industriales" },
-        { "Id": "infraestructura-productiva-conectividad_centros-tecnologicos", "Name": "Centros Tecnológicos e Innovación" },
-        { "Id": "infraestructura-productiva-conectividad_telecomunicaciones", "Name": "Redes de Fibra Óptica y Telecomunicaciones" },
-        { "Id": "infraestructura-productiva-conectividad_energia-industrial", "Name": "Energía para Uso Industrial" },
-        { "Id": "infraestructura-productiva-conectividad_zonas-francas", "Name": "Zonas Francas y Parques Tecnológicos" }
+        { "Id": "infraestructura-productiva-y-conectividad_puertos", "Name": "Puertos" },
+        { "Id": "infraestructura-productiva-y-conectividad_conexiones-industriales", "Name": "Conexiones Industriales" },
+        { "Id": "infraestructura-productiva-y-conectividad_plantas-de-licuefacción", "Name": "Plantas de Licuefacción" },
+        { "Id": "infraestructura-productiva-y-conectividad_parques-eólicos", "Name": "Parques Eólicos" },
+        { "Id": "infraestructura-productiva-y-conectividad_conectividad-vial", "Name": "Conectividad Vial" }
       ]
     },
     {
@@ -29,11 +32,8 @@
       "Name": "Infraestructura Logística",
       "Color": { "r": 0.24, "g": 0.52, "b": 0.88, "a": 1.0 },
       "Categories": [
-        { "Id": "infraestructura-logistica_puertos", "Name": "Puertos Comerciales e Industriales" },
-        { "Id": "infraestructura-logistica_aeropuertos", "Name": "Aeropuertos y Terminales de Carga" },
-        { "Id": "infraestructura-logistica_rutas", "Name": "Rutas y Caminos Provinciales" },
-        { "Id": "infraestructura-logistica_centros-distribucion", "Name": "Centros de Distribución y Almacenamiento" },
-        { "Id": "infraestructura-logistica_corredores-bioceanicos", "Name": "Corredores Bioceánicos y Vías Ferroviarias" }
+        { "Id": "infraestructura-logistica_polos-logísticos", "Name": "Polos Logísticos" },
+        { "Id": "infraestructura-logistica_playas-de-contenedores", "Name": "Playas de Contenedores" }        
       ]
     },
     {
@@ -41,11 +41,8 @@
       "Name": "Recursos Energéticos",
       "Color": { "r": 0.96, "g": 0.73, "b": 0.20, "a": 1.0 },
       "Categories": [
-        { "Id": "recursos-energeticos_centrales-electricas", "Name": "Centrales Eléctricas (Térmicas y Renovables)" },
-        { "Id": "recursos-energeticos_parques-eolicos", "Name": "Parques Eólicos y Solares" },
-        { "Id": "recursos-energeticos_ductos", "Name": "Gasoductos y Oleoductos" },
-        { "Id": "recursos-energeticos_biogas", "Name": "Plantas de Biogás e Hidrógeno Verde" },
-        { "Id": "recursos-energeticos_infraestructura-transmision", "Name": "Infraestructura de Transmisión y Distribución" }
+        { "Id": "recursos-energeticos_explotación-de-hidrocarburos", "Name": "Explotación de Hidrocarburos" },
+        { "Id": "recursos-energeticos_nuevos-reservorios", "Name": "Nuevos Reservorios" }
       ]
     },
     {
@@ -53,11 +50,12 @@
       "Name": "Desarrollo Productivo",
       "Color": { "r": 0.11, "g": 0.11, "b": 0.12, "a": 1.0 },
       "Categories": [
-        { "Id": "desarrollo-productivo_industrias-tecnologicas", "Name": "Industrias Tecnológicas" },
-        { "Id": "desarrollo-productivo_pesca", "Name": "Producción Pesquera y Acuícola" },
-        { "Id": "desarrollo-productivo_agroindustria", "Name": "Agroindustria y Transformación de Recursos" },
-        { "Id": "desarrollo-productivo_industria-maderera", "Name": "Industria Maderera y Forestal" },
-        { "Id": "desarrollo-productivo_startups", "Name": "Emprendimientos Innovadores y Startups" }
+        { "Id": "desarrollo-productivo_energía", "Name": "Energía" },
+        { "Id": "desarrollo-productivo_turismo", "Name": "Turismo" },
+        { "Id": "desarrollo-productivo_pesca", "Name": "Pesca" },
+        { "Id": "desarrollo-productivo_industria", "Name": "Industria" },
+        { "Id": "desarrollo-productivo_forestal", "Name": "Forestal" },
+        { "Id": "desarrollo-productivo_minero", "Name": "Minero" }
       ]
     },
     {
@@ -65,11 +63,8 @@
       "Name": "Soberanía",
       "Color": { "r": 0.80, "g": 0.30, "b": 0.70, "a": 1.0 },
       "Categories": [
-        { "Id": "soberania_bases-cientificas", "Name": "Bases Científicas y Antárticas" },
-        { "Id": "soberania_defensa", "Name": "Infraestructura de Defensa y Seguridad" },
-        { "Id": "soberania_observatorios", "Name": "Observatorios y Centros de Monitoreo" },
-        { "Id": "soberania_investigacion-polar", "Name": "Instalaciones de Investigación Polar" },
-        { "Id": "soberania_identidad-nacional", "Name": "Monumentos y Espacios de Identidad Nacional" }
+        { "Id": "soberania_antártida", "Name": "Antártida" },
+        { "Id": "soberania_malvinas", "Name": "Malvinas" }
       ]
     }
   ]
