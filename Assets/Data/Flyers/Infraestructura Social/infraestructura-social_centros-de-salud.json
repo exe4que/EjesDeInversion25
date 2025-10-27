@@ -1,0 +1,26 @@
+{
+    "Id": "infraestructura-social_centros-de-salud",
+    "Title": "Centros de Salud",
+    "Subtitle": "Expansión de la Red de Centros de Salud y Cobertura Barrial para Todas las Familias Fueguinas.",
+    "DescriptionTitle": "",
+    "Description": "Se ha proyectado la creación de nuevos Centros de Salud en puntos estratégicos de Ushuaia y Río Grande. El objetivo es alcanzar de manera más eficaz y cercana a aquellas familias que actualmente tienen dificultades para acceder a un CAPS. \n\nFuncionarán como Centros de Asistencia Primaria de Salud (Nivel II) con identidad barrial y garantizarán el acceso universal a la Atención Primaria de la Salud. \n\nCada nuevo centro está dimensionado para brindar cobertura integral a entre 1.200 y 1.500 familias." ,
+    "CarouselImageNames": [
+        "infraestructura-social_centros-de-salud-1",
+        "infraestructura-social_centros-de-salud-2",
+        "infraestructura-social_centros-de-salud-3",
+        "infraestructura-social_centros-de-salud-4",
+        "infraestructura-social_centros-de-salud-5",
+        "infraestructura-social_centros-de-salud-6",
+        "infraestructura-social_centros-de-salud-7"
+    ],
+    "PdfLinks": [
+        {
+            "Name": "",
+            "Url": ""
+        },
+        {
+            "Name": "",
+            "Url": ""
+        }
+    ]
+}

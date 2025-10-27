@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-social_infraestructura-deportiva
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: infraestructura-social_infraestructura-deportiva
+  Title: Infraestructura Deportiva
+  Subtitle: "Inversi\xF3n Concreta para una Provincia Activa"
+  DescriptionTitle: 
+  Description: "Nuestra gesti\xF3n ha consolidado al deporte como un pilar fundamental
+    para la integraci\xF3n y el desarrollo comunitario. Esta convicci\xF3n se ha
+    traducido en una inversi\xF3n hist\xF3rica y tangible en infraestructura. \n\n-
+    Construimos\_7 gimnasios polideportivos\_nuevos en toda la provincia. \n\n- Edificamos
+    un\_microestadio\_con capacidad para 4.500 personas. \n\n- Implementamos\_dos
+    canchas de c\xE9sped sint\xE9tico\_de nivel profesional. \n\nSon espacios de
+    inclusi\xF3n que facilitan el acceso a actividades deportivas y sociales para
+    cientos de personas, fomentando la cohesi\xF3n social y los h\xE1bitos de vida
+    saludables. \n\nFiel a esta pol\xEDtica de Estado, nuestro gobierno avanza en\_ampliar
+    las inversiones. \n\nEl objetivo es claro: seguir tejiendo una red de infraestructura
+    deportiva de calidad que llegue a cada rinc\xF3n de la provincia, garantizando
+    que el deporte sea un derecho accesible para todos."
+  CarouselImageNames:
+  - infraestructura-social_infraestructura-deportiva_albergues-deportivos
+  - "infraestructura-social_infraestructura-deportiva_cancha-de-f\xFAtbol-r\xEDo-grande"
+  - "infraestructura-social_infraestructura-deportiva_cancha-de-f\xFAtbol-tolhuin"
+  - "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-r\xEDo-grande"
+  - "infraestructura-social_infraestructura-deportiva_gimnasio-polideportivo-barrio-san-mart\xEDn-ushuaia"
+  - infraestructura-social_infraestructura-deportiva_natatorio-tolhuin
+  - infraestructura-social_infraestructura-deportiva_pista-de-atletismo-ushuaia
+  - "infraestructura-social_infraestructura-deportiva_pista-de-hielo-r\xEDo-grande"
+  PdfLinks: []

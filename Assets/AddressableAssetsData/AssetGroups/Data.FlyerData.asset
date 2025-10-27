@@ -15,6 +15,16 @@ MonoBehaviour:
   m_GroupName: Data.FlyerData
   m_GUID: 52297bf17f394700782cf5916ebd714d
   m_SerializeEntries:
+  - m_GUID: 60c76011c622df14c97238e829448d96
+    m_Address: infraestructura-social_centros-de-salud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99744b248d1fb7446b1069027f6c4ae3
+    m_Address: "infraestructura-social_innovaci\xF3n"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ae88b1bbf060b7275bdec656ae15266e
     m_Address: infraestructura-social_viviendas
     m_ReadOnly: 0
@@ -22,6 +32,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b3e0167bfaafc05338ea361c948ca68b
     m_Address: infraestructura-social_viviendas_vivienda 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f3d9d56d75da24cb76250744ff51e7
+    m_Address: infraestructura-social_infraestructura-deportiva
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecb37c2b74a7ff943a9533adc6d985ed
+    m_Address: infraestructura-social_plan-de-escuelas
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

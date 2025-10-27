@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-social_centros-de-salud
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: infraestructura-social_centros-de-salud
+  Title: Centros de Salud
+  Subtitle: "Expansi\xF3n de la Red de Centros de Salud y Cobertura Barrial para
+    Todas las Familias Fueguinas."
+  DescriptionTitle: 
+  Description: "Se ha proyectado la creaci\xF3n de\_nuevos Centros de Salud en puntos
+    estrat\xE9gicos de Ushuaia y R\xEDo Grande. El objetivo es alcanzar de manera
+    m\xE1s eficaz y cercana a aquellas familias que actualmente tienen dificultades
+    para acceder a un CAPS. \n\nFuncionar\xE1n como\_Centros de Asistencia Primaria
+    de Salud (Nivel II) con identidad barrial y garantizar\xE1n el acceso universal\_a
+    la Atenci\xF3n Primaria de la Salud. \n\nCada nuevo centro est\xE1 dimensionado
+    para brindar cobertura integral a entre\_1.200 y 1.500 familias."
+  CarouselImageNames:
+  - infraestructura-social_centros-de-salud-1
+  - infraestructura-social_centros-de-salud-2
+  - infraestructura-social_centros-de-salud-3
+  - infraestructura-social_centros-de-salud-4
+  - infraestructura-social_centros-de-salud-5
+  - infraestructura-social_centros-de-salud-6
+  - infraestructura-social_centros-de-salud-7
+  PdfLinks: []
