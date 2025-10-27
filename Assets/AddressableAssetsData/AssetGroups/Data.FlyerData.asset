@@ -15,8 +15,33 @@ MonoBehaviour:
   m_GroupName: Data.FlyerData
   m_GUID: 52297bf17f394700782cf5916ebd714d
   m_SerializeEntries:
+  - m_GUID: 0b6187ec725d5224189972fe390f1b9e
+    m_Address: infraestructura-social_equipamiento-comunitario
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 373a98a7dee421744bafb08d7bca11d9
+    m_Address: "infraestructura-productiva-y-conectividad_parques-e\xF3licos"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57066a5b0eb9257409e2afaf5b3f8bcf
+    m_Address: "infraestructura-social_servicios-b\xE1sicos"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6017570f2e1773845aeb36f94c1aeead
+    m_Address: infraestructura-social_infraestructura-en-seguridad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60c76011c622df14c97238e829448d96
     m_Address: infraestructura-social_centros-de-salud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cc3f99f358c2a64c8e866b7ea70c3c4
+    m_Address: infraestructura-productiva-y-conectividad_conectividad-vial
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -35,8 +60,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5de3f173f809264fb94354cb4b79981
+    m_Address: "infraestructura-productiva-y-conectividad_conexi\xF3nes-industriales"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5f3d9d56d75da24cb76250744ff51e7
     m_Address: infraestructura-social_infraestructura-deportiva
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c93729b2071b84e478a8fadeeca5e302
+    m_Address: "infraestructura-productiva-y-conectividad_plantas-de-licuefacci\xF3n"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cec9a0b27b9e6264288b716a23b46a49
+    m_Address: infraestructura-productiva-y-conectividad_puertos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

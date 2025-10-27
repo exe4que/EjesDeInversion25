@@ -55,6 +55,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d890b8ce5038ea4c95e9dfdbc0485b0
+    m_Address: "infraestructura-social_equipamiento-comunitario_casa-de-la-alegr\xEDa-ushuaia"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 47fd8893edb61354394e2bb8935d4482
     m_Address: infraestructura-social_centros-de-salud-1
     m_ReadOnly: 0
@@ -62,6 +67,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48d8ebad2c3e5f04a8ec8456c65dd3ab
     m_Address: infraestructura-social_centros-de-salud-3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50c0e30ec38dde64a96e8793b567cda6
+    m_Address: "infraestructura-social_servicios-b\xE1sicos_azud-ushuaia"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -90,8 +100,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cf12b31a2d9eb646a2e8f70d1e05e6c
+    m_Address: "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-tolhuin"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ebfd9c4612fd9442b4f13b8d2adc58f
     m_Address: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72469d90894393f42be44934dde196ae
+    m_Address: "infraestructura-productiva-y-conectividad_planta-de-licuefacci\xF3n-san-sebasti\xE1n"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ed92ee42b23d3048956c9676a6d6330
+    m_Address: infraestructura-productiva-y-conectividad_puertos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -110,8 +135,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a169e377dd3bc49b8ebf6ad59cf1ae
+    m_Address: "infraestructura-social_equipamiento-comunitario_central-de-polic\xEDa-y-alcaidia-ushuaia"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9c2bc32d4bedade4fa54d7cad068b047
     m_Address: "infraestructura-social_infraestructura-deportiva_pista-de-hielo-r\xEDo-grande"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6f0c98e6b3807344add00cc97c11d77
+    m_Address: "infraestructura-productiva-y-conectividad_parque-e\xF3lico-r\xEDo-grande"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -122,6 +157,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b6d78658e93285f40a06c4fc501be33d
     m_Address: "infraestructura-social_innovaci\xF3n_f\xE1bricas-de-talento-e-innovaci\xF3n-r\xEDo-grande-3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfcee94fa1e7e58499a7cf17ba9f9cff
+    m_Address: "infraestructura-productiva-y-conectividad_conexi\xF3n-troncal-industrial-tolhuin"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c71e03f3a7ea2b34682308ccbb06de73
+    m_Address: "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-r\xEDo-grande"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -137,6 +182,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8676c23b8de4f94f80fa6ac4d0b7a63
     m_Address: infraestructura-social_infraestructura-deportiva_natatorio-tolhuin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbce14ec26d2c394ba69996fc6ab9390
+    m_Address: infraestructura-productiva-y-conectividad_conectividad-vial
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

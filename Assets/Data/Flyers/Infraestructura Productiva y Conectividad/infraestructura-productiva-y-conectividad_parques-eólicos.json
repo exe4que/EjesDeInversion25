@@ -1,0 +1,20 @@
+{
+    "Id": "parques-eólicos",
+    "Title": "Parques Eólicos",
+    "Subtitle": "Tierra del Fuego avanza hacia la transición energética",
+    "DescriptionTitle": "",
+    "Description": "Marca el comienzo hacia la transición energética que es tan importante para la provincia, sobre todo por los recursos existentes. \n\nSignifica dar un paso más. Agregar valor a los recursos naturales, a fin de generar más desarrollo y más empleo para los fueguinos y las fueguinas." ,
+    "CarouselImageNames": [
+        "infraestructura-productiva-y-conectividad_parque-eólico-río-grande"
+    ],
+    "PdfLinks": [
+        {
+            "Name": "",
+            "Url": ""
+        },
+        {
+            "Name": "",
+            "Url": ""
+        }
+    ]
+}

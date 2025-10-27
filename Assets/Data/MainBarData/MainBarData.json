@@ -21,7 +21,7 @@
       "Color": { "r": 0.15, "g": 0.68, "b": 0.38, "a": 1.0 },
       "Categories": [
         { "Id": "infraestructura-productiva-y-conectividad_puertos", "Name": "Puertos" },
-        { "Id": "infraestructura-productiva-y-conectividad_conexiones-industriales", "Name": "Conexiones Industriales" },
+        { "Id": "infraestructura-productiva-y-conectividad_conexiónes-industriales", "Name": "Conexiones Industriales" },
         { "Id": "infraestructura-productiva-y-conectividad_plantas-de-licuefacción", "Name": "Plantas de Licuefacción" },
         { "Id": "infraestructura-productiva-y-conectividad_parques-eólicos", "Name": "Parques Eólicos" },
         { "Id": "infraestructura-productiva-y-conectividad_conectividad-vial", "Name": "Conectividad Vial" }

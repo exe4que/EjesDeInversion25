@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-productiva-y-conectividad_puertos
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: puertos
+  Title: Puertos
+  Subtitle: Infraestructura para el Desarrollo Fueguino
+  DescriptionTitle: 
+  Description: "El desarrollo productivo de la Provincia requiere de infraestructura
+    moderna que acompa\xF1e su crecimiento. Si bien actualmente contamos con infraestructura
+    portuaria, esta se ha vuelto poco eficiente debido a la falta de actualizaci\xF3n
+    permanente y a estar enfocada en una matriz antigua que ya no refleja las necesidades
+    actuales. \n\nEsta situaci\xF3n impulsa la necesidad de construir\_nuevos puertos
+    mar\xEDtimos\_en la Provincia, que se conviertan en motores de crecimiento y
+    desarrollo. \n\nEstas nuevas infraestructuras permitir\xE1n: \n\n- Generar oportunidades
+    de\_conectividad y log\xEDstica\_eficiente \n\n- Impulsar la\_producci\xF3n\_local
+    \n\n- Facilitar procesos de\_importaci\xF3n y exportaci\xF3n \n\nCon esta modernizaci\xF3n
+    portuaria, sentaremos las bases para una econom\xEDa fueguina m\xE1s competitiva
+    y mejor integrada a los circuitos comerciales regionales e internacionales."
+  CarouselImageNames:
+  - infraestructura-productiva-y-conectividad_puertos
+  PdfLinks: []

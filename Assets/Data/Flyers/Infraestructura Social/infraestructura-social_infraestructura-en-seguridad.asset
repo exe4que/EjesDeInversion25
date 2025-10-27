@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-social_infraestructura-en-seguridad
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: infraestructura-en-seguridad
+  Title: Infraestructura en Seguridad
+  Subtitle: Cimientos para una Provincia Protegida
+  DescriptionTitle: 
+  Description: "Las obras de infraestructura en seguridad representan un pilar fundamental
+    en la pol\xEDtica de Estado destinada a fortalecer la prevenci\xF3n y la capacidad
+    de respuesta ante el delito. Estas intervenciones, planificadas estrat\xE9gicamente,
+    materializan el compromiso de construir entornos m\xE1s seguros para todos los
+    fueguinos. \n\nEste plan integral incluye la construcci\xF3n y modernizaci\xF3n
+    de comisar\xEDas, alcaid\xEDas y penitenciar\xEDas. Cada obra no solo responde
+    a una necesidad edilicia, sino que consolida la presencia del Estado en el territorio,
+    optimizando los recursos humanos y t\xE9cnicos. \n\nDe esta manera, la provincia
+    construye las bases para un modelo de seguridad proactivo, cercano a la comunidad
+    y con eficiencia profesional."
+  CarouselImageNames:
+  - "infraestructura-social_equipamiento-comunitario_central-de-polic\xEDa-y-alcaidia-ushuaia"
+  PdfLinks: []

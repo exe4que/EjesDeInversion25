@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-social_equipamiento-comunitario
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: equipamiento-comunitario
+  Title: Equipamiento Comunitario
+  Subtitle: Presencia del Estado y Acceso a Servicios Esenciales
+  DescriptionTitle: 
+  Description: "La construcci\xF3n de equipamiento comunitario representa un pilar
+    fundamental de nuestra gesti\xF3n, reforzando la presencia del Estado en el territorio
+    y materializando el acompa\xF1amiento en el crecimiento de las comunidades. \n\nEstos
+    espacios \u2014que incluyen sedes sociales y culturales\u2014 se convierten en
+    puntos de referencia para el desarrollo barrial, la inclusi\xF3n social y la
+    participaci\xF3n ciudadana. \n\nNuestro Gobierno mantiene el firme compromiso
+    de consolidar esta estrategia, construyendo m\xE1s equipamiento y generando nuevas
+    oportunidades para fortalecer el tejido social en toda la provincia."
+  CarouselImageNames:
+  - "infraestructura-social_equipamiento-comunitario_casa-de-la-alegr\xEDa-ushuaia"
+  PdfLinks:
+  - Name: 
+    Url: 
+  - Name: 
+    Url: 

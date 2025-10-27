@@ -41,7 +41,7 @@ MonoBehaviour:
     Categories:
     - Id: infraestructura-productiva-y-conectividad_puertos
       Name: Puertos
-    - Id: infraestructura-productiva-y-conectividad_conexiones-industriales
+    - Id: "infraestructura-productiva-y-conectividad_conexi\xF3nes-industriales"
       Name: Conexiones Industriales
     - Id: "infraestructura-productiva-y-conectividad_plantas-de-licuefacci\xF3n"
       Name: "Plantas de Licuefacci\xF3n"
