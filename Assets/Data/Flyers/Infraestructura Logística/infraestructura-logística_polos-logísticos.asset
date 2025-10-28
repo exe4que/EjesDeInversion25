@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: "infraestructura-log\xEDstica_polos-log\xEDsticos"
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "polos-log\xEDsticos"
+  Title: "Polos Log\xEDsticos"
+  Subtitle: "Soberan\xEDa, Ciencia y Desarrollo Sostenible en el Fin del Mundo"
+  DescriptionTitle: 
+  Description: "La creaci\xF3n de nuevos Polos Log\xEDsticos se proyecta como una\_plataforma
+    moderna y eficiente\_de clase mundial, capaz de brindar servicios log\xEDsticos
+    especializados a las bases cient\xEDficas internacionales, mientras posiciona
+    a Tierra del Fuego como un\_referente global en operaciones polares\_responsables
+    y tecnol\xF3gicamente avanzadas."
+  CarouselImageNames:
+  - "infraestructura-productiva-y-conectividad_polo-log\xEDstico-ant\xE1rtico"
+  PdfLinks: []

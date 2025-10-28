@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: desarrollo-productivo_pesca
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: pesca
+  Title: Pesca
+  Subtitle: "Diversificaci\xF3n y Proyecci\xF3n Global"
+  DescriptionTitle: 
+  Description: "El sector pesquero de Tierra del Fuego se encuentra en un proceso
+    de\_constante diversificaci\xF3n, consolidando una matriz productiva que combina
+    la extracci\xF3n tradicional con el desarrollo de cultivos y la agregaci\xF3n
+    de valor. La provincia cuenta con ventajas log\xEDsticas \xFAnicas para la exportaci\xF3n
+    hacia el\_Atl\xE1ntico Norte y los din\xE1micos mercados asi\xE1ticos, posicionando
+    sus productos como bienes de alta calidad demandados a nivel internacional. \n\nLa
+    cartera de productos incluye\_callos de vieira, moluscos, crust\xE1ceos y pescado
+    congelado, reconocidos por su calidad y origen austral. A ello se suma el impulso
+    a proyectos de\_mitilicultura (cultivo de mejillones) en Puerto Almanza, una
+    actividad sostenible con gran potencial de crecimiento, y el desarrollo de la\_Pesquer\xEDa
+    de Crust\xE1ceos Tierra del Fuego, orientada a la captura y comercializaci\xF3n
+    de especies de alto valor. \n\nEste ecosistema productivo, respaldado por una\_visi\xF3n
+    estrat\xE9gica de desarrollo sectorial, transforma a la actividad pesquera en
+    un pilar de la econom\xEDa fueguina, generando empleo, impulsando la innovaci\xF3n
+    y reforzando la presencia de la provincia en los mercados globales m\xE1s exigentes."
+  CarouselImageNames:
+  - desarrollo-productivo_pesca
+  PdfLinks: []

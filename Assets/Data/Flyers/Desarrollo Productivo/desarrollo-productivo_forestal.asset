@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: desarrollo-productivo_forestal
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: forestal
+  Title: Forestal
+  Subtitle: "Desarrollo Sostenible en los Bosques Subant\xE1rticos"
+  DescriptionTitle: 
+  Description: "Los bosques subant\xE1rticos de Tierra del Fuego, compuestos por
+    especies como la\_lenga, el \xF1ire y el guindo, constituyen la base de una industria
+    forestal en expansi\xF3n que combina el aprovechamiento responsable con la agregaci\xF3n
+    de valor local. Con\_m\xE1s del 38% del bosque de lenga puro clasificado como
+    zona de uso productivo, la provincia cuenta con un recurso natural estrat\xE9gico
+    y renovable, manejado bajo criterios de sostenibilidad. \n\nUbicada en el coraz\xF3n
+    de la isla, la ciudad de\_Tolhuin se consolida como el polo forestal fueguino,
+    concentrando la infraestructura, el conocimiento t\xE9cnico y la mano de obra
+    especializada para el desarrollo de la cadena de valor. \n\nEl sector ofrece
+    un amplio potencial para la inversi\xF3n en: \n\n- Producci\xF3n primaria\_con
+    manejo forestal sostenible \n\n- Industria del aserrado y secado\_de madera \n\n-
+    Fabricaci\xF3n de tiranter\xEDa y pallets\_para la construcci\xF3n \n\n- Carpinter\xEDa
+    de obra y fabricaci\xF3n de muebles\_de dise\xF1o \n\nEste desarrollo productivo,
+    basado en la\_econom\xEDa forestal sustentable, posiciona a Tierra del Fuego
+    como referente en el uso responsable de sus recursos naturales, generando empleo
+    local y productos de calidad que aprovechan el valor \xFAnico de las maderas
+    australes."
+  CarouselImageNames:
+  - desarrollo-productivo_forestal
+  PdfLinks: []

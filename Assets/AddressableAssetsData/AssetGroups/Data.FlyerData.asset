@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aea67b3272bdc14e8361e9ba240f4a7
+    m_Address: desarrollo-productivo_industria
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 373a98a7dee421744bafb08d7bca11d9
     m_Address: "infraestructura-productiva-y-conectividad_parques-e\xF3licos"
     m_ReadOnly: 0
@@ -40,13 +45,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63d040af4c141cc41b1b70fc0e9099ef
+    m_Address: "infraestructura-log\xEDstica_playas-de-contenedores"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6cc3f99f358c2a64c8e866b7ea70c3c4
     m_Address: infraestructura-productiva-y-conectividad_conectividad-vial
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9108a544d7efaa94c8099d961507632b
+    m_Address: desarrollo-productivo_turismo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 99744b248d1fb7446b1069027f6c4ae3
     m_Address: "infraestructura-social_innovaci\xF3n"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a31ac3de2b10ab441b9f9197a13077c7
+    m_Address: desarrollo-productivo_forestal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8e8b0a7389d3774cab56fdf2ca3d535
+    m_Address: desarrollo-productivo_pesca
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -65,8 +90,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be42d8fea63114a458d80bd275c95647
+    m_Address: desarrollo-productivo_minero
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5f3d9d56d75da24cb76250744ff51e7
     m_Address: infraestructura-social_infraestructura-deportiva
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c72aec3e57b3205418a01ed9fafa8045
+    m_Address: "desarrollo-productivo_energ\xEDa"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,8 +115,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf479ef11b95068409cb765438fefa2d
+    m_Address: "recursos-energ\xE9ticos_explotaci\xF3n-de-hidrocarburos"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deec3a35b266bd642ac441a12bad9f51
+    m_Address: "infraestructura-log\xEDstica_polos-log\xEDsticos"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ecb37c2b74a7ff943a9533adc6d985ed
     m_Address: infraestructura-social_plan-de-escuelas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef16169af03dd5241b8558fd68227934
+    m_Address: "recursos-energ\xE9ticos_nuevos-reservorios-on-y-off-shore"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

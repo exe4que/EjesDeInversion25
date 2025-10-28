@@ -30,6 +30,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 186dc8b42de62024ab7307e1c440ac2b
+    m_Address: desarrollo-productivo_minero
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1cb5163f67e6f7046b4ba1572e160df7
     m_Address: "infraestructura-social_infraestructura-deportiva_cancha-de-f\xFAtbol-tolhuin"
     m_ReadOnly: 0
@@ -45,6 +50,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28d2f87f83e7fb347a5685f72c9f9e37
+    m_Address: desarrollo-productivo_turismo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2db33c91954584b42ad6556725feb36c
     m_Address: "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-r\xEDo-grande"
     m_ReadOnly: 0
@@ -52,6 +62,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3aa2205d4974e6e4b9c0287e95d02e61
     m_Address: infraestructura-social_centros-de-salud-6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cc3d05491bec064292a6933fa135383
+    m_Address: "infraestructura-productiva-y-conectividad_polo-log\xEDstico-ant\xE1rtico"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -95,6 +110,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61c93a6ff0da7bd47987c21c64aa1303
+    m_Address: "recursos-energ\xE9ticos_explotaci\xF3n-de-hidrocarburos_CA12"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a24696a9d8c4bb499d9fdd982e9b18b
     m_Address: infraestructura-social_centros-de-salud-7
     m_ReadOnly: 0
@@ -107,6 +127,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ebfd9c4612fd9442b4f13b8d2adc58f
     m_Address: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 717e65f63f033c64ea8f53abab1ce54b
+    m_Address: desarrollo-productivo_forestal
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -130,8 +155,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94658ab19e9edb94faf9addbcc809647
+    m_Address: "desarrollo-productivo_energ\xEDa"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9494b7de2df1203438006d7d83e49602
     m_Address: "infraestructura-social_innovaci\xF3n_f\xE1bricas-de-talento-e-innovaci\xF3n-r\xEDo-grande-2"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97e621d3aac6b76458f27ccc7f480ff6
+    m_Address: "recursos-energ\xE9ticos_explotaci\xF3n-de-hidrocarburos_nuevos-reservorios-on-y-off-shore"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -155,8 +190,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff89e688dc8cd8469a4c3fdcaa981b2
+    m_Address: desarrollo-productivo_industria
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b6d78658e93285f40a06c4fc501be33d
     m_Address: "infraestructura-social_innovaci\xF3n_f\xE1bricas-de-talento-e-innovaci\xF3n-r\xEDo-grande-3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba21a41c8b0b06843a323ddaf7aaf2ce
+    m_Address: infraestructura-productiva-y-conectividad_nueva-playa-de-contenedores-ushuaia
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -182,6 +227,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8676c23b8de4f94f80fa6ac4d0b7a63
     m_Address: infraestructura-social_infraestructura-deportiva_natatorio-tolhuin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb06b9e8e928a8240aa6fc56406e34b0
+    m_Address: desarrollo-productivo_pesca
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

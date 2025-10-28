@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: desarrollo-productivo_minero
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: minero
+  Title: Minero
+  Subtitle: Desarrollo Sostenible y Valor Agregado en Tierra del Fuego
+  DescriptionTitle: 
+  Description: "Tierra del Fuego impulsa un\_modelo minero de baja escala, sostenible
+    y con fuerte enfoque en el valor agregado local, priorizando el cuidado ambiental
+    y la integraci\xF3n con las cadenas productivas existentes en la provincia. \n\nLa
+    provincia concentra\_m\xE1s del 90% de los yacimientos productivos de turba de
+    Argentina, con una extracci\xF3n de\_76.700 m\xB3 en 2024. Este recurso se destina
+    principalmente a sustratos agr\xEDcolas, mejoradores de suelos y absorbentes
+    industriales, avanzando hacia productos de mayor valor como\_biofertilizantes
+    l\xEDquidos certificados y mantas oleof\xEDlicas\_para mitigaci\xF3n de derrames.
+    \n\nEl perfil minero fueguino incluye: \xC1ridos; Placeres Aur\xEDferos; Rocas
+    Ornamentales y Yacimiento Arroyo Rojo. \n\nEste enfoque estrat\xE9gico posiciona
+    a la miner\xEDa fueguina como\_complementaria a las actividades productivas tradicionales,
+    generando nuevas oportunidades de industrializaci\xF3n en armon\xEDa con la preservaci\xF3n
+    de los ecosistemas subant\xE1rticos."
+  CarouselImageNames:
+  - desarrollo-productivo_minero
+  PdfLinks: []

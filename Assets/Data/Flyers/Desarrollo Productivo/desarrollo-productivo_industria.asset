@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: desarrollo-productivo_industria
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: industria
+  Title: Industria
+  Subtitle: "Polo Productivo Estrat\xE9gico con Impacto Nacional"
+  DescriptionTitle: 
+  Description: "Tierra del Fuego sostiene\_uno de los complejos industriales m\xE1s
+    relevantes y din\xE1micos de Argentina, impulsado por el Subr\xE9gimen de Promoci\xF3n
+    Industrial, que garantiza empleo registrado, arraigo territorial y capacidades
+    tecnol\xF3gicas \xFAnicas en el extremo sur del pa\xEDs. \n\nOportunidades para
+    el Futuro. El perfil industrial de la provincia se expande hacia nuevas fronteras,
+    con oportunidades claras en: \n\n- Sustituci\xF3n de importaciones en nuevos
+    rubros. \n\n- Transici\xF3n tecnol\xF3gica y reconversi\xF3n sustentable. \n\n-
+    Aprovechamiento de capacidades ociosas y diversificaci\xF3n productiva. \n\nCon
+    un modelo que combina\_protecci\xF3n estrat\xE9gica, innovaci\xF3n y federalismo,
+    la industria fueguina se consolida como un caso de \xE9xito en la integraci\xF3n
+    de competitividad, desarrollo local y soberan\xEDa productiva."
+  CarouselImageNames:
+  - desarrollo-productivo_industria
+  PdfLinks: []
