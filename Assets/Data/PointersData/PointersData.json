@@ -37,8 +37,8 @@
             "Id": "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-río-grande",
             "Name": "Centros de Salud en Río Grande",
             "Position": {
-                "x": -553.3823852539063,
-                "y": 39.596534729003909,
+                "x": -525.712890625,
+                "y": 76.5762939453125,
                 "z": 995.0
             },
             "ShortDescription": "Nuevos Centros de Salud en Río Grande",
@@ -53,6 +53,94 @@
                 "z": 995.0
             },
             "ShortDescription": "Nuevos Centros de Salud en Ushuaia",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-ushuaia",
+            "Name": "Escuela Técnica Profesional en Ushuaia",
+            "Position": {
+                "x": -553.3823852539063,
+                "y": 39.596534729003909,
+                "z": 995.0
+            },
+            "ShortDescription": "Nuevas Escuelas en Ushuaia",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-tolhuin",
+            "Name": "Escuela Técnica Profesional en Tolhuin",
+            "Position": {
+                "x": -522.2343139648438,
+                "y": 55.4283561706543,
+                "z": 995.0
+            },
+            "ShortDescription": "Nuevas Escuelas en Tolhuin",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-río-grande",
+            "Name": "Escuela Técnica Profesional en Río Grande",
+            "Position": {
+                "x": -525.712890625,
+                "y": 76.5762939453125,
+                "z": 995.0
+            },
+            "ShortDescription": "Nuevas Escuelas en Río Grande",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_innovación_fábrica-de-talento-e-innovación-en-tolhuin",
+            "Name": "Fábricas de Talento e Innovación en Tolhuin",
+            "Position": {
+                "x": -522.2343139648438,
+                "y": 55.4283561706543,
+                "z": 995.0
+            },
+            "ShortDescription": "Fábricas de Talento e Innovación en Tolhuin",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_innovación_fábrica-de-talento-e-innovación-en-río-grande",
+            "Name": "Fábricas de Talento e Innovación",
+            "Position": {
+                "x": -525.712890625,
+                "y": 76.5762939453125,
+                "z": 995.0
+            },
+            "ShortDescription": "Fábricas de Talento e Innovación en Río Grande",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-río-grande",
+            "Name": "Infraestructura Deportiva en Río Grande",
+            "Position": {
+                "x": -525.712890625,
+                "y": 76.5762939453125,
+                "z": 995.0
+            },
+            "ShortDescription": "Inversiónes concretas en Río Grande",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-ushuaia",
+            "Name": "Infraestructura Deportiva en Ushuaia",
+            "Position": {
+                "x": -553.3823852539063,
+                "y": 39.596534729003909,
+                "z": 995.0
+            },
+            "ShortDescription": "Inversiónes concretas en Ushuaia",
+            "IsLink": true
+        },
+                {
+            "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-tolhuin",
+            "Name": "Infraestructura Deportiva en Tolhuin",
+            "Position": {
+                "x": -522.2343139648438,
+                "y": 55.4283561706543,
+                "z": 995.0
+            },
+            "ShortDescription": "Inversiónes concretas en Tolhuin",
             "IsLink": true
         }
     ]

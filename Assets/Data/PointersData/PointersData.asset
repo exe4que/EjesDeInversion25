@@ -30,11 +30,51 @@ MonoBehaviour:
     IsLink: 1
   - Id: "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-r\xEDo-grande"
     Name: "Centros de Salud en R\xEDo Grande"
-    Position: {x: -525.6101, y: 76.391396, z: 995}
+    Position: {x: -525.7129, y: 76.576294, z: 995}
     ShortDescription: "Nuevos Centros de Salud en R\xEDo Grande"
     IsLink: 1
   - Id: infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-ushuaia
     Name: Centros de Salud en Ushuaia
     Position: {x: -553.3824, y: 39.596535, z: 995}
     ShortDescription: Nuevos Centros de Salud en Ushuaia
+    IsLink: 1
+  - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
+    Name: "Escuela T\xE9cnica Profesional en Ushuaia"
+    Position: {x: -553.3824, y: 39.596535, z: 995}
+    ShortDescription: Nuevas Escuelas en Ushuaia
+    IsLink: 1
+  - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-tolhuin"
+    Name: "Escuela T\xE9cnica Profesional en Tolhuin"
+    Position: {x: -522.2343, y: 55.428356, z: 995}
+    ShortDescription: Nuevas Escuelas en Tolhuin
+    IsLink: 1
+  - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-r\xEDo-grande"
+    Name: "Escuela T\xE9cnica Profesional en R\xEDo Grande"
+    Position: {x: -525.7129, y: 76.576294, z: 995}
+    ShortDescription: "Nuevas Escuelas en R\xEDo Grande"
+    IsLink: 1
+  - Id: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-tolhuin"
+    Name: "F\xE1bricas de Talento e Innovaci\xF3n en Tolhuin"
+    Position: {x: -522.2343, y: 55.428356, z: 995}
+    ShortDescription: "F\xE1bricas de Talento e Innovaci\xF3n en Tolhuin"
+    IsLink: 1
+  - Id: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-r\xEDo-grande"
+    Name: "F\xE1bricas de Talento e Innovaci\xF3n"
+    Position: {x: -525.7129, y: 76.576294, z: 995}
+    ShortDescription: "F\xE1bricas de Talento e Innovaci\xF3n en R\xEDo Grande"
+    IsLink: 1
+  - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-r\xEDo-grande"
+    Name: "Infraestructura Deportiva en R\xEDo Grande"
+    Position: {x: -525.7129, y: 76.576294, z: 995}
+    ShortDescription: "Inversi\xF3nes concretas en R\xEDo Grande"
+    IsLink: 1
+  - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-ushuaia"
+    Name: Infraestructura Deportiva en Ushuaia
+    Position: {x: -553.3824, y: 39.596535, z: 995}
+    ShortDescription: "Inversi\xF3nes concretas en Ushuaia"
+    IsLink: 1
+  - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-tolhuin"
+    Name: Infraestructura Deportiva en Tolhuin
+    Position: {x: -522.2343, y: 55.428356, z: 995}
+    ShortDescription: "Inversi\xF3nes concretas en Tolhuin"
     IsLink: 1
