@@ -3,7 +3,7 @@ using UnityEditor;
 using System.IO;
 using EjesDeInversion.Data;
 
-namespace EjesDeInversion
+namespace EjesDeInversion.Editor
 {
     public static class MainBarDataImporter
     {

@@ -6,6 +6,11 @@ namespace EjesDeInversion.Data
     public class PointersData : ScriptableObject
     {
         public PointerData[] Pointers;
+
+        public void LoadFromJson(string json)
+        {
+            JsonUtility.FromJsonOverwrite(json, this);
+        }
     }
     
     [System.Serializable]

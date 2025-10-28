@@ -2,37 +2,40 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-public static class JSONExporter
+namespace EjesDeInversion.Editor
 {
-    // create json from scriptable object
-    [MenuItem("Assets/Export to JSON", true)]
-    private static bool ValidateExportToJSON()
+    public static class JSONExporter
     {
-        var obj = Selection.activeObject;
-        return obj is ScriptableObject;
-    }
-
-    [MenuItem("Assets/Export to JSON")]
-    public static void ExportToJSON()
-    {
-        var dataToExport = Selection.activeObject;
-        if (dataToExport == null)
+        // create json from scriptable object
+        [MenuItem("Assets/Export to JSON", true)]
+        private static bool ValidateExportToJSON()
         {
-            Debug.LogError("No ScriptableObject assigned for export.");
-            return;
+            var obj = Selection.activeObject;
+            return obj is ScriptableObject;
         }
 
-        // Convert the ScriptableObject to a JSON string
-        string jsonString = JsonUtility.ToJson(dataToExport, true); // 'true' for pretty print
+        [MenuItem("Assets/Export to JSON")]
+        public static void ExportToJSON()
+        {
+            var dataToExport = Selection.activeObject;
+            if (dataToExport == null)
+            {
+                Debug.LogError("No ScriptableObject assigned for export.");
+                return;
+            }
 
-        // Define the file path
-        string filePath = AssetDatabase.GetAssetPath(dataToExport);
-        filePath = Path.ChangeExtension(filePath, ".json");
+            // Convert the ScriptableObject to a JSON string
+            string jsonString = JsonUtility.ToJson(dataToExport, true); // 'true' for pretty print
 
-        // Write the JSON string to a file
-        File.WriteAllText(filePath, jsonString);
+            // Define the file path
+            string filePath = AssetDatabase.GetAssetPath(dataToExport);
+            filePath = Path.ChangeExtension(filePath, ".json");
 
-        //refresh
-        AssetDatabase.Refresh();
+            // Write the JSON string to a file
+            File.WriteAllText(filePath, jsonString);
+
+            //refresh
+            AssetDatabase.Refresh();
+        }
     }
 }

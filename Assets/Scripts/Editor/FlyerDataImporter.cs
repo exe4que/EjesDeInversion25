@@ -3,7 +3,7 @@ using EjesDeInversion.Data;
 using UnityEditor;
 using UnityEngine;
 
-namespace EjesDeInversion
+namespace EjesDeInversion.Editor
 {
     public static class FlyerDataImporter
     {
