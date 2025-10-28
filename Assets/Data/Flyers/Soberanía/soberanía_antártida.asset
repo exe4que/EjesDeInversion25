@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: "soberan\xEDa_ant\xE1rtida"
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "ant\xE1rtida"
+  Title: "Ant\xE1rtida"
+  Subtitle: "Identidad, Ciencia y Soberan\xEDa desde el Fin del Mundo"
+  DescriptionTitle: 
+  Description: "La Ant\xE1rtida es parte indivisible de nuestra identidad. Los fueguinos
+    y fueguinas somos Ant\xE1rtida, somos Malvinas y el Atl\xE1ntico Sur. El compromiso
+    de nuestro Gobierno es renovar cada d\xEDa esa pertenencia Ant\xE1rtica, promoviendo
+    un\_modelo de preservaci\xF3n ambiental \xFAnico\_en el sector ant\xE1rtico y
+    fortaleciendo el desarrollo de la ciencia como herramienta de soberan\xEDa. \n\nLa
+    concreci\xF3n del Polo Log\xEDstico Ant\xE1rtico en Ushuaia consolida a la Argentina
+    como\_puerta de entrada natural al continente blanco, generando: \n\n- Fortalecimiento
+    de la soberan\xEDa nacional \n\n- Dinamizaci\xF3n de la econom\xEDa fueguina
+    \n\n- Posicionamiento internacional \n\n- Desarrollo tecnol\xF3gico \n\n- Proyecci\xF3n
+    geopol\xEDtica \n\nEste proyecto transforma la posici\xF3n estrat\xE9gica de
+    Tierra del Fuego en una\_herramienta de desarrollo con impacto federal, asegurando
+    que la provincia lidere, desde el sur del mundo, un modelo de presencia Ant\xE1rtica
+    responsable, innovadora y con proyecci\xF3n hacia las pr\xF3ximas generaciones."
+  CarouselImageNames:
+  - "soberan\xEDa_ant\xE1rtida"
+  PdfLinks: []

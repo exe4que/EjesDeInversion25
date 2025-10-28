@@ -84,12 +84,12 @@ MonoBehaviour:
       Name: Forestal
     - Id: desarrollo-productivo_minero
       Name: Minero
-  - Id: soberania
+  - Id: "soberan\xEDa"
     Name: "Soberan\xEDa"
     Icon: {fileID: 21300000, guid: 262e5ee15994dcc4ea2e50b0ae5203a5, type: 3}
     Color: {r: 0.8, g: 0.3, b: 0.7, a: 1}
     Categories:
-    - Id: "soberania_ant\xE1rtida"
+    - Id: "soberan\xEDa_ant\xE1rtida"
       Name: "Ant\xE1rtida"
-    - Id: soberania_malvinas
+    - Id: "soberan\xEDa_malvinas"
       Name: Malvinas

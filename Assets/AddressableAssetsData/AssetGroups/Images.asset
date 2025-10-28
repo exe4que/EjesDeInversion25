@@ -190,6 +190,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab45fe8a929a3404aa1e3de753f4d4cb
+    m_Address: "soberan\xEDa_ant\xE1rtida"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aff89e688dc8cd8469a4c3fdcaa981b2
     m_Address: desarrollo-productivo_industria
     m_ReadOnly: 0
@@ -212,6 +217,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c71e03f3a7ea2b34682308ccbb06de73
     m_Address: "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-r\xEDo-grande"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1f0d795d1b1b7d42a1c706c6662e904
+    m_Address: "soberan\xEDa_malvinas"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

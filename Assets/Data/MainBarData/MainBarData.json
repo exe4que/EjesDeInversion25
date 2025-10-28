@@ -59,12 +59,12 @@
       ]
     },
     {
-      "Id": "soberania",
+      "Id": "soberanía",
       "Name": "Soberanía",
       "Color": { "r": 0.80, "g": 0.30, "b": 0.70, "a": 1.0 },
       "Categories": [
-        { "Id": "soberania_antártida", "Name": "Antártida" },
-        { "Id": "soberania_malvinas", "Name": "Malvinas" }
+        { "Id": "soberanía_antártida", "Name": "Antártida" },
+        { "Id": "soberanía_malvinas", "Name": "Malvinas" }
       ]
     }
   ]

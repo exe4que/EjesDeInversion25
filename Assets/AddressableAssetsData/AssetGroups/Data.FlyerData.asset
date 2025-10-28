@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2af3282bf3d27b043bad69767938f16e
+    m_Address: "soberan\xEDa_ant\xE1rtida"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 373a98a7dee421744bafb08d7bca11d9
     m_Address: "infraestructura-productiva-y-conectividad_parques-e\xF3licos"
     m_ReadOnly: 0
@@ -52,6 +57,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6cc3f99f358c2a64c8e866b7ea70c3c4
     m_Address: infraestructura-productiva-y-conectividad_conectividad-vial
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7195a86ba0438bc4a8d214a762e616d3
+    m_Address: "soberan\xEDa_malvinas"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
