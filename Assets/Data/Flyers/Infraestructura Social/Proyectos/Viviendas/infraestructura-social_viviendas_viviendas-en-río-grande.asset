@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: "infraestructura-social_viviendas_viviendas-en-r\xEDo-grande"
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "infraestructura-social_viviendas_viviendas-en-r\xEDo-grande"
+  Title: "Viviendas en R\xEDo Grande"
+  Subtitle: "Tierras para el desarrollo de viviendas en R\xEDo Grande"
+  DescriptionTitle: 
+  Description: "En la ciudad de R\xEDo Grande se ha programado la construcci\xF3n
+    de mas de 3500 viviendas para familias que residan en la ciudad y sean para su
+    uso residencial permanente exclusivamente. Estas viviendas est\xE1n distribuidas
+    en distintas zonas de la ciudad y con variados dise\xF1os y tipolog\xEDas dependiendo
+    de las necesidades y requerimientos del lugar en donde se implanto el proyecto.
+    Estas obras alcanzan un monto de\_ 347.200.000,00\_ USD."
+  CarouselImageNames:
+  - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-1"
+  - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-2"
+  - "infraestructura-social_viviendas_tipolog\xEDa-individual"
+  PdfLinks: []
