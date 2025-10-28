@@ -13,28 +13,28 @@ MonoBehaviour:
   m_Name: PointersData
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.PointersData
   Pointers:
-  - Id: infraestructura-social_viviendas_vivienda 1
-    Name: Vivienda
-    Position: {x: -479.1186, y: 41.845894, z: 995}
-    ShortDescription: 10 pesitos
+  - Id: "infraestructura-social_viviendas_viviendas-en-r\xEDo-grande"
+    Name: Viviendas en Rio Grande
+    Position: {x: -525.7129, y: 76.576294, z: 995}
+    ShortDescription: "Tierras para el desarrollo de viviendas en R\xEDo Grande"
     IsLink: 1
-  - Id: infraestructura-social_viviendas_hotel-turistico
-    Name: "Hotel tur\xEDstico"
-    Position: {x: -517.41547, y: 41.821022, z: 995}
-    ShortDescription: $50.000.000
-    IsLink: 0
-  - Id: infraestructura-social_viviendas_complejo-viviendas
-    Name: Complejo de viviendas
-    Position: {x: -513.37445, y: 58.4807, z: 995}
-    ShortDescription: $150.000.000
-    IsLink: 0
-  - Id: infraestructura-social_hospitales_hospital-de-lujan
-    Name: Hospital de Lujan
-    Position: {x: -542.0917, y: 61.659527, z: 995}
-    ShortDescription: $30.000.000
-    IsLink: 0
-  - Id: infraestructura-social_hospitales_hospital-nuevo
-    Name: Hospital Nuevo
-    Position: {x: -548.2284, y: 92.51333, z: 995}
-    ShortDescription: $45.000.000
-    IsLink: 0
+  - Id: infraestructura-social_viviendas_viviendas-en-tolhuin
+    Name: Viviendas en Tolhuin
+    Position: {x: -522.2343, y: 55.428356, z: 995}
+    ShortDescription: Tierras para el desarrollo de viviendas en Tolhuin
+    IsLink: 1
+  - Id: infraestructura-social_viviendas_viviendas-en-ushuaia
+    Name: Viviendas en Ushuaia
+    Position: {x: -553.3824, y: 39.596535, z: 995}
+    ShortDescription: Tierras para el desarrollo de viviendas en Ushuaia
+    IsLink: 1
+  - Id: "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-r\xEDo-grande"
+    Name: "Centros de Salud en R\xEDo Grande"
+    Position: {x: -525.6101, y: 76.391396, z: 995}
+    ShortDescription: "Nuevos Centros de Salud en R\xEDo Grande"
+    IsLink: 1
+  - Id: infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-ushuaia
+    Name: Centros de Salud en Ushuaia
+    Position: {x: -553.3824, y: 39.596535, z: 995}
+    ShortDescription: Nuevos Centros de Salud en Ushuaia
+    IsLink: 1

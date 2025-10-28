@@ -1,0 +1,27 @@
+{
+    "Id": "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-ushuaiae",
+    "Title": "Centros de Salud en Ushuaia",
+    "Subtitle": "Nuevos Centros de Salud en Ushuaia",
+    "DescriptionTitle": "",
+    "Description": "- Centro de Atención Primaria de la Salud  (CAPS) - El Escondido \n\n- Centro Odontológico y Centro de Atención Primaria de la Salud (CAPS) – Barrio San Martín \n\n- Centro Odontológico y Centro de Atención Primaria de la Salud (CAPS) – Barrio San Martín",
+    "CarouselImageNames": [
+        "infraestructura-social_centros-de-salud-1",
+        "infraestructura-social_centros-de-salud-2",
+        "infraestructura-social_centros-de-salud-3",
+        "infraestructura-social_centros-de-salud-4",
+        "infraestructura-social_centros-de-salud-5",
+        "infraestructura-social_centros-de-salud-6",
+        "infraestructura-social_centros-de-salud-7"
+
+    ],
+    "PdfLinks": [
+        {
+            "Name": "",
+            "Url": ""
+        },
+        {
+            "Name": "",
+            "Url": ""
+        }
+    ]
+}
