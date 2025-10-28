@@ -855,6 +855,7 @@ MonoBehaviour:
   _closeButton: {fileID: 8021810018139345496}
   _pdfLinkTemplate: {fileID: 4160755855971515240}
   _pdfLinksContainer: {fileID: 2017524993963836718}
+  _pdfLinksTitle: {fileID: 2927663670647018648}
   _animationDuration: 0.3
   _animationEaseIn: 9
   _animationEaseOut: 8
@@ -1232,7 +1233,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 873093689881134527}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.97010654
+  m_Size: 0.9701066
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

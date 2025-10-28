@@ -22,6 +22,7 @@ namespace EjesDeInversion.Managers
         [SerializeField] private Button _closeButton;
         [SerializeField] private PdfLinkController _pdfLinkTemplate;
         [SerializeField] private GameObject _pdfLinksContainer;
+        [SerializeField] private TMP_Text _pdfLinksTitle;
 
         [Header("Animation")] [SerializeField] private float _animationDuration = 0.3f;
         [SerializeField] private Ease _animationEaseIn = Ease.OutCubic;
@@ -108,11 +109,16 @@ namespace EjesDeInversion.Managers
                 Destroy(child.gameObject);
             }
 
-            foreach (var pdfLink in flyerData.PdfLinks)
+            _pdfLinksTitle.gameObject.SetActive(flyerData.PdfLinks != null && flyerData.PdfLinks.Length > 0);
+            
+            if(flyerData.PdfLinks != null)
             {
-                var pdfLinkController = Instantiate(_pdfLinkTemplate, _pdfLinksContainer.transform);
-                pdfLinkController.SetData(pdfLink.Name, pdfLink.Url);
-                pdfLinkController.gameObject.SetActive(true);
+                foreach (var pdfLink in flyerData.PdfLinks)
+                {
+                    var pdfLinkController = Instantiate(_pdfLinkTemplate, _pdfLinksContainer.transform);
+                    pdfLinkController.SetData(pdfLink.Name, pdfLink.Url);
+                    pdfLinkController.gameObject.SetActive(true);
+                }
             }
         }
         
