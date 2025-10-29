@@ -1,4 +1,5 @@
 using System;
+using EjesDeInversion.Utilities;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -9,30 +10,38 @@ namespace EjesDeInversion
     {
         [Header("General")]
         [SerializeField] private Camera _camera;
-        [SerializeField] private InputActionReference Touch1;
-        [SerializeField] private InputActionReference Touch2;
-        [SerializeField] private InputActionReference Touch1Button;
-        [SerializeField] private InputActionReference Touch2Button;
-        [SerializeField] private InputActionReference ScrollWheel;
+        [SerializeField] private InputActionReference _touch1;
+        [SerializeField] private InputActionReference _touch2;
+        [SerializeField] private InputActionReference _touch1Button;
+        [SerializeField] private InputActionReference _touch2Button;
+        [SerializeField] private InputActionReference _scrollWheel;
+        //Middle mouse button can be used for rotating the camera instead of touch
+        [SerializeField] private InputActionReference _middleMouseButton;
 
         [Header("Zoom Settings")]
-        [SerializeField] private float DeadZoneDistance = 100f;
-        [SerializeField] private float ZoomSensitivityMobile = 1f;
-        [SerializeField] private float ZoomSensitivityDesktop = 20f;
-        [SerializeField] private float OrthographicSizeMin = 5f;
-        [SerializeField] private float OrthographicSizeMax = 350f;
+        [SerializeField] private float _deadZoneDistance = 30f;
+        [SerializeField] private float _zoomSensitivityMobile = 0.04f;
+        [SerializeField] private float _zoomSensitivityDesktop = 5f;
+        [SerializeField] private float _orthographicSizeMin = 15f;
+        [SerializeField] private float _orthographicSizeMax = 350f;
         
         [Header("Rotation Settings")]
-        [SerializeField] private float RotationSensitivity = 0.1f;
+        [SerializeField] private float _rotationGestureDiscerningSensitivity = 0.6f;
+        [SerializeField] private float _rotationSensitivityDesktop = 0.2f;
         
         private CinemachineCamera _cinemachineCamera;
         private CinemachineConfiner2D _cinemachineConfiner2D;
         private int _touchCount = 0;
         private Vector3 _initialCameraPosition;
+        private Quaternion _initialCameraRotation;
         private Vector2 _touch1StartPos;
         private Vector2 _touch2StartPos;
         private int _cameraMode = 0; // 0 = none/pan, 1 = zoom, 2 = rotate
         private float _initialOrthographicSize;
+        private float _initialMiddleMouseXPos;
+        private bool _isMiddleMousePressed = false;
+        
+        public static Action<float> OnCameraZRotationChanged;
 
         private void Awake()
         {
@@ -51,15 +60,37 @@ namespace EjesDeInversion
             
             this.transform.position = _camera.transform.position;
 
-            Vector2 touch1Pos = Touch1.action.ReadValue<Vector2>();
-            Vector2 touch2Pos = Touch2.action.ReadValue<Vector2>();
+            Vector2 touch1Pos = _touch1.action.ReadValue<Vector2>();
+            Vector2 touch2Pos = _touch2.action.ReadValue<Vector2>();
+            
+            float middleMouseButtonDeltaX = 0f;
+            // Check for middle mouse button for rotation
+            if (_middleMouseButton.action.IsPressed())
+            {
+                if (!_isMiddleMousePressed)
+                {
+                    _initialMiddleMouseXPos = Mouse.current.position.ReadValue().x;
+                    _isMiddleMousePressed = true;
+                    _cameraMode = 2; // Rotate
+                    _touchCount = 1;
+                }
+                
+                float currentMouseXPos = Mouse.current.position.ReadValue().x;
+                middleMouseButtonDeltaX = currentMouseXPos - _initialMiddleMouseXPos;
+                //Debug.Log($"Middle Mouse Delta X: {middleMouseButtonDeltaX}".Color(Color.aquamarine));
+            }
+            else
+            {
+                _isMiddleMousePressed = false;
+            }
 
-            float scrollValue = ScrollWheel.action.ReadValue<Vector2>().y;
-            if ((Touch1Button.action.IsPressed() && Touch2Button.action.IsPressed()) || Mathf.Abs(scrollValue) > 0f)
+            float scrollValue = _scrollWheel.action.ReadValue<Vector2>().y;
+            if ((_touch1Button.action.IsPressed() && _touch2Button.action.IsPressed()) || Mathf.Abs(scrollValue) > 0f || _isMiddleMousePressed)
             {
                 if (_touchCount != 2)
                 {
                     _initialCameraPosition = this.transform.localPosition;
+                    _initialCameraRotation = this.transform.rotation;
                     _touch1StartPos = touch1Pos;
                     _touch2StartPos = touch2Pos;
                     _touchCount = 2;
@@ -78,18 +109,18 @@ namespace EjesDeInversion
                 
                 float touch1Distance = Vector2.Distance(touch1Pos, _touch1StartPos);
 
-                if (_cameraMode == 2 || (_cameraMode == 0 && Mathf.Abs(dot) < RotationSensitivity && touch1Distance > DeadZoneDistance))
+                if (_cameraMode == 2 || (_cameraMode == 0 && Mathf.Abs(dot) < _rotationGestureDiscerningSensitivity && touch1Distance > _deadZoneDistance))
                 {
-                    HandleRotation(touch2Pos, touch1Pos);
+                    HandleRotation(touch2Pos, touch1Pos, middleMouseButtonDeltaX);
                 }
-                else if (_cameraMode == 1 || (_cameraMode == 0 && Mathf.Abs(dot) >= RotationSensitivity && touch1Distance > DeadZoneDistance))
+                else if (_cameraMode == 1 || (_cameraMode == 0 && Mathf.Abs(dot) >= _rotationGestureDiscerningSensitivity && touch1Distance > _deadZoneDistance))
                 {
                     HandleZoom(scrollValue, distanceDelta);
                 }
             }
-            else if (Touch1Button.action.IsPressed() && _cameraMode == 0)
+            else if (_touch1Button.action.IsPressed() && _cameraMode == 0)
             {
-                HandleMove(touch1Pos, touch2Pos);
+                HandleMove(touch1Pos);
             }
             else
             {
@@ -99,20 +130,21 @@ namespace EjesDeInversion
             //Debug.Log($"Touch count: {_touchCount}, Touch1: {Touch1Button.action.IsPressed()}, Touch2: {Touch2Button.action.IsPressed()}" );
         }
 
-        private void HandleRotation(Vector2 touch2Pos, Vector2 touch1Pos)
+        private void HandleRotation(Vector2 touch2Pos, Vector2 touch1Pos, float middleMouseDeltaX = 0f)
         {
             _cameraMode = 2; // Rotate
-            float angle = Vector2.SignedAngle(_touch2StartPos - _touch1StartPos, touch2Pos - touch1Pos);
-            this.transform.rotation = Quaternion.Euler(0f, 0f, -angle);
+            float angle = Vector2.SignedAngle(touch2Pos - touch1Pos, _touch2StartPos - _touch1StartPos);
+            angle += middleMouseDeltaX * _rotationSensitivityDesktop;
+            this.transform.rotation = _initialCameraRotation * Quaternion.Euler(0f, 0f, angle);
+            OnCameraZRotationChanged?.Invoke(this.transform.rotation.eulerAngles.z);
         }
 
-        private void HandleMove(Vector2 touch1Pos, Vector2 touch2Pos)
+        private void HandleMove(Vector2 touch1Pos)
         {
             if (_touchCount != 1)
             {
                 _initialCameraPosition = this.transform.position;
                 _touch1StartPos = touch1Pos;
-                _touch2StartPos = touch2Pos;
                 _touchCount = 1;
             }
 
@@ -139,12 +171,12 @@ namespace EjesDeInversion
             if (Mathf.Abs(scrollValue) > 0f)
             {
                 zoomInput = scrollValue;
-                sensitivity = ZoomSensitivityDesktop;
+                sensitivity = _zoomSensitivityDesktop;
             }
             else
             {
                 zoomInput = distanceDelta;
-                sensitivity = ZoomSensitivityMobile;
+                sensitivity = _zoomSensitivityMobile;
             }
             
             float logScale = Mathf.Log(_initialOrthographicSize + 1f); // smaller orthographic sizes -> smaller effect
@@ -152,7 +184,7 @@ namespace EjesDeInversion
                 
             //set camera orthographic size
             float newSize = _initialOrthographicSize - sizeDelta;
-            newSize = Mathf.Clamp(newSize, OrthographicSizeMin, OrthographicSizeMax);
+            newSize = Mathf.Clamp(newSize, _orthographicSizeMin, _orthographicSizeMax);
             _cinemachineCamera.Lens.OrthographicSize = newSize;
         }
     }
