@@ -26,8 +26,4 @@ MonoBehaviour:
     oportunidades para fortalecer el tejido social en toda la provincia."
   CarouselImageNames:
   - "infraestructura-social_equipamiento-comunitario_casa-de-la-alegr\xEDa-ushuaia"
-  PdfLinks:
-  - Name: 
-    Url: 
-  - Name: 
-    Url: 
+  PdfLinks: []
