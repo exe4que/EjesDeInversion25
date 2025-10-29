@@ -305,8 +305,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ductos de gas troncales
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5193f240335ece16a6ff7c7b1a06949, type: 2}
-  m_sharedMaterial: {fileID: 800182828258634792, guid: d5193f240335ece16a6ff7c7b1a06949, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
