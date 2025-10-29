@@ -21,10 +21,8 @@
       "Color": { "r": 0.15, "g": 0.68, "b": 0.38, "a": 1.0 },
       "Categories": [
         { "Id": "infraestructura-productiva-y-conectividad_puertos", "Name": "Puertos" },
-        { "Id": "infraestructura-productiva-y-conectividad_conexiónes-industriales", "Name": "Conexiones Industriales" },
-        { "Id": "infraestructura-productiva-y-conectividad_plantas-de-licuefacción", "Name": "Plantas de Licuefacción" },
-        { "Id": "infraestructura-productiva-y-conectividad_parques-eólicos", "Name": "Parques Eólicos" },
-        { "Id": "infraestructura-productiva-y-conectividad_conectividad-vial", "Name": "Conectividad Vial" }
+        { "Id": "infraestructura-productiva-y-conectividad_conectividad-vial", "Name": "Conectividad Vial" },
+        { "Id": "infraestructura-productiva-y-conectividad_recursos-energéticos", "Name": "Recursos Energéticos" }
       ]
     },
     {
@@ -32,17 +30,8 @@
       "Name": "Infraestructura Logística",
       "Color": { "r": 0.24, "g": 0.52, "b": 0.88, "a": 1.0 },
       "Categories": [
-        { "Id": "infraestructura-logística_polos-logísticos", "Name": "Polos Logísticos" },
-        { "Id": "infraestructura-logística_playas-de-contenedores", "Name": "Playas de Contenedores" }        
-      ]
-    },
-    {
-      "Id": "recursos-energéticos",
-      "Name": "Recursos Energéticos",
-      "Color": { "r": 0.96, "g": 0.73, "b": 0.20, "a": 1.0 },
-      "Categories": [
-        { "Id": "recursos-energéticos_explotación-de-hidrocarburos", "Name": "Explotación de Hidrocarburos" },
-        { "Id": "recursos-energéticos_nuevos-reservorios-on-y-off-shore", "Name": "Nuevos Reservorios On y Off Shores" }
+        { "Id": "infraestructura-logística_polo-logístico-antártico", "Name": "Polo Logístico Antártico" },        
+        { "Id": "infraestructura-logística_polo-almanza", "Name": "Polo Almanza" }
       ]
     },
     {

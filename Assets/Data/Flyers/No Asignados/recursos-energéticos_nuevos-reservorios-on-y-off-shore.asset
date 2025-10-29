@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: "recursos-energ\xE9ticos_nuevos-reservorios-on-y-off-shore"
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: nuevos-reservorios-on-y-off-shore
+  Title: Nuevos Reservorios On y Off Shore
+  Subtitle: "Transformaci\xF3n Estrat\xE9gica para Tierra del Fuego"
+  DescriptionTitle: 
+  Description: "La materializaci\xF3n de proyectos de exploraci\xF3n y producci\xF3n
+    en nuevos reservorios\_onshore\_y\_offshore\_representa m\xFAltiples beneficios
+    como:\_\n\nFortalecimiento de la Soberan\xEDa Energ\xE9tica: permitir\xE1 reducir
+    la dependencia de fuentes externas, garantizando el abastecimiento de gas y otros
+    hidrocarburos para el consumo interno y la industria local.\_\n\nDinamizaci\xF3n
+    Econ\xF3mica y Generaci\xF3n de Empleo: Se crear\xE1n empleos directos e indirectos,
+    con especial \xE9nfasis en la formaci\xF3n de t\xE9cnicos y profesionales fueguinos.
+    \n\nDiversificaci\xF3n Productiva: El acceso a nuevos recursos energ\xE9ticos
+    facilitar\xE1 el surgimiento de industrias derivadas, como la petroqu\xEDmica
+    o la fabricaci\xF3n de GNL, agregando valor en origen y reduciendo la volatilidad
+    de una econom\xEDa dependiente de sectores tradicionales. \n\nLa concreci\xF3n
+    de estos proyectos no solo asegurar\xE1 el autoabastecimiento energ\xE9tico,
+    sino que transformar\xE1 a Tierra del Fuego en un\_hub de desarrollo tecnol\xF3gico,
+    log\xEDstico e industrial, con proyecci\xF3n sostenible en el largo plazo y una
+    posici\xF3n fortalecida en el mapa geopol\xEDtico nacional e internacional."
+  CarouselImageNames:
+  - "recursos-energ\xE9ticos_explotaci\xF3n-de-hidrocarburos_nuevos-reservorios-on-y-off-shore"
+  PdfLinks: []

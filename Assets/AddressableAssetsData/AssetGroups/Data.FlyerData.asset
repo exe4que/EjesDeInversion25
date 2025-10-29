@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1171c36d3e2da1b41ab3f61b30d8147a
+    m_Address: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 17edbbc79d094eb49b8dd617bc39c101
     m_Address: infraestructura-social_viviendas_viviendas-en-ushuaia
     m_ReadOnly: 0
@@ -82,6 +87,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60c76011c622df14c97238e829448d96
     m_Address: infraestructura-social_centros-de-salud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61d5e4e549be5d742a9b85341bb97d27
+    m_Address: "infraestructura-productiva-y-conectividad_recursos-energ\xE9ticos"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -190,8 +200,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: deec3a35b266bd642ac441a12bad9f51
-    m_Address: "infraestructura-log\xEDstica_polos-log\xEDsticos"
+  - m_GUID: d0fdfb5137bb0cb45947a1086b8b873d
+    m_Address: "infraestructura-log\xEDstica_polo-almanza"
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

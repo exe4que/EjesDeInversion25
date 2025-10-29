@@ -33,7 +33,7 @@
             "ShortDescription": "Tierras para el desarrollo de viviendas en Ushuaia",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-río-grande",
             "Name": "Centros de Salud en Río Grande",
             "Position": {
@@ -44,7 +44,7 @@
             "ShortDescription": "Nuevos Centros de Salud en Río Grande",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-ushuaia",
             "Name": "Centros de Salud en Ushuaia",
             "Position": {
@@ -55,7 +55,7 @@
             "ShortDescription": "Nuevos Centros de Salud en Ushuaia",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-ushuaia",
             "Name": "Escuela Técnica Profesional en Ushuaia",
             "Position": {
@@ -66,7 +66,7 @@
             "ShortDescription": "Nuevas Escuelas en Ushuaia",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-tolhuin",
             "Name": "Escuela Técnica Profesional en Tolhuin",
             "Position": {
@@ -77,7 +77,7 @@
             "ShortDescription": "Nuevas Escuelas en Tolhuin",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-río-grande",
             "Name": "Escuela Técnica Profesional en Río Grande",
             "Position": {
@@ -88,7 +88,7 @@
             "ShortDescription": "Nuevas Escuelas en Río Grande",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_innovación_fábrica-de-talento-e-innovación-en-tolhuin",
             "Name": "Fábricas de Talento e Innovación en Tolhuin",
             "Position": {
@@ -99,7 +99,7 @@
             "ShortDescription": "Fábricas de Talento e Innovación en Tolhuin",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_innovación_fábrica-de-talento-e-innovación-en-río-grande",
             "Name": "Fábricas de Talento e Innovación",
             "Position": {
@@ -110,7 +110,7 @@
             "ShortDescription": "Fábricas de Talento e Innovación en Río Grande",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-río-grande",
             "Name": "Infraestructura Deportiva en Río Grande",
             "Position": {
@@ -121,7 +121,7 @@
             "ShortDescription": "Inversiónes concretas en Río Grande",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-ushuaia",
             "Name": "Infraestructura Deportiva en Ushuaia",
             "Position": {
@@ -132,7 +132,7 @@
             "ShortDescription": "Inversiónes concretas en Ushuaia",
             "IsLink": true
         },
-                {
+        {
             "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-tolhuin",
             "Name": "Infraestructura Deportiva en Tolhuin",
             "Position": {
@@ -142,6 +142,28 @@
             },
             "ShortDescription": "Inversiónes concretas en Tolhuin",
             "IsLink": true
+        },
+        {
+            "Id": "infraestructura-logística_polo-logístico-antártico_polo-logístico-antártico",
+            "Name": "Polo Logístico Antártico",
+            "Position": {
+                "x": -553.3823852539063,
+                "y": 39.596534729003909,
+                "z": 995.0
+            },
+            "ShortDescription": "Inversiónes en Ushuaia",
+            "IsLink": false
+        },
+        {
+            "Id": "infraestructura-logística_polo-almanza_polo-almanza",
+            "Name": "Polo Almanza",
+            "Position": {
+                "x": -532.4698486328125,
+                "y": 38.30864334106445,
+                "z": 995.0
+            },
+            "ShortDescription": "Inversiónes en Puerto Almanza",
+            "IsLink": false
         }
     ]
 }
