@@ -78,3 +78,13 @@ MonoBehaviour:
     Position: {x: -522.2343, y: 55.428356, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en Tolhuin"
     IsLink: 1
+  - Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico_polo-log\xEDstico-ant\xE1rtico"
+    Name: "Polo Log\xEDstico Ant\xE1rtico"
+    Position: {x: -553.3824, y: 39.596535, z: 995}
+    ShortDescription: "Inversi\xF3nes en Ushuaia"
+    IsLink: 0
+  - Id: "infraestructura-log\xEDstica_polo-almanza_polo-almanza"
+    Name: Polo Almanza
+    Position: {x: -532.46985, y: 38.308643, z: 995}
+    ShortDescription: "Inversi\xF3nes en Puerto Almanza"
+    IsLink: 0
