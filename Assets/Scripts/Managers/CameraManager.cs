@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using EjesDeInversion.Utilities;
 using Unity.Cinemachine;
@@ -241,21 +242,59 @@ namespace EjesDeInversion.Managers
             Rotate = 2
         }
 
-        public static void GoToLocation(Vector3 locationDataCameraPosition, int locationDataCameraSize)
+        public static void GoToLocation(Vector3 locationDataCameraPosition, float locationDataCameraSize)
         {
             instance.GoToLocationInternal(locationDataCameraPosition, locationDataCameraSize);
         }
 
-        private void GoToLocationInternal(Vector3 locationDataCameraPosition, int locationDataCameraSize)
+        private void GoToLocationInternal(Vector3 locationDataCameraPosition, float locationDataCameraSize)
         {
             _cameraMode = 0;
-            //tween to location position
-            this.transform.DOMove(locationDataCameraPosition, _goToLocationDuration)
-                .SetEase(_goToLocationEase);
-            //tween to location orthographic size
-            DOVirtual.Float(_cinemachineCamera.Lens.OrthographicSize, locationDataCameraSize, _goToLocationDuration,
-                (value) => { _cinemachineCamera.Lens.OrthographicSize = value; }).SetEase(_goToLocationEase);
-            RealignRotationInternal();
+            Vector3 projectedPosition;
+            if (Physics.Raycast(this.transform.position, this.transform.forward, out RaycastHit hit, 10000f))
+            {
+                projectedPosition = hit.point;
+                Vector3 relativePosition = locationDataCameraPosition - projectedPosition;
+                locationDataCameraPosition = this.transform.position + relativePosition;
+                
+                //tween to location position
+                this.transform.DOMove(locationDataCameraPosition, _goToLocationDuration)
+                    .SetEase(_goToLocationEase);
+                //tween to location orthographic size
+                DOVirtual.Float(_cinemachineCamera.Lens.OrthographicSize, locationDataCameraSize, _goToLocationDuration,
+                    (value) => { _cinemachineCamera.Lens.OrthographicSize = value; }).SetEase(_goToLocationEase);
+                RealignRotationInternal();
+            }
+        }
+        
+        private void GoToClosestPointerInternal(List<PointerController> pointers)
+        {
+            Vector3 cameraProjectedPosition;
+            if (Physics.Raycast(this.transform.position, this.transform.forward, out RaycastHit hit, 10000f))
+            {
+                cameraProjectedPosition = hit.point;
+                var closestPointer = pointers[0];
+                float closestDistance = Vector3.Distance(cameraProjectedPosition, closestPointer.transform.position);
+                for (int i = 1; i < pointers.Count; i++)
+                {
+                    float distance = Vector3.Distance(cameraProjectedPosition, pointers[i].transform.position);
+                    if (distance < closestDistance)
+                    {
+                        closestDistance = distance;
+                        closestPointer = pointers[i];
+                    }
+                }
+                GoToLocation(closestPointer.GetCameraPosition(), _cinemachineCamera.Lens.OrthographicSize);
+            }
+        }
+
+        public static void GoToClosestPointer(List<PointerController> pointers)
+        {
+            if (pointers == null || pointers.Count == 0)
+            {
+                return;
+            }
+            instance.GoToClosestPointerInternal(pointers);
         }
     }
 }

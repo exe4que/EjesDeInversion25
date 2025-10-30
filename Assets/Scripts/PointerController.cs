@@ -47,5 +47,10 @@ namespace EjesDeInversion
             // follow the screen position
             transform.position = screenPosition;
         }
+
+        public Vector3 GetCameraPosition()
+        {
+            return _data.Position;
+        }
     }
 }

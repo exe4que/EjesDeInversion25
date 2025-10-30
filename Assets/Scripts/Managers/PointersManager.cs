@@ -84,7 +84,7 @@ namespace EjesDeInversion.Managers
             }
         }
         
-        private void FilterPointersByAxisInternal(MainBarData.InvestmentAxisButtonData axisData)
+        private List<PointerController> FilterPointersByAxisInternal(MainBarData.InvestmentAxisButtonData axisData)
         {
             ClearPointers();
             foreach (PointerData pointerData in _pointersData.Pointers)
@@ -97,14 +97,15 @@ namespace EjesDeInversion.Managers
                     _pointers.Add(pointer);
                 }
             }
+            return _pointers;
         }
 
-        public static void FilterPointersByAxis(MainBarData.InvestmentAxisButtonData axisData)
+        public static List<PointerController> FilterPointersByAxis(MainBarData.InvestmentAxisButtonData axisData)
         {
-            instance.FilterPointersByAxisInternal(axisData);
+            return instance.FilterPointersByAxisInternal(axisData);
         }
         
-        private void FilterPointersBySubcategoryInternal(MainBarData.InvestmentAxisCategoryData categoryData)
+        private List<PointerController> FilterPointersBySubcategoryInternal(MainBarData.InvestmentAxisCategoryData categoryData)
         {
             ClearPointers();
             foreach (PointerData pointerData in _pointersData.Pointers)
@@ -117,11 +118,12 @@ namespace EjesDeInversion.Managers
                     _pointers.Add(pointer);
                 }
             }
+            return _pointers;
         }
 
-        public static void FilterPointersBySubcategory(MainBarData.InvestmentAxisCategoryData categoryData)
+        public static List<PointerController> FilterPointersBySubcategory(MainBarData.InvestmentAxisCategoryData categoryData)
         {
-            instance.FilterPointersBySubcategoryInternal(categoryData);
+            return instance.FilterPointersBySubcategoryInternal(categoryData);
         }
 
         private void ClearPointers()
