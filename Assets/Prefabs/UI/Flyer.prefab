@@ -71,8 +71,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -770.32}
-  m_SizeDelta: {x: 799.15906, y: 670.88}
+  m_AnchoredPosition: {x: 459.57953, y: -864.27}
+  m_SizeDelta: {x: 799.15906, y: 729.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4237819164066614802
 CanvasRenderer:
@@ -109,15 +109,15 @@ MonoBehaviour:
     necesidades y requerimientos del lugar en donde se implanto el proyecto.\n\nEstas
     obras alcanzan un monto de 347.200.000,00 USD."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5193f240335ece16a6ff7c7b1a06949, type: 2}
-  m_sharedMaterial: {fileID: -287564418728112334, guid: d5193f240335ece16a6ff7c7b1a06949, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7b758372317eacb4293f1c0ab7122b28, type: 2}
+  m_sharedMaterial: {fileID: 3115048540015602742, guid: 7b758372317eacb4293f1c0ab7122b28, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281413678
-  m_fontColor: {r: 0.18039216, g: 0.1882353, b: 0.19215687, a: 1}
+    rgba: 4280558628
+  m_fontColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -231,7 +231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -166.02}
+  m_AnchoredPosition: {x: 459.57953, y: -215.03}
   m_SizeDelta: {x: 799.15906, y: 24.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5549378023113194821
@@ -289,8 +289,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -258.925}
-  m_SizeDelta: {x: 799.15906, y: 144.91}
+  m_AnchoredPosition: {x: 459.57953, y: -313.185}
+  m_SizeDelta: {x: 799.15906, y: 155.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3978733421579970533
 CanvasRenderer:
@@ -322,15 +322,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tierras para el desarrollo de nuevas viviendas en la ciudad
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d5193f240335ece16a6ff7c7b1a06949, type: 2}
-  m_sharedMaterial: {fileID: -287564418728112334, guid: d5193f240335ece16a6ff7c7b1a06949, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ee3ac70cb05e39c41be98f8780e0712d, type: 2}
+  m_sharedMaterial: {fileID: -1259577996720980076, guid: ee3ac70cb05e39c41be98f8780e0712d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281413678
-  m_fontColor: {r: 0.18039216, g: 0.1882353, b: 0.19215687, a: 1}
+    rgba: 4280624421
+  m_fontColor: {r: 0.14509805, g: 0.14509805, b: 0.14509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -444,7 +444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -1769.3099}
+  m_AnchoredPosition: {x: 459.57953, y: -1892.4601}
   m_SizeDelta: {x: 799.15906, y: 38.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7614420667347846505
@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -388.43002}
-  m_SizeDelta: {x: 799.15906, y: 76.9}
+  m_AnchoredPosition: {x: 459.57953, y: -450.56003}
+  m_SizeDelta: {x: 799.15906, y: 82.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5909491754872665505
 CanvasRenderer:
@@ -535,15 +535,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Descripci\xF3n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 105000bb57cd9ee92a478e3c5f22a038, type: 2}
-  m_sharedMaterial: {fileID: 417771360976729595, guid: 105000bb57cd9ee92a478e3c5f22a038, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f33f25815926582489dea4f741b6b11c, type: 2}
+  m_sharedMaterial: {fileID: 2745691496344003810, guid: f33f25815926582489dea4f741b6b11c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281413678
-  m_fontColor: {r: 0.18039216, g: 0.1882353, b: 0.19215687, a: 1}
+    rgba: 4280624421
+  m_fontColor: {r: 0.14509805, g: 0.14509805, b: 0.14509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -657,7 +657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -1891.5599}
+  m_AnchoredPosition: {x: 459.57953, y: -2003.03}
   m_SizeDelta: {x: 799.15906, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607491128426900368
@@ -934,8 +934,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -1835.1099}
-  m_SizeDelta: {x: 799.15906, y: 76.9}
+  m_AnchoredPosition: {x: 459.57953, y: -1952.42}
+  m_SizeDelta: {x: 799.15906, y: 65.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3040112309940280862
 CanvasRenderer:
@@ -974,8 +974,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281413678
-  m_fontColor: {r: 0.18039216, g: 0.1882353, b: 0.19215687, a: 1}
+    rgba: 4280624421
+  m_fontColor: {r: 0.14509805, g: 0.14509805, b: 0.14509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -992,8 +992,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 45.8
+  m_fontSizeBase: 45.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1089,7 +1089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -1125.71}
+  m_AnchoredPosition: {x: 459.57953, y: -1248.86}
   m_SizeDelta: {x: 799.15906, y: 23.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4543020030813181573
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 873093689881134527}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.97010654
+  m_Size: 0.9179424
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1537,7 +1537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.4481132, b: 0.4481132, a: 1}
+  m_Color: {r: 1, g: 0.4481132, b: 0.4481132, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1723,8 +1723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -99.285}
-  m_SizeDelta: {x: 799.15906, y: 92.57}
+  m_AnchoredPosition: {x: 459.57953, y: -123.79}
+  m_SizeDelta: {x: 799.15906, y: 141.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4563405656895258543
 CanvasRenderer:
@@ -1756,15 +1756,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Viviendas en R\xEDo Grande"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 105000bb57cd9ee92a478e3c5f22a038, type: 2}
-  m_sharedMaterial: {fileID: 417771360976729595, guid: 105000bb57cd9ee92a478e3c5f22a038, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ee3ac70cb05e39c41be98f8780e0712d, type: 2}
+  m_sharedMaterial: {fileID: -1259577996720980076, guid: ee3ac70cb05e39c41be98f8780e0712d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281413678
-  m_fontColor: {r: 0.18039216, g: 0.1882353, b: 0.19215687, a: 1}
+    rgba: 4278216447
+  m_fontColor: {r: 1, g: 0.4, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1787,7 +1787,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1878,7 +1878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 459.57953, y: -340.68}
+  m_AnchoredPosition: {x: 459.57953, y: -400.19}
   m_SizeDelta: {x: 799.15906, y: 2.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3302247637013202653
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9954f50247219c09f853141844b4e247, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af9e96b37e771eb48b24c99758090cf8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2163,7 +2163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 687378445335304712, guid: 176cabc71c5e0a55a8f52c4317717c69, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1443.81
+      value: -1566.9601
       objectReference: {fileID: 0}
     - target: {fileID: 687378445335304712, guid: 176cabc71c5e0a55a8f52c4317717c69, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
