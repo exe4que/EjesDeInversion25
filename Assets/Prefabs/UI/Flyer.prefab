@@ -723,8 +723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 79.51306}
-  m_SizeDelta: {x: 0, y: -159.0261}
+  m_AnchoredPosition: {x: 0, y: 304.4}
+  m_SizeDelta: {x: 0, y: -608.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2286279979712103323
 CanvasRenderer:
@@ -1091,8 +1091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 34.52998}
-  m_SizeDelta: {x: 0, y: 69.06003}
+  m_AnchoredPosition: {x: 0, y: 317.39496}
+  m_SizeDelta: {x: 0, y: -496.67004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1710578542642189680
 CanvasRenderer:
@@ -1225,7 +1225,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -7, y: -75}
-  m_SizeDelta: {x: 21, y: 52.310005}
+  m_SizeDelta: {x: 21, y: -93.770004}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &8066471564812937062
 CanvasRenderer:
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 873093689881134527}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.8883952
+  m_Size: 0.67841446
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1437,8 +1437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 282.86505}
+  m_SizeDelta: {x: 0, y: -565.72986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4303488382274543718
 CanvasRenderer:
@@ -2276,6 +2276,10 @@ PrefabInstance:
     - target: {fileID: 819301507295845452, guid: 176cabc71c5e0a55a8f52c4317717c69, type: 3}
       propertyPath: m_SizeDelta.y
       value: 457.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 819301507295845452, guid: 176cabc71c5e0a55a8f52c4317717c69, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -249
       objectReference: {fileID: 0}
     - target: {fileID: 1240887621508989880, guid: 176cabc71c5e0a55a8f52c4317717c69, type: 3}
       propertyPath: m_Name
