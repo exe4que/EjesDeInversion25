@@ -1,6 +1,7 @@
 using System;
 using DG.Tweening;
 using EjesDeInversion.Data;
+using EjesDeInversion.Managers;
 using UnityEngine;
 
 namespace EjesDeInversion
@@ -27,10 +28,13 @@ namespace EjesDeInversion
 
         private void LoadLocationsData()
         {
-            _locationsData = Resources.Load<LocationsData>("LocationsData");
-            if (_locationsData == null)
+            if (DataManager.TryLoad<LocationsData>("LocationsData", out var data))
             {
-                Debug.LogError("LocationsData asset not found in Resources folder.");
+                _locationsData = data;
+            }
+            else
+            {
+                Debug.LogError("Failed to load LocationsData.");
             }
         }
         

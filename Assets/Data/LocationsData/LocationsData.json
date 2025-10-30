@@ -1,0 +1,70 @@
+{
+    "Locations": [
+        {
+            "Id": "location_tierra-del-fuego",
+            "Name": "Tierra del Fuego",
+            "IconName": "innovacion-tierradelfuego-tierra del fuego",
+            "CameraPosition": {
+                "x": -537.3794555664063,
+                "y": 55.33655548095703,
+                "z": 995.0
+            },
+            "CameraSize": 100
+        },
+        {
+            "Id": "location_islas-malvinas",
+            "Name": "Islas Malvinas",
+            "IconName": "innovacion-tierradelfuego-icono-islas-malvinas",
+            "CameraPosition": {
+                "x": -320.95196533203127,
+                "y": 175.8472900390625,
+                "z": 995.0
+            },
+            "CameraSize": 100
+        },
+        {
+            "Id": "location_islas-georgias",
+            "Name": "Islas Georgias del Sur",
+            "IconName": "innovacion-tierradelfuego-icono-islas-georgias",
+            "CameraPosition": {
+                "x": 289.9259338378906,
+                "y": 59.92408752441406,
+                "z": 995.0
+            },
+            "CameraSize": 100
+        },
+        {
+            "Id": "location_islas-orcadas",
+            "Name": "Islas Orcadas del Sur",
+            "IconName": "innovacion-tierradelfuego-icono-islas-orcadas",
+            "CameraPosition": {
+                "x": 54.310325622558597,
+                "y": -248.17735290527345,
+                "z": 995.0
+            },
+            "CameraSize": 100
+        },
+        {
+            "Id": "location_islas-sandwich",
+            "Name": "Islas Sandwich del Sur",
+            "IconName": "innovacion-tierradelfuego-icono-islas-sandwich",
+            "CameraPosition": {
+                "x": 554.8814697265625,
+                "y": -117.9002685546875,
+                "z": 995.0
+            },
+            "CameraSize": 100
+        },
+        {
+            "Id": "location_islas-shetland",
+            "Name": "Islas Shetland del Sur",
+            "IconName": "innovacion-tierradelfuego-icono-islas-shetland",
+            "CameraPosition": {
+                "x": -289.0543518066406,
+                "y": -330.1177673339844,
+                "z": 995.0
+            },
+            "CameraSize": 100
+        }
+    ]
+}

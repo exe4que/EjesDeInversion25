@@ -48,7 +48,7 @@ namespace EjesDeInversion.Managers
 
         public static void TryShow(string id)
         {
-            if (DataManager.TryLoadData(id, out FlyerData flyerData))
+            if (DataManager.TryLoad(id, out FlyerData flyerData))
             {
                 Show(flyerData);
             }

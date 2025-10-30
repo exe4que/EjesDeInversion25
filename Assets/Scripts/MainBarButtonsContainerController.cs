@@ -52,7 +52,7 @@ namespace EjesDeInversion
         private void CreateButtons()
         {
             MainBarData mainBarData;
-            if (!DataManager.TryLoadData("MainBarData", out mainBarData))
+            if (!DataManager.TryLoad("MainBarData", out mainBarData))
             {
                 Debug.LogError("Could not load MainBarData to create buttons.");
                 return;

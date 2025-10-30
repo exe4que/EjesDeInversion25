@@ -7,7 +7,7 @@ namespace EjesDeInversion.Managers
 {
     public class DataManager : Singleton<DataManager>
     {
-        public static bool TryLoadData<T>(string id, out T res) where T : ScriptableObject
+        public static bool TryLoad<T>(string id, out T res) where T : Object
         {
             var locations = Addressables.LoadResourceLocationsAsync(id).WaitForCompletion();
             if(locations == null || locations.Count == 0)

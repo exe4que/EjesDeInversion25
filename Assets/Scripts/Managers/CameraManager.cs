@@ -34,6 +34,10 @@ namespace EjesDeInversion.Managers
         [SerializeField] private float _rotationRealignDuration = 0.4f;
         [SerializeField] private Ease _rotationRealignEase = Ease.InOutSine;
         
+        [Header("Go To Location Animation")]
+        [SerializeField] private float _goToLocationDuration = 1.0f;
+        [SerializeField] private Ease _goToLocationEase = Ease.InOutCubic;
+        
         private CinemachineCamera _cinemachineCamera;
         private CinemachineConfiner2D _cinemachineConfiner2D;
         private int _touchCount = 0;
@@ -235,6 +239,23 @@ namespace EjesDeInversion.Managers
             None = 0,
             Zoom = 1,
             Rotate = 2
+        }
+
+        public static void GoToLocation(Vector3 locationDataCameraPosition, int locationDataCameraSize)
+        {
+            instance.GoToLocationInternal(locationDataCameraPosition, locationDataCameraSize);
+        }
+
+        private void GoToLocationInternal(Vector3 locationDataCameraPosition, int locationDataCameraSize)
+        {
+            _cameraMode = 0;
+            //tween to location position
+            this.transform.DOMove(locationDataCameraPosition, _goToLocationDuration)
+                .SetEase(_goToLocationEase);
+            //tween to location orthographic size
+            DOVirtual.Float(_cinemachineCamera.Lens.OrthographicSize, locationDataCameraSize, _goToLocationDuration,
+                (value) => { _cinemachineCamera.Lens.OrthographicSize = value; }).SetEase(_goToLocationEase);
+            RealignRotationInternal();
         }
     }
 }

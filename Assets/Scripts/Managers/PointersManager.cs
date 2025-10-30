@@ -21,7 +21,7 @@ namespace EjesDeInversion.Managers
         
         private void Start()
         {
-            if(DataManager.TryLoadData("PointersData", out PointersData data))
+            if(DataManager.TryLoad("PointersData", out PointersData data))
             {
                 _pointersData = data;
                 InitializeData();
