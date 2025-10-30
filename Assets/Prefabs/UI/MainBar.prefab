@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 51.399902}
+  m_AnchoredPosition: {x: 0, y: 27}
   m_SizeDelta: {x: 0, y: 130}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &7922040796664504793
@@ -142,15 +142,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "INFRAESTRUCTURA LOG\xCDSTICA"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 105000bb57cd9ee92a478e3c5f22a038, type: 2}
-  m_sharedMaterial: {fileID: 417771360976729595, guid: 105000bb57cd9ee92a478e3c5f22a038, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ee3ac70cb05e39c41be98f8780e0712d, type: 2}
+  m_sharedMaterial: {fileID: -1259577996720980076, guid: ee3ac70cb05e39c41be98f8780e0712d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284308829
-  m_fontColor: {r: 0.3647059, g: 0.3647059, b: 0.3647059, a: 1}
+    rgba: 4282795592
+  m_fontColor: {r: 0.2830189, g: 0.2763439, b: 0.2763439, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -292,6 +292,81 @@ MonoBehaviour:
   _buttonsContainerLayoutGroup: {fileID: 4732464794620513953}
   _scrollRect: {fileID: 7475022841670826655}
   _buttonTemplate: {fileID: 3573356057773779613}
+--- !u!1 &3881472337804605885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2973472805569227589}
+  - component: {fileID: 7939519135448272447}
+  - component: {fileID: 3248236044576927068}
+  m_Layer: 5
+  m_Name: Background Grey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2973472805569227589
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881472337804605885}
+  m_LocalRotation: {x: -0, y: 0.008726558, z: -0, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4473774477167774159}
+  m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1529.2, y: 308.08}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &7939519135448272447
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881472337804605885}
+  m_CullTransparentMesh: 1
+--- !u!114 &3248236044576927068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881472337804605885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 969c3024e9d885ded9f0ea0610f5a3f3, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 0.78
 --- !u!1 &4178745744460480439
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,6 +642,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2973472805569227589}
   - {fileID: 6724394557935183132}
   - {fileID: 2687556612931278582}
   - {fileID: 1146487432089954160}
@@ -913,7 +989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_AnchorMin.x
@@ -921,7 +997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_SizeDelta.x
@@ -961,11 +1037,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -126.87192
       objectReference: {fileID: 0}
     - target: {fileID: 650377855780891284, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -979,9 +1055,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7179552947514374194, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7264697327960225954, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
       propertyPath: m_Name
       value: MainBarButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264697327960225954, guid: 7cf19af0dd1b369e99245747cf702064, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
