@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc9f283570a451dacd9835e33952439, type: 3}
+  m_Name: LocationsData
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.LocationsData
+  Locations:
+  - Id: location_tierra-del-fuego
+    Name: Tierra del Fuego
+    IconName: innovacion-tierradelfuego-tierra del fuego
+    CameraPosition: {x: -537.37946, y: 55.336555, z: 995}
+    CameraSize: 100
+  - Id: location_islas-malvinas
+    Name: Islas Malvinas
+    IconName: innovacion-tierradelfuego-icono-islas-malvinas
+    CameraPosition: {x: -320.95197, y: 175.84729, z: 995}
+    CameraSize: 100
+  - Id: location_islas-georgias
+    Name: Islas Georgias del Sur
+    IconName: innovacion-tierradelfuego-icono-islas-georgias
+    CameraPosition: {x: 289.92593, y: 59.924088, z: 995}
+    CameraSize: 100
+  - Id: location_islas-orcadas
+    Name: Islas Orcadas del Sur
+    IconName: innovacion-tierradelfuego-icono-islas-orcadas
+    CameraPosition: {x: 54.310326, y: -248.17735, z: 995}
+    CameraSize: 100
+  - Id: location_islas-sandwich
+    Name: Islas Sandwich del Sur
+    IconName: innovacion-tierradelfuego-icono-islas-sandwich
+    CameraPosition: {x: 554.8815, y: -117.90027, z: 995}
+    CameraSize: 100
+  - Id: location_islas-shetland
+    Name: Islas Shetland del Sur
+    IconName: innovacion-tierradelfuego-icono-islas-shetland
+    CameraPosition: {x: -306.66888, y: -342.97162, z: 995}
+    CameraSize: 100

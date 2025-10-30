@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LocationIcons
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: LocationIcons
+  m_GUID: a88183d69d1369712b72397fe42f1442
+  m_SerializeEntries:
+  - m_GUID: 01d3674db0947654a8c1e2b3a99764dd
+    m_Address: innovacion-tierradelfuego-icono-islas-georgias-silueta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f46636a7c80e734cbd0af5f031ff54d
+    m_Address: innovacion-tierradelfuego-icono-islas-shetland-silueta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44e58d9fe8d14f64da9a6f0556585af4
+    m_Address: innovacion-tierradelfuego-icono-islas-shetland
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66e68e6886a90414aa187f3aa1e1dc16
+    m_Address: innovacion-tierradelfuego-icono-islas-contenedor-azul
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7818a701f0c5cf24d8601e81457fe4d9
+    m_Address: innovacion-tierradelfuego-icono-islas-fondo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ac92ef4067105349a3507c3c263ece3
+    m_Address: innovacion-tierradelfuego-icono-islas-contenedor-beige
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8082bdff8870c2441b5692a548703660
+    m_Address: innovacion-tierradelfuego-icono-islas-malvinas-silueta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8adc37ca55e2c18439c96958292f9653
+    m_Address: innovacion-tierradelfuego-icono-islas-georgias
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9717a9ca3a0d47942b4a30b6a988804b
+    m_Address: innovacion-tierradelfuego-icono-islas-orcadas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 976c36c4999272f4893fd5c597e40f72
+    m_Address: innovacion-tierradelfuego-tierra del fuego
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a12de4b892d106a45902dcdee863c01a
+    m_Address: "innovacion-tierradelfuego-icono-islas-ant\xE1rtica-silueta"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca487376b4a60664dbfbbfee54d23675
+    m_Address: innovacion-tierradelfuego-icono-islas-sandwich-silueta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca7700c5e6a4c4c4b8962c2a18d510b4
+    m_Address: innovacion-tierradelfuego-icono-islas-orcadas-silueta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9a2c862fd107784aa6790a941e12d13
+    m_Address: innovacion-tierradelfuego-icono-islas-tierra del fuego
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f614842cfe18ec54da4bf18b6587a47f
+    m_Address: "innovacion-tierradelfuego-icono-islas-ant\xE1rtica"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f788d5b4043456a4588a3d050bd1909d
+    m_Address: innovacion-tierradelfuego-icono-islas-sandwich
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe92de47dc255c94eb4eec5333188b2d
+    m_Address: innovacion-tierradelfuego-icono-islas-malvinas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f02989c3b7cf518ffb79da62b92030d2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 837c3d7e8324608dfbe97df862d95fc9, type: 2}
+    - {fileID: 11400000, guid: 1ec0958219f6676478f445cd0eb7ab8c, type: 2}

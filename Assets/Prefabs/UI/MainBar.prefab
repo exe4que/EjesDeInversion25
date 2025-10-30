@@ -25,16 +25,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423898320203485688}
-  m_LocalRotation: {x: -0, y: 0.008726558, z: -0, w: 0.999962}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4473774477167774159}
+  m_Father: {fileID: 2973472805569227589}
   m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 308.07996}
   m_SizeDelta: {x: 1529.2, y: 251.8955}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5776034282901876525
@@ -321,7 +321,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: -1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6724394557935183132}
   m_Father: {fileID: 4473774477167774159}
   m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -542,7 +543,7 @@ MonoBehaviour:
   _mainBarButtonsContainerController: {fileID: 189646050454484071}
   _mainBarCategoryListController: {fileID: 2017762799646703502}
   _currentCategoryText: {fileID: 8888182180066841317}
-  _backgroundRectTransform: {fileID: 6724394557935183132}
+  _backgroundRectTransform: {fileID: 2973472805569227589}
   _backgroundHorizontalPadding: 225
   _mainBarCategoryListSelectedElementController: {fileID: 2372261489335914638}
   _mainContainerCanvasGroup: {fileID: 3051803191916722997}
@@ -643,7 +644,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2973472805569227589}
-  - {fileID: 6724394557935183132}
   - {fileID: 2687556612931278582}
   - {fileID: 1146487432089954160}
   - {fileID: 3465748267425551691}

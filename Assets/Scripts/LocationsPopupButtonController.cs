@@ -17,7 +17,7 @@ namespace EjesDeInversion
             _nameText.text = _locationData.Name;
             
             // Load icon from Resources/Icons folder
-            Sprite iconSprite = Resources.Load<Sprite>($"LocationIcon/{_locationData.IconName}");
+            Sprite iconSprite = Resources.Load<Sprite>(_locationData.IconName);
             if (iconSprite != null)
             {
                 _iconImage.sprite = iconSprite;
