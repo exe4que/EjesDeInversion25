@@ -43,8 +43,8 @@ MonoBehaviour:
     IconName: innovacion-tierradelfuego-icono-islas-shetland
     CameraPosition: {x: -289.05435, y: -330.11777, z: 995}
     CameraSize: 100
-  - Id: location_islas-shetland
-    Name: Islas Shetland del Sur
+  - Id: "location_ant\xE1rtida"
+    Name: "Ant\xE1rtida"
     IconName: innovacion-tierradelfuego-icono-islas-shetland
-    CameraPosition: {x: -289.05435, y: -330.11777, z: 995}
-    CameraSize: 100
+    CameraPosition: {x: -455.8035, y: -574.93616, z: 995}
+    CameraSize: 80

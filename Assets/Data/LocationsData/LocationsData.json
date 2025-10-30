@@ -65,6 +65,17 @@
                 "z": 995.0
             },
             "CameraSize": 100
+        },
+        {
+            "Id": "location_antártida",
+            "Name": "Antártida",
+            "IconName": "innovacion-tierradelfuego-icono-islas-shetland",
+            "CameraPosition": {
+                "x": -455.8034973144531,
+                "y": -574.9361572265625,
+                "z": 995.0
+            },
+            "CameraSize": 80
         }
     ]
 }
