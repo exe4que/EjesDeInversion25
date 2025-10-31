@@ -28,6 +28,7 @@ namespace EjesDeInversion
             _searchBarController.ClearInputField();
             _searchBarController.HideResults();
             CameraManager.GoToPointer(_pointerController);
+            MainBarManager.SelectAxisAndCategoryForPointer(_pointerController);
         }
     }
 }

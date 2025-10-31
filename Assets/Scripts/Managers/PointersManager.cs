@@ -110,7 +110,7 @@ namespace EjesDeInversion.Managers
             ClearPointers();
             foreach (PointerData pointerData in _pointersData.Pointers)
             {
-                if ($"{pointerData.AxisId}_{pointerData.SubcategoryId}" == categoryData.Id)
+                if ($"{pointerData.AxisId}_{pointerData.CategoryId}" == categoryData.Id)
                 {
                     PointerController pointer = GetPointerFromPool();
                     pointer.Initialize(pointerData);

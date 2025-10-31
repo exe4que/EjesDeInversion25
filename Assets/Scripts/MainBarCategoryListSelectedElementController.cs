@@ -29,8 +29,7 @@ namespace EjesDeInversion
         [SerializeField] private Color _selectedColor = Color.white;
         [SerializeField] private Color _deselectedColor = Color.white;
         
-
-        private MainBarController _mainBarController;
+        
         private Sequence _backButtonSequence;
         private MainBarCategoryListElementController _mainBarCategoryListElementController;
         private RectTransform _rectTransform => (RectTransform)this.transform;
@@ -46,10 +45,6 @@ namespace EjesDeInversion
             _backButton.onClick.RemoveListener(OnBackButtonClicked);
         }
         
-        public void Initialize(MainBarController mainBarController)
-        {
-            _mainBarController = mainBarController;
-        }
         
         public void Show(MainBarCategoryListElementController mainBarCategoryListElementController)
         {
@@ -71,7 +66,7 @@ namespace EjesDeInversion
         
         private void OnBackButtonClicked()
         {
-            _mainBarController.DeselectCategory();
+            MainBarManager.DeselectCategory();
             AnimateOut();
         }
         

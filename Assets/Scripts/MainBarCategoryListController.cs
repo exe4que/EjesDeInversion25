@@ -19,14 +19,13 @@ namespace EjesDeInversion
         
 
         private List<MainBarCategoryListElementController> _elementsPool = new();
-        private string _idShowing = "";
-        private MainBarController _mainBarController;
+        private List<MainBarCategoryListElementController> _activeElements = new();
+        private MainBarButtonController _axisButtonShowing = null;
         
         public static Action<string> OnCategorySelected;
 
-        public void Initialize(MainBarController mainBarController)
+        public void Initialize()
         {
-            _mainBarController = mainBarController;
             InitializePool();
         }
 
@@ -36,30 +35,36 @@ namespace EjesDeInversion
             {
                 MainBarCategoryListElementController element = Instantiate(_categoryListElementPrefab, _elementsContainer);
                 element.gameObject.SetActive(false);
-                element.Initialize(_mainBarController);
                 _elementsPool.Add(element);
             }
         }
 
-        public void Show(MainBarData.InvestmentAxisButtonData buttonData)
+        public void Show(MainBarButtonController button)
         {
-            if (_idShowing != buttonData.Id)
+            if (_axisButtonShowing?.ButtonData?.Id != button.ButtonData.Id)
             {
                 HideInternal();
             }
             
+            var buttonData = button.ButtonData;
             this.gameObject.SetActive(true);
             MainBarCategoryListElementController element1 = GetPooledElement();
             element1.SetData(buttonData);
             element1.gameObject.SetActive(true);
+            _elementsPool.Remove(element1);
+            _activeElements.Add(element1);
+            element1.transform.SetAsFirstSibling();
             for (int i = 0; i < buttonData.Categories.Length; i++)
             {
                 MainBarCategoryListElementController element = GetPooledElement();
                 element.SetData(buttonData.Categories[i]);
                 element.gameObject.SetActive(true);
+                _elementsPool.Remove(element);
+                _activeElements.Add(element);
+                element.transform.SetSiblingIndex(i + 1);
             }
-            _idShowing = buttonData.Id;
-            OnCategorySelected?.Invoke(_idShowing);
+            _axisButtonShowing = button;
+            OnCategorySelected?.Invoke(_axisButtonShowing.ButtonData.Id);
 
             FadeIn();
         }
@@ -71,12 +76,14 @@ namespace EjesDeInversion
 
         private void HideInternal()
         {
-            foreach (var element in _elementsPool)
+            foreach (var element in _activeElements)
             {
                 element.gameObject.SetActive(false);
+                _elementsPool.Add(element);
             }
+            _activeElements.Clear();
             this.gameObject.SetActive(false);
-            _idShowing = "";
+            _axisButtonShowing = null;
             OnCategorySelected?.Invoke("");
         }
         private void FadeIn()
@@ -96,23 +103,55 @@ namespace EjesDeInversion
 
         private MainBarCategoryListElementController GetPooledElement()
         {
-            foreach (var element in _elementsPool)
+            if (_elementsPool.Count > 0)
             {
-                if (!element.gameObject.activeInHierarchy)
-                {
-                    return element;
-                }
+                var element = _elementsPool[0];
+                _elementsPool.RemoveAt(0);
+                _activeElements.Add(element);
+                return element;
             }
 
             MainBarCategoryListElementController newElement = Instantiate(_categoryListElementPrefab, _elementsContainer);
             newElement.gameObject.SetActive(false);
-            _elementsPool.Add(newElement);
+            _activeElements.Add(newElement);
             return newElement;
         }
 
-        public bool IsOpen(string id)
+        public bool IsOpen(string id = "")
         {
-            return _idShowing == id;
+            if (string.IsNullOrEmpty(id))
+            {
+                return _axisButtonShowing != null;
+            }
+
+            if (_axisButtonShowing == null)
+            {
+                return false;
+            }
+            
+            if (_axisButtonShowing.ButtonData == null)
+            {
+                return false;
+            }
+
+            return _axisButtonShowing.ButtonData.Id == id;
+        }
+        
+        public void DeselectSelectedButton()
+        {
+            _axisButtonShowing.AnimationOut();
+        }
+
+        public MainBarCategoryListElementController GetCategoryElementById(string dataCategoryId)
+        {
+            foreach (var element in _activeElements)
+            {
+                if (element.CategoryData != null && element.CategoryData.Id == dataCategoryId)
+                {
+                    return element;
+                }
+            }
+            return null;
         }
     }
 }

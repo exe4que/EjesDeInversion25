@@ -26,12 +26,12 @@ namespace EjesDeInversion.Data
         
         
         private string _axisId;
-        private string _subcategoryId;
+        private string _categoryId;
         private string _pointerId;
 
         public string EditorId => string.IsNullOrEmpty(Id) ? "" : Id.Split('_')[2];
         public string AxisId => _axisId;
-        public string SubcategoryId => _subcategoryId;
+        public string CategoryId => _categoryId;
         public string PointerId => _pointerId;
         
         public void Initialize()
@@ -43,7 +43,7 @@ namespace EjesDeInversion.Data
                 return;
             }
             _axisId = idParts[0];
-            _subcategoryId = idParts[1];
+            _categoryId = idParts[1];
             _pointerId = idParts[2];
         }
     }

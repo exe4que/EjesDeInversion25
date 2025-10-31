@@ -16,7 +16,6 @@ namespace EjesDeInversion
 
         private MainBarData.InvestmentAxisButtonData _buttonData;
         private MainBarData.InvestmentAxisCategoryData _categoryData;
-        private MainBarController _mainBarController;
         
         public CanvasGroup CanvasGroup => _canvasGroup;
         public MainBarData.InvestmentAxisCategoryData CategoryData => _categoryData;
@@ -29,11 +28,6 @@ namespace EjesDeInversion
         private void OnDisable()
         {
             _button.onClick.RemoveListener(OnButtonClicked);
-        }
-        
-        public void Initialize(MainBarController mainBarController)
-        {
-            _mainBarController = mainBarController;
         }
 
         public void SetData(MainBarData.InvestmentAxisCategoryData categoryData)
@@ -67,7 +61,7 @@ namespace EjesDeInversion
                 pointers = PointersManager.FilterPointersBySubcategory(_categoryData);
             }
             CameraManager.GoToClosestPointer(pointers);
-            _mainBarController.SelectCategory(this);
+            MainBarManager.SelectCategory(this);
         }
     }
 }
