@@ -9,6 +9,7 @@ namespace EjesDeInversion
     public class PointerController : MonoBehaviour
     {
         [SerializeField] private TMP_Text _text;
+        [SerializeField] private TMP_Text _descriptionText;
         [SerializeField] private Button _button;
         [SerializeField] private Image _backgroundFillImage;
         [SerializeField] private Color _normalColor;
@@ -35,7 +36,8 @@ namespace EjesDeInversion
         public void Initialize(PointerData data)
         {
             _data = data;
-            _text.text = $"<b>{data.Name}</b>\n{data.ShortDescription}";
+            _text.text = $"<b>{data.Name}</b>";
+            _descriptionText.text = data.ShortDescription;
             _backgroundFillImage.color = data.IsLink ? _linkColor : _normalColor;
         }
 
