@@ -19,7 +19,7 @@ namespace EjesDeInversion.Data
             public string Name;
             public string IconName;
             public Vector3 CameraPosition;
-            public int CameraSize;
+            public float CameraSize;
         }
     }
 }

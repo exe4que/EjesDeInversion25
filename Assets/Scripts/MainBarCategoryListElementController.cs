@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using EjesDeInversion.Data;
 using EjesDeInversion.Managers;
 using TMPro;
@@ -52,9 +53,10 @@ namespace EjesDeInversion
         private void OnButtonClicked()
         {
             //Debug.Log($"Category {_categoryData.Id} clicked.");
+            List<PointerController> pointers = null;
             if (_buttonData != null)
             {
-                PointersManager.FilterPointersByAxis(_buttonData);
+                pointers = PointersManager.FilterPointersByAxis(_buttonData);
             }
             else if (_categoryData != null)
             {
@@ -62,8 +64,9 @@ namespace EjesDeInversion
                 {
                     FlyerManager.TryShow(_categoryData.Id);
                 }
-                PointersManager.FilterPointersBySubcategory(_categoryData);
+                pointers = PointersManager.FilterPointersBySubcategory(_categoryData);
             }
+            CameraManager.GoToClosestPointer(pointers);
             _mainBarController.SelectCategory(this);
         }
     }

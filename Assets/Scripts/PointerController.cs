@@ -9,12 +9,14 @@ namespace EjesDeInversion
     public class PointerController : MonoBehaviour
     {
         [SerializeField] private TMP_Text _text;
+        [SerializeField] private TMP_Text _descriptionText;
         [SerializeField] private Button _button;
         [SerializeField] private Image _backgroundFillImage;
         [SerializeField] private Color _normalColor;
         [SerializeField] private Color _linkColor;
         
         private PointerData _data;
+        public PointerData Data => _data;
 
         private void OnEnable()
         {
@@ -34,7 +36,8 @@ namespace EjesDeInversion
         public void Initialize(PointerData data)
         {
             _data = data;
-            _text.text = $"<b>{data.Name}</b>\n{data.ShortDescription}";
+            _text.text = $"<b>{data.Name}</b>";
+            _descriptionText.text = data.ShortDescription;
             _backgroundFillImage.color = data.IsLink ? _linkColor : _normalColor;
         }
 
@@ -46,6 +49,11 @@ namespace EjesDeInversion
             screenPosition.z = 0;
             // follow the screen position
             transform.position = screenPosition;
+        }
+
+        public Vector3 GetCameraPosition()
+        {
+            return _data.Position;
         }
     }
 }
