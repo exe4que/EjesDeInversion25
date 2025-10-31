@@ -89,6 +89,8 @@ namespace EjesDeInversion
             _elementsProcessed = 0;
             _filteredPointerControllers.Clear();
             HideResults();
+            MainBarManager.HideAll();
+            PointersManager.ShowAllPointers();
         }
 
         private SearchBarResultElementController GetResultElement()

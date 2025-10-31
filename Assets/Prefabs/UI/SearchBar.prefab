@@ -444,6 +444,9 @@ MonoBehaviour:
   _resultsParent: {fileID: 4722030572941278502}
   _poolInitialSize: 20
   _elementsToProcessPerFrame: 50
+  _verticalModeHorizontalPadding: 67
+  _horizontalModeWidth: 956
+  _horizontalModePosition: {x: 67, y: -106}
 --- !u!114 &7249134549762951534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,7 +592,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Buscar...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -598,7 +601,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 2150773298
   m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}
   m_enableVertexGradient: 0
   m_colorMode: 3

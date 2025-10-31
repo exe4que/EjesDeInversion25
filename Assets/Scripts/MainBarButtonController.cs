@@ -19,7 +19,7 @@ namespace EjesDeInversion
         [SerializeField] private Ease _animationOutEase = Ease.InCubic;
         
         private MainBarData.InvestmentAxisButtonData _buttonData;
-        private MainBarController _mainBarController;
+        public MainBarData.InvestmentAxisButtonData ButtonData => _buttonData;
 
         private void OnEnable()
         {
@@ -51,19 +51,19 @@ namespace EjesDeInversion
 
         private void OnButtonClicked()
         {
-            if (_mainBarController.IsCategoryListVisible(_buttonData.Id))
+            if (MainBarManager.IsCategoryListVisible(_buttonData.Id))
             {
                 _button.interactable = false;
-                _mainBarController.HideCategoryList();
+                MainBarManager.HideCategoryList();
                 AnimationOut();
             }
             else
             {
-                _mainBarController.ShowCategoryList(_buttonData);
+                MainBarManager.ShowCategoryList(this);
             }
         }
 
-        private void AnimationIn()
+        public void AnimationIn()
         {
             this.transform.DOKill();
             this.transform.localScale = Vector3.one;
@@ -75,7 +75,7 @@ namespace EjesDeInversion
                 });
         }
         
-        private void AnimationOut()
+        public void AnimationOut()
         {
             this.transform.DOKill();
             this.transform.localScale = Vector3.one * AnimationTargetScale;
@@ -87,10 +87,9 @@ namespace EjesDeInversion
                 });
         }
 
-        public void Initialize(MainBarData.InvestmentAxisButtonData data, MainBarController mainBarController)
+        public void Initialize(MainBarData.InvestmentAxisButtonData data)
         {
             _buttonData = data;
-            _mainBarController = mainBarController;
             _icon.sprite = data.Icon;
             _background.color = data.Color;
         }

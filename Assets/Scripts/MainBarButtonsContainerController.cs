@@ -17,11 +17,9 @@ namespace EjesDeInversion
         private Rect _originalButtonsContainerRect;
         private bool _isInitialized = false;
         private List<MainBarButtonController> _buttonControllers = new ();
-        private MainBarController _mainBarController;
 
-        public void Initialize(MainBarController mainBarController)
+        public void Initialize()
         {
-            _mainBarController = mainBarController;
             CreateButtons();
             AdjustContainerSizeToContent();
             AdjustButtonsContainerWidth();
@@ -63,7 +61,7 @@ namespace EjesDeInversion
                 GameObject buttonObj = Instantiate(_buttonTemplate.gameObject, _buttonsContainerRectTransform);
                 buttonObj.SetActive(true);
                 MainBarButtonController buttonController = buttonObj.GetComponent<MainBarButtonController>();
-                buttonController.Initialize(buttonData, _mainBarController);
+                buttonController.Initialize(buttonData);
                 _buttonControllers.Add(buttonController);
             }
         }
@@ -88,6 +86,18 @@ namespace EjesDeInversion
                     _originalButtonsContainerRect.width);
                 _scrollRect.enabled = true;
             }
+        }
+
+        public MainBarButtonController GetButtonByAxisId(string investmentAxisId)
+        {
+            foreach (MainBarButtonController button in _buttonControllers)
+            {
+                if (button.ButtonData.Id == investmentAxisId)
+                {
+                    return button;
+                }
+            }
+            return null;
         }
     }
 }
