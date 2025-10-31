@@ -32,8 +32,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1301210216098551008}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -80,7 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.MainBarCategoryListController
   _initialElementsPoolSize: 10
-  _categoryListElementPrefab: {fileID: 3944174719748722600}
+  _categoryListElementPrefab: {fileID: 1745498868379313378, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
   _elementsContainer: {fileID: 8236597924370906798}
   _categoryListCanvasGroup: {fileID: 5671626959515137037}
   _fadeDuration: 0.3
@@ -136,164 +135,3 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!1001 &3352305381369621322
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8236597924370906798}
-    m_Modifications:
-    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2126720999993719073, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025537377008341356, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_Name
-      value: CategoryButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025537377008341356, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470413060069037812, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_Colors.m_PressedColor.b
-      value: 0.32382748
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470413060069037812, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_Colors.m_PressedColor.g
-      value: 0.5435942
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470413060069037812, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_Colors.m_PressedColor.r
-      value: 0.8156863
-      objectReference: {fileID: 0}
-    - target: {fileID: 8293528583705532235, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 8293528583705532235, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
---- !u!224 &1301210216098551008 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4362602892901973930, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-  m_PrefabInstance: {fileID: 3352305381369621322}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3944174719748722600 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1745498868379313378, guid: f677ffa084ab9ef72b6116291cc61083, type: 3}
-  m_PrefabInstance: {fileID: 3352305381369621322}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04cf93b01cf2480e80654d0b2fae0805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.MainBarCategoryListElementController
