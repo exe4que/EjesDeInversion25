@@ -25,7 +25,7 @@ MonoBehaviour:
     IsLink: 1
   - Id: infraestructura-social_viviendas_viviendas-en-ushuaia
     Name: Viviendas en Ushuaia
-    Position: {x: -553.3824, y: 39.596535, z: 995}
+    Position: {x: -551.2, y: 41.48, z: 995}
     ShortDescription: Tierras para el desarrollo de viviendas en Ushuaia
     IsLink: 1
   - Id: "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-r\xEDo-grande"

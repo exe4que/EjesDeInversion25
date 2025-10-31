@@ -1790,15 +1790,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7127138192203056790, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
       propertyPath: _noiseAmplitude
-      value: 60
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7127138192203056790, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
       propertyPath: _noiseFrequency
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7515716409052581774, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
       propertyPath: m_Name
       value: Directional Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550925725480599384, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
+      propertyPath: m_Intensity
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
