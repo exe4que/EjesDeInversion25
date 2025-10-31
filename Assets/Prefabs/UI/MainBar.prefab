@@ -831,36 +831,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863918101756345224, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2863918101756345224, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2863918101756345224, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 537.8
       objectReference: {fileID: 0}
     - target: {fileID: 2863918101756345224, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 55.86
       objectReference: {fileID: 0}
     - target: {fileID: 2863918101756345224, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 295.9
       objectReference: {fileID: 0}
     - target: {fileID: 2863918101756345224, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -54.93
       objectReference: {fileID: 0}
     - target: {fileID: 5270767793922594274, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: 11400000, guid: 7b758372317eacb4293f1c0ab7122b28, type: 2}
     - target: {fileID: 5270767793922594274, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: 3115048540015602742, guid: 7b758372317eacb4293f1c0ab7122b28, type: 2}
+    - target: {fileID: 5270767793922594274, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9188263198175105989, guid: 8fbf45f0c53bbef2a907b241bdbc1578, type: 3}
       propertyPath: m_Name
       value: SelectedCategoryButton
