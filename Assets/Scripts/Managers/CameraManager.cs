@@ -26,6 +26,7 @@ namespace EjesDeInversion.Managers
         [SerializeField] private float _zoomSensitivityDesktop = 5f;
         [SerializeField] private float _orthographicSizeMin = 15f;
         [SerializeField] private float _orthographicSizeMax = 350f;
+        [SerializeField] private float _goToPointerSize = 50f;
         
         [Header("Rotation Settings")]
         [SerializeField] private float _rotationGestureDiscerningSensitivity = 0.6f;
@@ -284,7 +285,7 @@ namespace EjesDeInversion.Managers
                         closestPointer = pointers[i];
                     }
                 }
-                GoToLocation(closestPointer.GetCameraPosition(), _cinemachineCamera.Lens.OrthographicSize);
+                GoToPointerInternal(closestPointer);
             }
         }
 
@@ -295,6 +296,16 @@ namespace EjesDeInversion.Managers
                 return;
             }
             instance.GoToClosestPointerInternal(pointers);
+        }
+        
+        private void GoToPointerInternal(PointerController pointer)
+        {
+            GoToLocation(pointer.GetCameraPosition(), _goToPointerSize);
+        }
+
+        public static void GoToPointer(PointerController pointer)
+        {
+            instance.GoToPointerInternal(pointer);
         }
     }
 }

@@ -121,5 +121,10 @@ MonoBehaviour:
   _zoomSensitivityDesktop: 5
   _orthographicSizeMin: 15
   _orthographicSizeMax: 350
+  _goToPointerSize: 15
   _rotationGestureDiscerningSensitivity: 0.6
   _rotationSensitivityDesktop: 0.2
+  _rotationRealignDuration: 0.4
+  _rotationRealignEase: 4
+  _goToLocationDuration: 1
+  _goToLocationEase: 10

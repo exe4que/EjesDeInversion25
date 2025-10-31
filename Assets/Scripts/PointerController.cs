@@ -15,6 +15,7 @@ namespace EjesDeInversion
         [SerializeField] private Color _linkColor;
         
         private PointerData _data;
+        public PointerData Data => _data;
 
         private void OnEnable()
         {

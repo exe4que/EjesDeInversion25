@@ -135,5 +135,15 @@ namespace EjesDeInversion.Managers
             }
             _pointers.Clear();
         }
+        
+        private List<PointerController> GetAllActivePointersInternal()
+        {
+            return _pointers;
+        }
+
+        public static List<PointerController> GetAllActivePointers()
+        {
+            return instance.GetAllActivePointersInternal();
+        }
     }
 }
