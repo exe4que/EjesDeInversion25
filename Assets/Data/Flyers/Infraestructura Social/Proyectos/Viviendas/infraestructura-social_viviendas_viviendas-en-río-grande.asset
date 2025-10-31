@@ -26,4 +26,6 @@ MonoBehaviour:
   - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-1"
   - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-2"
   - "infraestructura-social_viviendas_tipolog\xEDa-individual"
-  PdfLinks: []
+  PdfLinks:
+  - Name: "Ejes de Inversi\xF3n 2025"
+    Url: https://drive.google.com/file/d/13nel91O1z4tfJiEQXZ_IundGOqvFE3gb/view?usp=drive_link

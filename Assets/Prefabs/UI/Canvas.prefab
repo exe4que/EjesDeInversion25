@@ -571,6 +571,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9147808980610887710}
     m_Modifications:
+    - target: {fileID: 2164533003926565571, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164533003926565571, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164533003926565571, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 537.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164533003926565571, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 55.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164533003926565571, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 295.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164533003926565571, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -54.93
+      objectReference: {fileID: 0}
     - target: {fileID: 4308023389857533446, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
       propertyPath: m_Name
       value: MainBar
@@ -653,6 +677,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5044934444979971442, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058700897381259918, guid: e14105a0956d8597ca6d69ab60088682, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
