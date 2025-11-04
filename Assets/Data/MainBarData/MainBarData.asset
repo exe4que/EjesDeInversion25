@@ -16,7 +16,7 @@ MonoBehaviour:
   - Id: infraestructura-social
     Name: INFRAESTRUCTURA SOCIAL
     Icon: {fileID: 21300000, guid: 96d0c392f50602b48813b7e48aab88eb, type: 3}
-    Color: {r: 0.91, g: 0.18, b: 0.23, a: 1}
+    Color: {r: 0, g: 0.73333335, b: 0, a: 1}
     Categories:
     - Id: infraestructura-social_viviendas
       Name: Viviendas
@@ -37,7 +37,7 @@ MonoBehaviour:
   - Id: infraestructura-productiva-y-conectividad
     Name: INFRAESTRUCTURA PRODUCTIVA Y CONECTIVIDAD
     Icon: {fileID: 21300000, guid: 9040aebb3abe44343995800cf24baacf, type: 3}
-    Color: {r: 0.15, g: 0.68, b: 0.38, a: 1}
+    Color: {r: 0.9647059, g: 0.7176471, b: 0.23137255, a: 1}
     Categories:
     - Id: infraestructura-productiva-y-conectividad_puertos
       Name: Puertos
@@ -48,7 +48,7 @@ MonoBehaviour:
   - Id: "infraestructura-log\xEDstica"
     Name: "INFRAESTRUCTURA LOG\xCDSTICA"
     Icon: {fileID: 21300000, guid: 40e8972a1113c2148bf54d1d61acb5a4, type: 3}
-    Color: {r: 0.24, g: 0.52, b: 0.88, a: 1}
+    Color: {r: 1, g: 0.4, b: 0, a: 1}
     Categories:
     - Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
       Name: "Polo Log\xEDstico Ant\xE1rtico"
@@ -57,7 +57,7 @@ MonoBehaviour:
   - Id: desarrollo-productivo
     Name: DESARROLLO PRODUCTIVO
     Icon: {fileID: 21300000, guid: a6846a3887b696642b7970532e814839, type: 3}
-    Color: {r: 0.11, g: 0.11, b: 0.12, a: 1}
+    Color: {r: 0.047058824, g: 0.3019608, b: 0.7294118, a: 1}
     Categories:
     - Id: "desarrollo-productivo_energ\xEDa"
       Name: "Energ\xEDa"
@@ -74,7 +74,7 @@ MonoBehaviour:
   - Id: "soberan\xEDa"
     Name: "SOBERAN\xCDA"
     Icon: {fileID: 21300000, guid: 262e5ee15994dcc4ea2e50b0ae5203a5, type: 3}
-    Color: {r: 0.8, g: 0.3, b: 0.7, a: 1}
+    Color: {r: 0, g: 0.6509804, b: 0.89411765, a: 1}
     Categories:
     - Id: "soberan\xEDa_ant\xE1rtida"
       Name: "Ant\xE1rtida"

@@ -18,11 +18,11 @@ PlayerSettings:
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
   m_ShowUnitySplashScreen: 1
-  m_ShowUnitySplashLogo: 1
+  m_ShowUnitySplashLogo: 0
   m_SplashScreenOverlayOpacity: 0
-  m_SplashScreenAnimation: 0
+  m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 0
-  m_SplashScreenDrawMode: 0
+  m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 1
@@ -31,7 +31,7 @@ PlayerSettings:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.99999994
+    width: 1
     height: 1
   m_SplashScreenBackgroundPortraitUvs:
     serializedVersion: 2
@@ -39,8 +39,10 @@ PlayerSettings:
     y: 0
     width: 0.99999994
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: c7f55c86e60fdcc40812d008e883f9d7, type: 3}
+    duration: 6
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: c7f55c86e60fdcc40812d008e883f9d7, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -800,8 +802,8 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 9eb4c9e8810dd09408cdacd6ba725a0a, type: 3}
-  splashScreenBackgroundSourcePortrait: {fileID: 21300000, guid: 6a8d082cee1e4864c9ee78be63d22624, type: 3}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 270dc3902830d2649a6a63ba6836d6e5, type: 3}
+  splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 0
   spritePackerPolicy: 
   webGLMemorySize: 32
