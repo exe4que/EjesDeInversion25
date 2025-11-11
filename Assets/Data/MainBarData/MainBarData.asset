@@ -24,11 +24,11 @@ MonoBehaviour:
       Name: Centros de Salud
     - Id: infraestructura-social_plan-de-escuelas
       Name: Plan de Escuelas
-    - Id: "infraestructura-social_innovaci\xF3n"
+    - Id: infraestructura-social_innovacion
       Name: "Innovaci\xF3n"
     - Id: infraestructura-social_infraestructura-deportiva
       Name: Infraestructura Deportiva
-    - Id: "infraestructura-social_servicios-b\xE1sicos"
+    - Id: infraestructura-social_servicios-basicos
       Name: "Servicios B\xE1sicos"
     - Id: infraestructura-social_equipamiento-comunitario
       Name: Equipamiento Comunitario
@@ -43,23 +43,23 @@ MonoBehaviour:
       Name: Puertos
     - Id: infraestructura-productiva-y-conectividad_conectividad-vial
       Name: Conectividad Vial
-    - Id: "infraestructura-productiva-y-conectividad_recursos-energ\xE9ticos"
+    - Id: infraestructura-productiva-y-conectividad_recursos-energeticos
       Name: "Recursos Energ\xE9ticos"
-  - Id: "infraestructura-log\xEDstica"
+  - Id: infraestructura-logistica
     Name: "INFRAESTRUCTURA LOG\xCDSTICA"
     Icon: {fileID: 21300000, guid: 40e8972a1113c2148bf54d1d61acb5a4, type: 3}
     Color: {r: 1, g: 0.4, b: 0, a: 1}
     Categories:
-    - Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
+    - Id: infraestructura-logistica_polo-logistico-antartico
       Name: "Polo Log\xEDstico Ant\xE1rtico"
-    - Id: "infraestructura-log\xEDstica_polo-almanza"
+    - Id: infraestructura-logistica_polo-almanza
       Name: Polo Almanza
   - Id: desarrollo-productivo
     Name: DESARROLLO PRODUCTIVO
     Icon: {fileID: 21300000, guid: a6846a3887b696642b7970532e814839, type: 3}
     Color: {r: 0.047058824, g: 0.3019608, b: 0.7294118, a: 1}
     Categories:
-    - Id: "desarrollo-productivo_energ\xEDa"
+    - Id: desarrollo-productivo_energia
       Name: "Energ\xEDa"
     - Id: desarrollo-productivo_turismo
       Name: Turismo
@@ -71,12 +71,12 @@ MonoBehaviour:
       Name: Forestal
     - Id: desarrollo-productivo_minero
       Name: Minero
-  - Id: "soberan\xEDa"
+  - Id: soberania
     Name: "SOBERAN\xCDA"
     Icon: {fileID: 21300000, guid: 262e5ee15994dcc4ea2e50b0ae5203a5, type: 3}
     Color: {r: 0, g: 0.6509804, b: 0.89411765, a: 1}
     Categories:
-    - Id: "soberan\xEDa_ant\xE1rtida"
+    - Id: soberania_antartida
       Name: "Ant\xE1rtida"
-    - Id: "soberan\xEDa_malvinas"
+    - Id: soberania_malvinas
       Name: Malvinas
