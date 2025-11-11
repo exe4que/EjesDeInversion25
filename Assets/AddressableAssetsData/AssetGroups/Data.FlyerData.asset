@@ -46,7 +46,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2af3282bf3d27b043bad69767938f16e
-    m_Address: "soberan\xEDa_ant\xE1rtida"
+    m_Address: soberania_antartida
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7195a86ba0438bc4a8d214a762e616d3
-    m_Address: "soberan\xEDa_malvinas"
+    m_Address: soberania_malvinas
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

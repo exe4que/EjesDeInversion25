@@ -88,3 +88,18 @@ MonoBehaviour:
     Position: {x: -529.6, y: 36.9, z: 995}
     ShortDescription: "Inversi\xF3nes en Puerto Almanza"
     IsLink: 0
+  - Id: soberania_antartida_base-esperanza
+    Name: Base Esperanza
+    Position: {x: -267.51648, y: -408.76187, z: 1233.7}
+    ShortDescription: "Identidad, Ciencia y Soberan\xEDa desde el Fin del Mundo\r\n"
+    IsLink: 0
+  - Id: soberania_antartida_base-marambio
+    Name: Base Marambio
+    Position: {x: -263.14, y: -464.95786, z: 1233.7}
+    ShortDescription: "Memoria, Soberan\xEDa y Pertenencia Fueguina"
+    IsLink: 0
+  - Id: soberania_malvinas_puerto-argentino
+    Name: Puerto Argentino
+    Position: {x: -280.5095, y: 176.6665, z: 1233.7}
+    ShortDescription: "Memoria, Soberan\xEDa y Pertenencia Fueguina"
+    IsLink: 0

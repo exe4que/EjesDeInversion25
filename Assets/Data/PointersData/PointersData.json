@@ -1,7 +1,7 @@
 {
     "Pointers": [
         {
-            "Id": "infraestructura-social_viviendas_viviendas-en-río-grande",
+            "Id": "infraestructura-social_viviendas_viviendas-en-rio-grande",
             "Name": "Viviendas en Rio Grande",
             "Position": {
                 "x": -536.2999877929688,
@@ -163,6 +163,39 @@
                 "z": 995.0
             },
             "ShortDescription": "Inversiónes en Puerto Almanza",
+            "IsLink": false
+        },
+        {
+            "Id": "soberania_antartida_base-esperanza",
+            "Name": "Base Esperanza",
+            "Position": {
+                "x": -267.5164794921875,
+                "y": -408.7618713378906,
+                "z": 1233.699951171875
+            },
+            "ShortDescription": "Identidad, Ciencia y Soberanía desde el Fin del Mundo\r\n",
+            "IsLink": false
+        },
+        {
+            "Id": "soberania_antartida_base-marambio",
+            "Name": "Base Marambio",
+            "Position": {
+                "x": -263.1400146484375,
+                "y": -464.9578552246094,
+                "z": 1233.699951171875
+            },
+            "ShortDescription": "Memoria, Soberanía y Pertenencia Fueguina",
+            "IsLink": false
+        },
+        {
+            "Id": "soberania_malvinas_puerto-argentino",
+            "Name": "Puerto Argentino",
+            "Position": {
+                "x": -280.5094909667969,
+                "y": 176.66650390625,
+                "z": 1233.699951171875
+            },
+            "ShortDescription": "Memoria, Soberanía y Pertenencia Fueguina",
             "IsLink": false
         }
     ]

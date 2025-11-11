@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: soberania_malvinas
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: malvinas
+  Title: Malvinas
+  Subtitle: "Memoria, Soberan\xEDa y Pertenencia Fueguina"
+  DescriptionTitle: 
+  Description: "La Causa Malvinas constituye un\_pilar irrenunciable de la identidad
+    nacional y fueguina, representando mucho m\xE1s que una disputa de soberan\xEDa:
+    es un compromiso hist\xF3rico con la memoria, la verdad y la justicia. Para los
+    fueguinos y fueguinas, las Islas\_integran su espacio geogr\xE1fico, emocional
+    y pol\xEDtico, siendo parte indivisible de su pertenencia al Atl\xE1ntico Sur.
+    \n\nEsta lucha trasciende lo diplom\xE1tico y se arraiga en lo cotidiano: cada
+    iniciativa de desarrollo provincial, cada proyecto log\xEDstico o cient\xEDfico,
+    y cada acci\xF3n de gobierno en Tierra del Fuego se piensa\_en clave soberana,
+    reforzando la presencia argentina en el espacio austral y honrando a quienes
+    ofrendaron su vida en la defensa de nuestra integridad territorial. \n\nLa recuperaci\xF3n
+    pac\xEDfica de las Islas Malvinas, Georgias del Sur y Sandwich del Sur, junto
+    con los espacios mar\xEDtimos correspondientes, sigue siendo un\_objetivo permanente
+    e innegociable, que se construye desde la educaci\xF3n, la cultura, la ciencia
+    y el fortalecimiento de una provincia que se reconoce, hoy y siempre, como\_hermana
+    mayor de las Islas y guardiana de la soberan\xEDa."
+  CarouselImageNames:
+  - soberania_malvinas
+  PdfLinks: []
