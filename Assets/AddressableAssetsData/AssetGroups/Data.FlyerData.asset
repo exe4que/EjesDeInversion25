@@ -26,7 +26,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1171c36d3e2da1b41ab3f61b30d8147a
-    m_Address: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
+    m_Address: infraestructura-logistica_polo-logistico-antartico
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 373a98a7dee421744bafb08d7bca11d9
-    m_Address: "infraestructura-productiva-y-conectividad_parques-e\xF3licos"
+    m_Address: infraestructura-productiva-y-conectividad_parques-eolicos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61d5e4e549be5d742a9b85341bb97d27
-    m_Address: "infraestructura-productiva-y-conectividad_recursos-energ\xE9ticos"
+    m_Address: infraestructura-productiva-y-conectividad_recursos-energeticos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b5de3f173f809264fb94354cb4b79981
-    m_Address: "infraestructura-productiva-y-conectividad_conexi\xF3nes-industriales"
+    m_Address: infraestructura-productiva-y-conectividad_conexiones-industriales
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c93729b2071b84e478a8fadeeca5e302
-    m_Address: "infraestructura-productiva-y-conectividad_plantas-de-licuefacci\xF3n"
+    m_Address: infraestructura-productiva-y-conectividad_plantas-de-licuefaccion
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d0fdfb5137bb0cb45947a1086b8b873d
-    m_Address: "infraestructura-log\xEDstica_polo-almanza"
+    m_Address: infraestructura-logistica_polo-almanza
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
