@@ -21,12 +21,27 @@ namespace EjesDeInversion
         private List<MainBarCategoryListElementController> _elementsPool = new();
         private List<MainBarCategoryListElementController> _activeElements = new();
         private MainBarButtonController _axisButtonShowing = null;
+        private float _initialWidth;
+        private const float MIN_PADDING = 20f;
         
         public static Action<string> OnCategorySelected;
 
         public void Initialize()
         {
             InitializePool();
+        }
+
+        private void AdjustToScreenSize()
+        {
+            _initialWidth = ((RectTransform)this.transform).rect.width;
+            float containerSize = ((RectTransform)this.transform.parent).rect.width;
+            float totalSize = _initialWidth + MIN_PADDING * 2;
+            Debug.Log($"Adjusting MainBarCategoryList width. ScreenWidth: {containerSize}, InitialWidth: {_initialWidth}, TotalSize: {totalSize}");
+            if (totalSize > containerSize)
+            {
+                float newWidth = containerSize - MIN_PADDING * 2;
+                ((RectTransform)this.transform).SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, newWidth);
+            }
         }
 
         private void InitializePool()
@@ -41,6 +56,7 @@ namespace EjesDeInversion
 
         public void Show(MainBarButtonController button)
         {
+            AdjustToScreenSize();
             if (_axisButtonShowing?.ButtonData?.Id != button.ButtonData.Id)
             {
                 HideInternal();
