@@ -4,8 +4,8 @@
             "Id": "infraestructura-social_viviendas_viviendas-en-río-grande",
             "Name": "Viviendas en Rio Grande",
             "Position": {
-                "x": -525.712890625,
-                "y": 76.5762939453125,
+                "x": -536.2999877929688,
+                "y": 88.9000015258789,
                 "z": 995.0
             },
             "ShortDescription": "Tierras para el desarrollo de viviendas en Río Grande",
@@ -15,8 +15,8 @@
             "Id": "infraestructura-social_viviendas_viviendas-en-tolhuin",
             "Name": "Viviendas en Tolhuin",
             "Position": {
-                "x": -522.2343139648438,
-                "y": 55.4283561706543,
+                "x": -522.0,
+                "y": 54.79999923706055,
                 "z": 995.0
             },
             "ShortDescription": "Tierras para el desarrollo de viviendas en Tolhuin",
@@ -26,8 +26,8 @@
             "Id": "infraestructura-social_viviendas_viviendas-en-ushuaia",
             "Name": "Viviendas en Ushuaia",
             "Position": {
-                "x": -553.3823852539063,
-                "y": 39.596534729003909,
+                "x": -552.9000244140625,
+                "y": 42.900001525878909,
                 "z": 995.0
             },
             "ShortDescription": "Tierras para el desarrollo de viviendas en Ushuaia",
@@ -37,8 +37,8 @@
             "Id": "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-río-grande",
             "Name": "Centros de Salud en Río Grande",
             "Position": {
-                "x": -525.712890625,
-                "y": 76.5762939453125,
+                "x": -536.2999877929688,
+                "y": 88.9000015258789,
                 "z": 995.0
             },
             "ShortDescription": "Nuevos Centros de Salud en Río Grande",
@@ -48,8 +48,8 @@
             "Id": "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-ushuaia",
             "Name": "Centros de Salud en Ushuaia",
             "Position": {
-                "x": -553.3823852539063,
-                "y": 39.596534729003909,
+                "x": -552.9000244140625,
+                "y": 42.900001525878909,
                 "z": 995.0
             },
             "ShortDescription": "Nuevos Centros de Salud en Ushuaia",
@@ -59,8 +59,8 @@
             "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-ushuaia",
             "Name": "Escuela Técnica Profesional en Ushuaia",
             "Position": {
-                "x": -553.3823852539063,
-                "y": 39.596534729003909,
+                "x": -552.9000244140625,
+                "y": 42.900001525878909,
                 "z": 995.0
             },
             "ShortDescription": "Nuevas Escuelas en Ushuaia",
@@ -70,8 +70,8 @@
             "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-tolhuin",
             "Name": "Escuela Técnica Profesional en Tolhuin",
             "Position": {
-                "x": -522.2343139648438,
-                "y": 55.4283561706543,
+                "x": -522.0,
+                "y": 54.79999923706055,
                 "z": 995.0
             },
             "ShortDescription": "Nuevas Escuelas en Tolhuin",
@@ -81,8 +81,8 @@
             "Id": "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-río-grande",
             "Name": "Escuela Técnica Profesional en Río Grande",
             "Position": {
-                "x": -525.712890625,
-                "y": 76.5762939453125,
+                "x": -536.2999877929688,
+                "y": 88.9000015258789,
                 "z": 995.0
             },
             "ShortDescription": "Nuevas Escuelas en Río Grande",
@@ -92,8 +92,8 @@
             "Id": "infraestructura-social_innovación_fábrica-de-talento-e-innovación-en-tolhuin",
             "Name": "Fábricas de Talento e Innovación en Tolhuin",
             "Position": {
-                "x": -522.2343139648438,
-                "y": 55.4283561706543,
+                "x": -522.0,
+                "y": 54.79999923706055,
                 "z": 995.0
             },
             "ShortDescription": "Fábricas de Talento e Innovación en Tolhuin",
@@ -103,8 +103,8 @@
             "Id": "infraestructura-social_innovación_fábrica-de-talento-e-innovación-en-río-grande",
             "Name": "Fábricas de Talento e Innovación",
             "Position": {
-                "x": -525.712890625,
-                "y": 76.5762939453125,
+                "x": -536.2999877929688,
+                "y": 88.9000015258789,
                 "z": 995.0
             },
             "ShortDescription": "Fábricas de Talento e Innovación en Río Grande",
@@ -114,8 +114,8 @@
             "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-río-grande",
             "Name": "Infraestructura Deportiva en Río Grande",
             "Position": {
-                "x": -525.712890625,
-                "y": 76.5762939453125,
+                "x": -536.2999877929688,
+                "y": 88.9000015258789,
                 "z": 995.0
             },
             "ShortDescription": "Inversiónes concretas en Río Grande",
@@ -125,8 +125,8 @@
             "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-ushuaia",
             "Name": "Infraestructura Deportiva en Ushuaia",
             "Position": {
-                "x": -553.3823852539063,
-                "y": 39.596534729003909,
+                "x": -552.9000244140625,
+                "y": 42.900001525878909,
                 "z": 995.0
             },
             "ShortDescription": "Inversiónes concretas en Ushuaia",
@@ -136,8 +136,8 @@
             "Id": "infraestructura-social_infraestructura-deportiva_inversiónes-concretas-en-tolhuin",
             "Name": "Infraestructura Deportiva en Tolhuin",
             "Position": {
-                "x": -522.2343139648438,
-                "y": 55.4283561706543,
+                "x": -522.0,
+                "y": 54.79999923706055,
                 "z": 995.0
             },
             "ShortDescription": "Inversiónes concretas en Tolhuin",
@@ -147,8 +147,8 @@
             "Id": "infraestructura-logística_polo-logístico-antártico_polo-logístico-antártico",
             "Name": "Polo Logístico Antártico",
             "Position": {
-                "x": -553.3823852539063,
-                "y": 39.596534729003909,
+                "x": -552.2999877929688,
+                "y": 42.400001525878909,
                 "z": 995.0
             },
             "ShortDescription": "Inversiónes en Ushuaia",
@@ -158,8 +158,8 @@
             "Id": "infraestructura-logística_polo-almanza_polo-almanza",
             "Name": "Polo Almanza",
             "Position": {
-                "x": -532.4698486328125,
-                "y": 38.30864334106445,
+                "x": -529.5999755859375,
+                "y": 36.900001525878909,
                 "z": 995.0
             },
             "ShortDescription": "Inversiónes en Puerto Almanza",

@@ -15,76 +15,76 @@ MonoBehaviour:
   Pointers:
   - Id: "infraestructura-social_viviendas_viviendas-en-r\xEDo-grande"
     Name: Viviendas en Rio Grande
-    Position: {x: -525.7129, y: 76.576294, z: 995}
+    Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Tierras para el desarrollo de viviendas en R\xEDo Grande"
     IsLink: 1
   - Id: infraestructura-social_viviendas_viviendas-en-tolhuin
     Name: Viviendas en Tolhuin
-    Position: {x: -522.2343, y: 55.428356, z: 995}
+    Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: Tierras para el desarrollo de viviendas en Tolhuin
     IsLink: 1
   - Id: infraestructura-social_viviendas_viviendas-en-ushuaia
     Name: Viviendas en Ushuaia
-    Position: {x: -551.2, y: 41.48, z: 995}
+    Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: Tierras para el desarrollo de viviendas en Ushuaia
     IsLink: 1
   - Id: "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-r\xEDo-grande"
     Name: "Centros de Salud en R\xEDo Grande"
-    Position: {x: -525.7129, y: 76.576294, z: 995}
+    Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Nuevos Centros de Salud en R\xEDo Grande"
     IsLink: 1
   - Id: infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-ushuaia
     Name: Centros de Salud en Ushuaia
-    Position: {x: -553.3824, y: 39.596535, z: 995}
+    Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: Nuevos Centros de Salud en Ushuaia
     IsLink: 1
   - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
     Name: "Escuela T\xE9cnica Profesional en Ushuaia"
-    Position: {x: -553.3824, y: 39.596535, z: 995}
+    Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: Nuevas Escuelas en Ushuaia
     IsLink: 1
   - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-tolhuin"
     Name: "Escuela T\xE9cnica Profesional en Tolhuin"
-    Position: {x: -522.2343, y: 55.428356, z: 995}
+    Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: Nuevas Escuelas en Tolhuin
     IsLink: 1
   - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-r\xEDo-grande"
     Name: "Escuela T\xE9cnica Profesional en R\xEDo Grande"
-    Position: {x: -525.7129, y: 76.576294, z: 995}
+    Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Nuevas Escuelas en R\xEDo Grande"
     IsLink: 1
   - Id: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-tolhuin"
     Name: "F\xE1bricas de Talento e Innovaci\xF3n en Tolhuin"
-    Position: {x: -522.2343, y: 55.428356, z: 995}
+    Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: "F\xE1bricas de Talento e Innovaci\xF3n en Tolhuin"
     IsLink: 1
   - Id: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-r\xEDo-grande"
     Name: "F\xE1bricas de Talento e Innovaci\xF3n"
-    Position: {x: -525.7129, y: 76.576294, z: 995}
+    Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "F\xE1bricas de Talento e Innovaci\xF3n en R\xEDo Grande"
     IsLink: 1
   - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-r\xEDo-grande"
     Name: "Infraestructura Deportiva en R\xEDo Grande"
-    Position: {x: -525.7129, y: 76.576294, z: 995}
+    Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en R\xEDo Grande"
     IsLink: 1
   - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-ushuaia"
     Name: Infraestructura Deportiva en Ushuaia
-    Position: {x: -553.3824, y: 39.596535, z: 995}
+    Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en Ushuaia"
     IsLink: 1
   - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-tolhuin"
     Name: Infraestructura Deportiva en Tolhuin
-    Position: {x: -522.2343, y: 55.428356, z: 995}
+    Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en Tolhuin"
     IsLink: 1
   - Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico_polo-log\xEDstico-ant\xE1rtico"
     Name: "Polo Log\xEDstico Ant\xE1rtico"
-    Position: {x: -553.3824, y: 39.596535, z: 995}
+    Position: {x: -552.3, y: 42.4, z: 995}
     ShortDescription: "Inversi\xF3nes en Ushuaia"
     IsLink: 0
   - Id: "infraestructura-log\xEDstica_polo-almanza_polo-almanza"
     Name: Polo Almanza
-    Position: {x: -532.46985, y: 38.308643, z: 995}
+    Position: {x: -529.6, y: 36.9, z: 995}
     ShortDescription: "Inversi\xF3nes en Puerto Almanza"
     IsLink: 0
