@@ -29,7 +29,7 @@ MonoBehaviour:
     en terrenos disponibles en las\_tres ciudades\_de la provincia, donde ya se han
     planificado diversos conjuntos urbanos."
   CarouselImageNames:
-  - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-1"
-  - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-2"
-  - "infraestructura-social_viviendas_tipolog\xEDa-individual"
+  - infraestructura-social_viviendas_tipologia-agrupada-1
+  - infraestructura-social_viviendas_tipologia-agrupada-2
+  - infraestructura-social_viviendas_tipologia-individual
   PdfLinks: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PointersData
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.PointersData
   Pointers:
-  - Id: "infraestructura-social_viviendas_viviendas-en-r\xEDo-grande"
+  - Id: infraestructura-social_viviendas_viviendas-en-rio-grande
     Name: Viviendas en Rio Grande
     Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Tierras para el desarrollo de viviendas en R\xEDo Grande"
