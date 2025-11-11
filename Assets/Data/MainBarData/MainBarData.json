@@ -1,60 +1,163 @@
 {
-  "InvestmentAxisButtons": [
-    {
-      "Id": "infraestructura-social",
-      "Name": "Infraestructura Social",
-      "Color": { "r": 0.91, "g": 0.18, "b": 0.23, "a": 1.0 },
-      "Categories": [
-        { "Id": "infraestructura-social_viviendas", "Name": "Viviendas" },
-        { "Id": "infraestructura-social_centros-de-salud", "Name": "Centros de Salud" },
-        { "Id": "infraestructura-social_plan-de-escuelas", "Name": "Plan de Escuelas" },
-        { "Id": "infraestructura-social_innovación", "Name": "Innovación" },
-        { "Id": "infraestructura-social_infraestructura-deportiva", "Name": "Infraestructura Deportiva" },
-        { "Id": "infraestructura-social_servicios-básicos", "Name": "Servicios Básicos" },
-        { "Id": "infraestructura-social_equipamiento-comunitario", "Name": "Equipamiento Comunitario" },
-        { "Id": "infraestructura-social_infraestructura-en-seguridad", "Name": "Infraestructura en Seguridad" }
-      ]
-    },
-    {
-      "Id": "infraestructura-productiva-y-conectividad",
-      "Name": "Infraestructura Productiva y Conectividad",
-      "Color": { "r": 0.15, "g": 0.68, "b": 0.38, "a": 1.0 },
-      "Categories": [
-        { "Id": "infraestructura-productiva-y-conectividad_puertos", "Name": "Puertos" },
-        { "Id": "infraestructura-productiva-y-conectividad_conectividad-vial", "Name": "Conectividad Vial" },
-        { "Id": "infraestructura-productiva-y-conectividad_recursos-energéticos", "Name": "Recursos Energéticos" }
-      ]
-    },
-    {
-      "Id": "infraestructura-logística",
-      "Name": "Infraestructura Logística",
-      "Color": { "r": 0.24, "g": 0.52, "b": 0.88, "a": 1.0 },
-      "Categories": [
-        { "Id": "infraestructura-logística_polo-logístico-antártico", "Name": "Polo Logístico Antártico" },        
-        { "Id": "infraestructura-logística_polo-almanza", "Name": "Polo Almanza" }
-      ]
-    },
-    {
-      "Id": "desarrollo-productivo",
-      "Name": "Desarrollo Productivo",
-      "Color": { "r": 0.11, "g": 0.11, "b": 0.12, "a": 1.0 },
-      "Categories": [
-        { "Id": "desarrollo-productivo_energía", "Name": "Energía" },
-        { "Id": "desarrollo-productivo_turismo", "Name": "Turismo" },
-        { "Id": "desarrollo-productivo_pesca", "Name": "Pesca" },
-        { "Id": "desarrollo-productivo_industria", "Name": "Industria" },
-        { "Id": "desarrollo-productivo_forestal", "Name": "Forestal" },
-        { "Id": "desarrollo-productivo_minero", "Name": "Minero" }
-      ]
-    },
-    {
-      "Id": "soberanía",
-      "Name": "Soberanía",
-      "Color": { "r": 0.80, "g": 0.30, "b": 0.70, "a": 1.0 },
-      "Categories": [
-        { "Id": "soberanía_antártida", "Name": "Antártida" },
-        { "Id": "soberanía_malvinas", "Name": "Malvinas" }
-      ]
-    }
-  ]
+    "InvestmentAxisButtons": [
+        {
+            "Id": "infraestructura-social",
+            "Name": "INFRAESTRUCTURA SOCIAL",
+            "Icon": {
+                "instanceID": 54006
+            },
+            "Color": {
+                "r": 0.0,
+                "g": 0.7333333492279053,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "Categories": [
+                {
+                    "Id": "infraestructura-social_viviendas",
+                    "Name": "Viviendas"
+                },
+                {
+                    "Id": "infraestructura-social_centros-de-salud",
+                    "Name": "Centros de Salud"
+                },
+                {
+                    "Id": "infraestructura-social_plan-de-escuelas",
+                    "Name": "Plan de Escuelas"
+                },
+                {
+                    "Id": "infraestructura-social_innovacion",
+                    "Name": "Innovación"
+                },
+                {
+                    "Id": "infraestructura-social_infraestructura-deportiva",
+                    "Name": "Infraestructura Deportiva"
+                },
+                {
+                    "Id": "infraestructura-social_servicios-basicos",
+                    "Name": "Servicios Básicos"
+                },
+                {
+                    "Id": "infraestructura-social_equipamiento-comunitario",
+                    "Name": "Equipamiento Comunitario"
+                },
+                {
+                    "Id": "infraestructura-social_infraestructura-en-seguridad",
+                    "Name": "Infraestructura en Seguridad"
+                }
+            ]
+        },
+        {
+            "Id": "infraestructura-productiva-y-conectividad",
+            "Name": "INFRAESTRUCTURA PRODUCTIVA Y CONECTIVIDAD",
+            "Icon": {
+                "instanceID": 54002
+            },
+            "Color": {
+                "r": 0.9647058844566345,
+                "g": 0.7176470756530762,
+                "b": 0.23137255012989045,
+                "a": 1.0
+            },
+            "Categories": [
+                {
+                    "Id": "infraestructura-productiva-y-conectividad_puertos",
+                    "Name": "Puertos"
+                },
+                {
+                    "Id": "infraestructura-productiva-y-conectividad_conectividad-vial",
+                    "Name": "Conectividad Vial"
+                },
+                {
+                    "Id": "infraestructura-productiva-y-conectividad_recursos-energeticos",
+                    "Name": "Recursos Energéticos"
+                }
+            ]
+        },
+        {
+            "Id": "infraestructura-logistica",
+            "Name": "INFRAESTRUCTURA LOGÍSTICA",
+            "Icon": {
+                "instanceID": 53998
+            },
+            "Color": {
+                "r": 1.0,
+                "g": 0.4000000059604645,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "Categories": [
+                {
+                    "Id": "infraestructura-logistica_polo-logistico-antartico",
+                    "Name": "Polo Logístico Antártico"
+                },
+                {
+                    "Id": "infraestructura-logistica_polo-almanza",
+                    "Name": "Polo Almanza"
+                }
+            ]
+        },
+        {
+            "Id": "desarrollo-productivo",
+            "Name": "DESARROLLO PRODUCTIVO",
+            "Icon": {
+                "instanceID": 52520
+            },
+            "Color": {
+                "r": 0.0470588244497776,
+                "g": 0.3019607961177826,
+                "b": 0.729411780834198,
+                "a": 1.0
+            },
+            "Categories": [
+                {
+                    "Id": "desarrollo-productivo_energia",
+                    "Name": "Energía"
+                },
+                {
+                    "Id": "desarrollo-productivo_turismo",
+                    "Name": "Turismo"
+                },
+                {
+                    "Id": "desarrollo-productivo_pesca",
+                    "Name": "Pesca"
+                },
+                {
+                    "Id": "desarrollo-productivo_industria",
+                    "Name": "Industria"
+                },
+                {
+                    "Id": "desarrollo-productivo_forestal",
+                    "Name": "Forestal"
+                },
+                {
+                    "Id": "desarrollo-productivo_minero",
+                    "Name": "Minero"
+                }
+            ]
+        },
+        {
+            "Id": "soberania",
+            "Name": "SOBERANÍA",
+            "Icon": {
+                "instanceID": 54014
+            },
+            "Color": {
+                "r": 0.0,
+                "g": 0.6509804129600525,
+                "b": 0.8941176533699036,
+                "a": 1.0
+            },
+            "Categories": [
+                {
+                    "Id": "soberania_antartida",
+                    "Name": "Antártida"
+                },
+                {
+                    "Id": "soberania_malvinas",
+                    "Name": "Malvinas"
+                }
+            ]
+        }
+    ]
 }

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-social_servicios-basicos
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: servicios-basicos
+  Title: "Servicios B\xE1sicos"
+  Subtitle: Cimientos para el Crecimiento y el Arraigo
+  DescriptionTitle: 
+  Description: "Uno de los ejes centrales de nuestra gesti\xF3n ha sido la construcci\xF3n
+    de servicios b\xE1sicos en distintas localidades, atendiendo una deuda hist\xF3rica
+    en materia de infraestructura. A trav\xE9s del despliegue de redes de\_agua,
+    cloaca, gas y electricidad, hemos llevado soluciones permanentes a demandas sociales
+    postergadas durante a\xF1os. \n\nEstas obras, m\xE1s all\xE1 de su impacto tangible,
+    han generado\_oportunidades de crecimiento, arraigo y prosperidad\_en las comunidades,
+    transformando la calidad de vida de las familias y sentando las bases para un
+    desarrollo territorial equilibrado. \n\nNuestro gobierno mantiene su firme compromiso
+    de\_consolidar esta estrategia, construyendo m\xE1s redes, ampliando el equipamiento
+    y generando nuevas oportunidades para que todos los fueguinos accedan a los servicios
+    esenciales."
+  CarouselImageNames:
+  - "infraestructura-social_servicios-b\xE1sicos_azud-ushuaia"
+  - "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-r\xEDo-grande"
+  - "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-tolhuin"
+  - "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-r\xEDo-grande"
+  PdfLinks: []

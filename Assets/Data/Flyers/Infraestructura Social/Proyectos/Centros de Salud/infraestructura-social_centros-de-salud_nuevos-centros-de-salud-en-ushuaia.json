@@ -12,16 +12,6 @@
         "infraestructura-social_centros-de-salud-5",
         "infraestructura-social_centros-de-salud-6",
         "infraestructura-social_centros-de-salud-7"
-
     ],
-    "PdfLinks": [
-        {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
-        }
-    ]
+    "PdfLinks": []
 }

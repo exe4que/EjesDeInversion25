@@ -27,9 +27,9 @@ MonoBehaviour:
     a las diversas realidades de las familias fueguinas, avanzando decisivamente
     en la superaci\xF3n de este d\xE9ficit."
   CarouselImageNames:
-  - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-1"
-  - "infraestructura-social_viviendas_tipolog\xEDa-agrupada-2"
-  - "infraestructura-social_viviendas_tipolog\xEDa-individual"
+  - infraestructura-social_viviendas_tipologia-agrupada-1
+  - infraestructura-social_viviendas_tipologia-agrupada-2
+  - infraestructura-social_viviendas_tipologia-individual
   PdfLinks:
   - Name: Plan Desarrollo Integral 2025
     Url: https://drive.google.com/file/d/13nel91O1z4tfJiEQXZ_IundGOqvFE3gb/view?usp=drive_link

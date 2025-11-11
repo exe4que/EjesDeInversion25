@@ -46,17 +46,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2af3282bf3d27b043bad69767938f16e
-    m_Address: "soberan\xEDa_ant\xE1rtida"
+    m_Address: soberania_antartida
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 31c4644daa86fe24d870d4f1e91343b2
-    m_Address: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-tolhuin"
+    m_Address: infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-tolhuin
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3287cec2c37a27541a0d6b2b49875ebb
-    m_Address: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-r\xEDo-grande"
+    m_Address: infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-rio-grande
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -66,12 +66,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 37bba074f424fcb42b4040205fd239c2
-    m_Address: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
+    m_Address: infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-ushuaia
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3b051e0e3a561e24aaafcab6da2c803a
-    m_Address: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-tolhuin"
+    m_Address: infraestructura-social_infraestructura-deportiva_inversiones-concretas-en-tolhuin
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7195a86ba0438bc4a8d214a762e616d3
-    m_Address: "soberan\xEDa_malvinas"
+    m_Address: soberania_malvinas
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92bac931223932442932238bf7e07012
-    m_Address: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-r\xEDo-grande"
+    m_Address: infraestructura-social_infraestructura-deportiva_inversiones-concretas-en-rio-grande
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -151,12 +151,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b06bb6c751a062d408a40dc638bf483c
-    m_Address: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-ushuaia"
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b3e0167bfaafc05338ea361c948ca68b
-    m_Address: infraestructura-social_viviendas_vivienda 1
+    m_Address: infraestructura-social_infraestructura-deportiva_inversiones-concretas-en-ushuaia
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -186,7 +181,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca8f56609b4dbaa4190297be560b0872
-    m_Address: "infraestructura-social_viviendas_viviendas-en-r\xEDo-grande"
+    m_Address: infraestructura-social_viviendas_viviendas-en-rio-grande
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
