@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-productiva-y-conectividad_recursos-energeticos
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "infraestructura-productiva-y-conectividad_recursos-energ\xE9ticos"
+  Title: "Recursos Energ\xE9ticos"
+  Subtitle: "Pilares del Desarrollo y la Transici\xF3n"
+  DescriptionTitle: 
+  Description: "La gesti\xF3n de los Recursos Energ\xE9ticos es fundamental para
+    la seguridad y el desarrollo econ\xF3mico de la provincia. La estrategia actual
+    se basa en un\_mix energ\xE9tico\_que combina la explotaci\xF3n de hidrocarburos
+    tradicionales con la incorporaci\xF3n de energ\xEDas renovables, buscando garantizar
+    el abastecimiento interno y el crecimiento sostenible. \n\nLos diversos proyectos
+    reflejan una pol\xEDtica energ\xE9tica integral, orientada a fortalecer la producci\xF3n
+    de recursos convencionales mientras se impulsa la incorporaci\xF3n de energ\xEDas
+    sustentables para el futuro."
+  CarouselImageNames:
+  - desarrollo-productivo_energia
+  PdfLinks: []
