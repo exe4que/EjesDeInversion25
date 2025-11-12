@@ -10,7 +10,7 @@ namespace EjesDeInversion.Data
         [TextArea]
         public string Subtitle;
         public string DescriptionTitle;
-        [TextArea]
+        [TextArea(20, 30)]
         public string Description;
         public string[] CarouselImageNames;
         public PdfLink[] PdfLinks;
