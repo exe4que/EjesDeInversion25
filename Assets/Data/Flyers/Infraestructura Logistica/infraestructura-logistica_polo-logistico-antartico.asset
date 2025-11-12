@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: infraestructura-logistica_polo-logistico-antartico
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
+  Id: infraestructura-logistica_polo-logistico-antartico
   Title: "Polo Log\xEDstico Ant\xE1rtico"
   Subtitle: "Soberan\xEDa, Ciencia y Desarrollo Sostenible en el Fin del Mundo"
   DescriptionTitle: 
