@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: recursos-energeticos_explotacion-de-hidrocarburos
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "explotaci\xF3n-de-hidrocarburos"
+  Title: "Explotaci\xF3n de Hidrocarburos"
+  Subtitle: "Soberan\xEDa Energ\xE9tica y Desarrollo para Tierra del Fuego"
+  DescriptionTitle: 
+  Description: "La explotaci\xF3n de las distintas zonas con potencial en Hidrocarburos
+    es un\_motor de desarrollo integral\_que reactiva la econom\xEDa local, genera
+    empleo calificado y fomenta la formaci\xF3n t\xE9cnica y universitaria, creando
+    una cadena de valor con fuerte arraigo territorial. \n\nAdem\xE1s, fortalece
+    nuestra\_soberan\xEDa energ\xE9tica\_al ampliar el conocimiento de los recursos
+    naturales provinciales."
+  CarouselImageNames:
+  - recursos-energeticos_explotacion-de-hidrocarburos_CA12
+  PdfLinks: []

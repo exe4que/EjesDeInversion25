@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-productiva-y-conectividad_plantas-de-licuefaccion
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "plantas-de-licuefacci\xF3n"
+  Title: "Plantas de Licuefacci\xF3n"
+  Subtitle: "Energ\xEDa para el Futuro Fueguino"
+  DescriptionTitle: 
+  Description: "La instalaci\xF3n de una planta de licuefacci\xF3n en la zona de
+    San Sebasti\xE1n marcar\xE1 un hito hist\xF3rico para el desarrollo energ\xE9tico
+    e industrial de Tierra del Fuego. \n\nEsta obra estrat\xE9gica permitir\xE1 transformar
+    el gas natural en l\xEDquido (GNL), facilitando su transporte eficiente y seguro
+    hacia mercados nacionales e internacionales. \n\nEste proyecto representa una
+    triple oportunidad para la Provincia: \n\n- Monetizaci\xF3n de reservas:\_Agregar\xE1
+    valor a los recursos energ\xE9ticos fueguinos \n\n- Generaci\xF3n de empleo:\_Crear\xE1
+    puestos de trabajo calificado y dinamizar\xE1 la econom\xEDa local \n\n- Integraci\xF3n
+    global:\_Posicionar\xE1 a Tierra del Fuego como exportador de energ\xEDa en el
+    mercado mundial \n\nLa planta de licuefacci\xF3n se consolida as\xED como una
+    soluci\xF3n estrat\xE9gica que transformar\xE1 la matriz productiva provincial,
+    generando desarrollo sostenible y soberan\xEDa energ\xE9tica para las futuras
+    generaciones."
+  CarouselImageNames:
+  - infraestructura-productiva-y-conectividad_planta-de-licuefaccion-san-sebastian
+  PdfLinks: []

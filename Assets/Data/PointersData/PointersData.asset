@@ -28,7 +28,7 @@ MonoBehaviour:
     Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: Tierras para el desarrollo de viviendas en Ushuaia
     IsLink: 1
-  - Id: "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-r\xEDo-grande"
+  - Id: infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-rio-grande
     Name: "Centros de Salud en R\xEDo Grande"
     Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Nuevos Centros de Salud en R\xEDo Grande"
@@ -38,52 +38,52 @@ MonoBehaviour:
     Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: Nuevos Centros de Salud en Ushuaia
     IsLink: 1
-  - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
+  - Id: infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-ushuaia
     Name: "Escuela T\xE9cnica Profesional en Ushuaia"
     Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: Nuevas Escuelas en Ushuaia
     IsLink: 1
-  - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-tolhuin"
+  - Id: infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-tolhuin
     Name: "Escuela T\xE9cnica Profesional en Tolhuin"
     Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: Nuevas Escuelas en Tolhuin
     IsLink: 1
-  - Id: "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-r\xEDo-grande"
+  - Id: infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-rio-grande
     Name: "Escuela T\xE9cnica Profesional en R\xEDo Grande"
     Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Nuevas Escuelas en R\xEDo Grande"
     IsLink: 1
-  - Id: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-tolhuin"
+  - Id: "infraestructura-social_innovacion_fabrica-de-talento-e-innovaci\xF3n-en-tolhuin"
     Name: "F\xE1bricas de Talento e Innovaci\xF3n en Tolhuin"
     Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: "F\xE1bricas de Talento e Innovaci\xF3n en Tolhuin"
     IsLink: 1
-  - Id: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-r\xEDo-grande"
+  - Id: infraestructura-social_innovacion_fabrica-de-talento-e-innovacion-en-rio-grande
     Name: "F\xE1bricas de Talento e Innovaci\xF3n"
     Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "F\xE1bricas de Talento e Innovaci\xF3n en R\xEDo Grande"
     IsLink: 1
-  - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-r\xEDo-grande"
+  - Id: infraestructura-social_infraestructura-deportiva_inversiones-concretas-en-rio-grande
     Name: "Infraestructura Deportiva en R\xEDo Grande"
     Position: {x: -536.3, y: 88.9, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en R\xEDo Grande"
     IsLink: 1
-  - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-ushuaia"
+  - Id: infraestructura-social_infraestructura-deportiva_inversiones-concretas-en-ushuaia
     Name: Infraestructura Deportiva en Ushuaia
     Position: {x: -552.9, y: 42.9, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en Ushuaia"
     IsLink: 1
-  - Id: "infraestructura-social_infraestructura-deportiva_inversi\xF3nes-concretas-en-tolhuin"
+  - Id: infraestructura-social_infraestructura-deportiva_inversiones-concretas-en-tolhuin
     Name: Infraestructura Deportiva en Tolhuin
     Position: {x: -522, y: 54.8, z: 995}
     ShortDescription: "Inversi\xF3nes concretas en Tolhuin"
     IsLink: 1
-  - Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico_polo-log\xEDstico-ant\xE1rtico"
+  - Id: infraestructura-logistica_polo-logistico-antartico_polo-logistico-antartico
     Name: "Polo Log\xEDstico Ant\xE1rtico"
     Position: {x: -552.3, y: 42.4, z: 995}
     ShortDescription: "Inversi\xF3nes en Ushuaia"
     IsLink: 0
-  - Id: "infraestructura-log\xEDstica_polo-almanza_polo-almanza"
+  - Id: infraestructura-logistica_polo-almanza_polo-almanza
     Name: Polo Almanza
     Position: {x: -529.6, y: 36.9, z: 995}
     ShortDescription: "Inversi\xF3nes en Puerto Almanza"

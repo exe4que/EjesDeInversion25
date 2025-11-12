@@ -6,23 +6,13 @@
     "Description": "Nuestra gestión ha consolidado al deporte como un pilar fundamental para la integración y el desarrollo comunitario. Esta convicción se ha traducido en una inversión histórica y tangible en infraestructura. \n\n- Construimos 7 gimnasios polideportivos nuevos en toda la provincia. \n\n- Edificamos un microestadio con capacidad para 4.500 personas. \n\n- Implementamos dos canchas de césped sintético de nivel profesional. \n\nSon espacios de inclusión que facilitan el acceso a actividades deportivas y sociales para cientos de personas, fomentando la cohesión social y los hábitos de vida saludables. \n\nFiel a esta política de Estado, nuestro gobierno avanza en ampliar las inversiones. \n\nEl objetivo es claro: seguir tejiendo una red de infraestructura deportiva de calidad que llegue a cada rincón de la provincia, garantizando que el deporte sea un derecho accesible para todos.",
     "CarouselImageNames": [
         "infraestructura-social_infraestructura-deportiva_albergues-deportivos",
-        "infraestructura-social_infraestructura-deportiva_cancha-de-fútbol-río-grande",
-        "infraestructura-social_infraestructura-deportiva_cancha-de-fútbol-tolhuin",
-        "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-río-grande",
-        "infraestructura-social_infraestructura-deportiva_gimnasio-polideportivo-barrio-san-martín-ushuaia",
+        "infraestructura-social_infraestructura-deportiva_cancha-de-futbol-rio-grande",
+        "infraestructura-social_infraestructura-deportiva_cancha-de-futbol-tolhuin",
+        "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-rio-grande",
+        "infraestructura-social_infraestructura-deportiva_gimnasio-polideportivo-barrio-san-martin-ushuaia",
         "infraestructura-social_infraestructura-deportiva_natatorio-tolhuin",
         "infraestructura-social_infraestructura-deportiva_pista-de-atletismo-ushuaia",
-        "infraestructura-social_infraestructura-deportiva_pista-de-hielo-río-grande"
-
+        "infraestructura-social_infraestructura-deportiva_pista-de-hielo-rio-grande"
     ],
-    "PdfLinks": [
-        {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
-        }
-    ]
+    "PdfLinks": []
 }

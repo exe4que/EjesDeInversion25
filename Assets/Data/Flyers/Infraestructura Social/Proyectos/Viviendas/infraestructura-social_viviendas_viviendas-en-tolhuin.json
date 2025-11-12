@@ -5,19 +5,14 @@
     "DescriptionTitle": "",
     "Description": "La provincia enfrenta un déficit histórico de 12,000 viviendas de enfoque social, una necesidad acumulada desde 2010 que demanda una solución estructural y definitiva. \n\nFrente a este desafío, nuestro gobierno ha asumido el compromiso de trabajar de manera incansable. Nos hemos enfocado en dos ejes centrales: la culminación de viviendas en ejecución y la adquisición estratégica de tierras para el desarrollo de nuevos barrios y comunidades. \n\nEstos proyectos, de diferentes características y dimensiones, están diseñados con un solo objetivo: brindar una solución concreta y adaptada a las diversas realidades de las familias fueguinas, avanzando decisivamente en la superación de este déficit.",
     "CarouselImageNames": [
-        "infraestructura-social_viviendas_tipología-agrupada-1",
-        "infraestructura-social_viviendas_tipología-agrupada-2",
-        "infraestructura-social_viviendas_tipología-individual"
-
+        "infraestructura-social_viviendas_tipologia-agrupada-1",
+        "infraestructura-social_viviendas_tipologia-agrupada-2",
+        "infraestructura-social_viviendas_tipologia-individual"
     ],
     "PdfLinks": [
         {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
+            "Name": "Plan Desarrollo Integral 2025",
+            "Url": "https://drive.google.com/file/d/13nel91O1z4tfJiEQXZ_IundGOqvFE3gb/view?usp=drive_link"
         }
     ]
 }

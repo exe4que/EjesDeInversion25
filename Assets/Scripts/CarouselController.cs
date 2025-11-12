@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using DG.Tweening;
+using EjesDeInversion.Managers;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -22,6 +23,7 @@ namespace EjesDeInversion
         private int _imagesCount = 0;
         private int _currentIndex = 0;
         private float _imageWidth = 0f;
+        private List<GameObject> _images = new();
         private List<CarouselDotController> _dots = new();
 
         /*private void Start()
@@ -29,27 +31,24 @@ namespace EjesDeInversion
             Initialize();
         }*/
 
-        public async void SetData(string[] imageNames)
+        public void SetData(string[] imageNames)
         {
             ClearAll();
-            await LoadAndCreateImages(imageNames);
+            LoadAndCreateImages(imageNames);
             Initialize();
         }
 
         private void ClearAll()
         {
             // Clear existing images
-            foreach (Transform child in _imagesContainer)
+            foreach (GameObject image in _images)
             {
-                //avoid destroying the prefab template
-                if(child.gameObject.activeSelf)
-                {
-                    Destroy(child.gameObject);
-                }
+                Destroy(image);
             }
+            _images.Clear();
 
             // Clear dots
-            foreach (var dot in _dots)
+            foreach (CarouselDotController dot in _dots)
             {
                 Destroy(dot.gameObject);
             }
@@ -62,20 +61,14 @@ namespace EjesDeInversion
             _rightButton.gameObject.SetActive(true);
         }
 
-        private async Task LoadAndCreateImages(string[] imageNames)
+        private void LoadAndCreateImages(string[] imageNames)
         {
             // load images from addressables
             foreach (var imageName in imageNames)
             {
-                AsyncOperationHandle<Texture2D> handle = Addressables.LoadAssetAsync<Texture2D>(imageName);
-                await handle.Task;
-                if (handle.Status == AsyncOperationStatus.Succeeded)
+                if (DataManager.TryLoad<Sprite>(imageName, out var sprite))
                 {
-                    Texture2D texture = handle.Result;
-                    CreateNewImage(texture);
-
-                    // Release the handle if no longer needed
-                    Addressables.Release(handle);
+                    CreateNewImage(sprite);
                 }
                 else
                 {
@@ -84,26 +77,23 @@ namespace EjesDeInversion
             }
         }
 
-        private void CreateNewImage(Texture2D texture)
+        private void CreateNewImage(Sprite sprite)
         {
-            Sprite sprite = Sprite.Create(texture,
-                new Rect(0, 0, texture.width, texture.height),
-                new Vector2(0.5f, 0.5f));
-
             // Instantiate image prefab
             GameObject imageGO = Instantiate(_imagePrefab, _imagesContainer);
             Image imageComponent = imageGO.GetComponent<Image>();
             imageComponent.sprite = sprite;
             imageGO.SetActive(true);
+            _images.Add(imageGO);
         }
 
         private void Initialize()
         {
             //only active children are counted
             _imagesCount = 0;
-            foreach (Transform child in _imagesContainer)
+            foreach (GameObject image in _images)
             {
-                if (child.gameObject.activeSelf)
+                if (image.activeSelf)
                 {
                     _imagesCount++;
                 }

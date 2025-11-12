@@ -1,22 +1,11 @@
 {
-    "Id": "puertos",
-    "Title": "Puertos",
-    "Subtitle": "Infraestructura para el Desarrollo Fueguino",
+    "Id": "equipamiento-comunitario",
+    "Title": "Equipamiento Comunitario",
+    "Subtitle": "Presencia del Estado y Acceso a Servicios Esenciales",
     "DescriptionTitle": "",
-    "Description": "El desarrollo productivo de la Provincia requiere de infraestructura moderna que acompañe su crecimiento. Si bien actualmente contamos con infraestructura portuaria, esta se ha vuelto poco eficiente debido a la falta de actualización permanente y a estar enfocada en una matriz antigua que ya no refleja las necesidades actuales. \n\nEsta situación impulsa la necesidad de construir nuevos puertos marítimos en la Provincia, que se conviertan en motores de crecimiento y desarrollo. \n\nEstas nuevas infraestructuras permitirán: \n\n- Generar oportunidades de conectividad y logística eficiente \n\n- Impulsar la producción local \n\n- Facilitar procesos de importación y exportación \n\nCon esta modernización portuaria, sentaremos las bases para una economía fueguina más competitiva y mejor integrada a los circuitos comerciales regionales e internacionales.",
-    
+    "Description": "La construcción de equipamiento comunitario representa un pilar fundamental de nuestra gestión, reforzando la presencia del Estado en el territorio y materializando el acompañamiento en el crecimiento de las comunidades. \n\nEstos espacios —que incluyen sedes sociales y culturales— se convierten en puntos de referencia para el desarrollo barrial, la inclusión social y la participación ciudadana. \n\nNuestro Gobierno mantiene el firme compromiso de consolidar esta estrategia, construyendo más equipamiento y generando nuevas oportunidades para fortalecer el tejido social en toda la provincia.",
     "CarouselImageNames": [
-        "infraestructura-productiva-y-conectividad_puertos"
-
+        "infraestructura-social_equipamiento-comunitario_casa-de-la-alegria-ushuaia"
     ],
-    "PdfLinks": [
-        {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
-        }
-    ]
+    "PdfLinks": []
 }

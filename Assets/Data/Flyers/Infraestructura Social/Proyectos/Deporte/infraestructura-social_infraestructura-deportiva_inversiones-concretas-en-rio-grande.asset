@@ -21,7 +21,7 @@ MonoBehaviour:
     en R\xEDo Grande"
   CarouselImageNames:
   - infraestructura-social_infraestructura-deportiva_albergues-deportivos
-  - "infraestructura-social_infraestructura-deportiva_cancha-de-f\xFAtbol-r\xEDo-grande"
-  - "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-r\xEDo-grande"
-  - "infraestructura-social_infraestructura-deportiva_pista-de-hielo-r\xEDo-grande"
+  - infraestructura-social_infraestructura-deportiva_cancha-de-futbol-rio-grande
+  - infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-rio-grande
+  - infraestructura-social_infraestructura-deportiva_pista-de-hielo-rio-grande
   PdfLinks: []
