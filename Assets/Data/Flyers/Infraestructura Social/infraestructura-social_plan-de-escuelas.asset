@@ -25,7 +25,7 @@ MonoBehaviour:
     y definitiva a la demanda educativa futura, sentando las bases para un sistema
     educativo robusto, moderno y preparado para las pr\xF3ximas generaciones de fueguinos."
   CarouselImageNames:
-  - "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-r\xEDo-grande"
-  - "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-ushuaia"
-  - "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-tolhuin"
+  - infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-rio-grande
+  - infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-ushuaia
+  - infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-tolhuin
   PdfLinks: []

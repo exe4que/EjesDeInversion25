@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
+  m_Name: infraestructura-logistica_polo-logistico-antartico
+  m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
+  Id: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
+  Title: "Polo Log\xEDstico Ant\xE1rtico"
+  Subtitle: "Soberan\xEDa, Ciencia y Desarrollo Sostenible en el Fin del Mundo"
+  DescriptionTitle: 
+  Description: "La creaci\xF3n de un Polo Log\xEDstico Ant\xE1rtico en Ushuaia consolida
+    a la Argentina como\_puerta de entrada natural al continente blanco, fortaleciendo
+    nuestra presencia estrat\xE9gica en la regi\xF3n. Este proyecto no solo potencia
+    la econom\xEDa fueguina mediante la generaci\xF3n de empleo calificado y el desarrollo
+    de servicios especializados, sino que tambi\xE9n reafirma nuestro\_compromiso
+    con la soberan\xEDa cient\xEDfica\_y el liderazgo en las actividades ant\xE1rticas.
+    \n\nSu implementaci\xF3n conlleva una\_responsabilidad integral\_que armoniza
+    el desarrollo con la protecci\xF3n del fr\xE1gil ecosistema ant\xE1rtico. El
+    dise\xF1o de esta infraestructura se gu\xEDa por los m\xE1s altos est\xE1ndares
+    de\_sostenibilidad ambiental, cumpliendo rigurosamente con los protocolos del
+    Tratado Ant\xE1rtico y los compromisos diplom\xE1ticos internacionales. \n\nEl
+    Polo se proyecta como una\_plataforma moderna y eficiente\_de clase mundial,
+    capaz de brindar servicios log\xEDsticos especializados a las bases cient\xEDficas
+    internacionales, mientras posiciona a Tierra del Fuego como un\_referente global
+    en operaciones polares\_responsables y tecnol\xF3gicamente avanzadas."
+  CarouselImageNames:
+  - "infraestructura-productiva-y-conectividad_polo-log\xEDstico-ant\xE1rtico"
+  PdfLinks: []

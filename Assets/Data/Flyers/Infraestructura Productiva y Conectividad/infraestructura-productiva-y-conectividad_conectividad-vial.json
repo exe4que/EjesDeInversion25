@@ -1,21 +1,11 @@
 {
-    "Id": "conectividad-vial",
+    "Id": "infraestructura-productiva-y-conectividad_conectividad-vial",
     "Title": "Conectividad Vial",
     "Subtitle": "Integración Territorial para el Desarrollo Fueguino",
     "DescriptionTitle": "",
-    "Description": "La inversión en infraestructura vial constituye un eje estratégico para el desarrollo de Tierra del Fuego, articulando el territorio, facilitando el transporte de producción y mejorando la calidad de vida de los ciudadanos. \n\nEl programa incluye la pavimentación de rutas claves, la mejora y ampliación de carriles existentes, la construcción de puentes y el desarrollo del corredor costero como eje turístico y logístico. \n\nEstas intervenciones se planifican con una mirada federal y de largo plazo. El objetivo es claro: transformar la red vial fueguina en un pilar de la integración provincial, fortaleciendo el arraigo, la producción local y la defensa de la soberanía a través de una infraestructura que una a los fueguinos y fueguinas." ,
+    "Description": "La inversión en infraestructura vial constituye un eje estratégico para el desarrollo de Tierra del Fuego, articulando el territorio, facilitando el transporte de producción y mejorando la calidad de vida de los ciudadanos. \n\nEl programa incluye la pavimentación de rutas claves, la mejora y ampliación de carriles existentes, la construcción de puentes y el desarrollo del corredor costero como eje turístico y logístico. \n\nEstas intervenciones se planifican con una mirada federal y de largo plazo. El objetivo es claro: transformar la red vial fueguina en un pilar de la integración provincial, fortaleciendo el arraigo, la producción local y la defensa de la soberanía a través de una infraestructura que una a los fueguinos y fueguinas.",
     "CarouselImageNames": [
         "infraestructura-productiva-y-conectividad_conectividad-vial"
-
     ],
-    "PdfLinks": [
-        {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
-        }
-    ]
+    "PdfLinks": []
 }
