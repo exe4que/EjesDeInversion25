@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: desarrollo-productivo_minero
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: minero
+  Id: desarrollo-productivo_minero
   Title: Minero
   Subtitle: Desarrollo Sostenible y Valor Agregado en Tierra del Fuego
   DescriptionTitle: 

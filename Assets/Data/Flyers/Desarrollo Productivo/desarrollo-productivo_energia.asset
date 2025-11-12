@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: desarrollo-productivo_energia
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: energia
+  Id: desarrollo-productivo_energia
   Title: "Energ\xEDa"
   Subtitle: "Liderazgo Hidrocarbur\xEDfero y Transici\xF3n hacia una Matriz Sostenible"
   DescriptionTitle: 

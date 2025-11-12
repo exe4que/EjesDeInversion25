@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: desarrollo-productivo_pesca
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: pesca
+  Id: desarrollo-productivo_pesca
   Title: Pesca
   Subtitle: "Diversificaci\xF3n y Proyecci\xF3n Global"
   DescriptionTitle: 

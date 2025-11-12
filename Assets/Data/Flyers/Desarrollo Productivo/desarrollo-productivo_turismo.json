@@ -1,21 +1,11 @@
 {
-    "Id": "turismo",
+    "Id": "desarrollo-productivo_turismo",
     "Title": "Turismo",
     "Subtitle": " Un Destino Único con Crecimiento Sostenible",
     "DescriptionTitle": "",
-    "Description": "Tierra del Fuego se consolida como uno de los destinos más singulares y exclusivos de Argentina, reconocido internacionalmente por su riqueza natural, cultural e histórica. Ushuaia, como puerta de entrada a la Antártida, ejerce un rol estratégico en el turismo global, atrayendo visitantes de alto poder adquisitivo interesados en experiencias únicas. \n\nEn 2024 la provincia recibió más de 816.000 visitantes, con un gasto superior a USD 107 millones. Estos números reflejan un turismo de calidad, con un gasto promedio de USD 748,35 por visitante y una estadía promedio de 4,3 noches, demostrando el fuerte impacto de la actividad en la economía fueguina. \n\nLa provincia se proyecta como referente en turismo de experiencias, combinando su identidad austral con servicios de alta gama, siempre desde un enfoque sustentable que preserve los frágiles ecosistemas fueguinos." ,
+    "Description": "Tierra del Fuego se consolida como uno de los destinos más singulares y exclusivos de Argentina, reconocido internacionalmente por su riqueza natural, cultural e histórica. Ushuaia, como puerta de entrada a la Antártida, ejerce un rol estratégico en el turismo global, atrayendo visitantes de alto poder adquisitivo interesados en experiencias únicas. \n\nEn 2024 la provincia recibió más de 816.000 visitantes, con un gasto superior a USD 107 millones. Estos números reflejan un turismo de calidad, con un gasto promedio de USD 748,35 por visitante y una estadía promedio de 4,3 noches, demostrando el fuerte impacto de la actividad en la economía fueguina. \n\nLa provincia se proyecta como referente en turismo de experiencias, combinando su identidad austral con servicios de alta gama, siempre desde un enfoque sustentable que preserve los frágiles ecosistemas fueguinos.",
     "CarouselImageNames": [
         "desarrollo-productivo_turismo"
-
     ],
-    "PdfLinks": [
-        {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
-        }
-    ]
+    "PdfLinks": []
 }

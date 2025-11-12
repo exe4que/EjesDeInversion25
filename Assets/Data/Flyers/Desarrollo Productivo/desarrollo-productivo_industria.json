@@ -1,21 +1,11 @@
 {
-    "Id": "industria",
+    "Id": "desarrollo-productivo_industria",
     "Title": "Industria",
     "Subtitle": "Polo Productivo Estratégico con Impacto Nacional",
     "DescriptionTitle": "",
-    "Description": "Tierra del Fuego sostiene uno de los complejos industriales más relevantes y dinámicos de Argentina, impulsado por el Subrégimen de Promoción Industrial, que garantiza empleo registrado, arraigo territorial y capacidades tecnológicas únicas en el extremo sur del país. \n\nOportunidades para el Futuro. El perfil industrial de la provincia se expande hacia nuevas fronteras, con oportunidades claras en: \n\n- Sustitución de importaciones en nuevos rubros. \n\n- Transición tecnológica y reconversión sustentable. \n\n- Aprovechamiento de capacidades ociosas y diversificación productiva. \n\nCon un modelo que combina protección estratégica, innovación y federalismo, la industria fueguina se consolida como un caso de éxito en la integración de competitividad, desarrollo local y soberanía productiva." ,
+    "Description": "Tierra del Fuego sostiene uno de los complejos industriales más relevantes y dinámicos de Argentina, impulsado por el Subrégimen de Promoción Industrial, que garantiza empleo registrado, arraigo territorial y capacidades tecnológicas únicas en el extremo sur del país. \n\nEl perfil industrial de la provincia se expande hacia nuevas fronteras, con oportunidades claras en: \n\n- Sustitución de importaciones en nuevos rubros. \n\n- Transición tecnológica y reconversión sustentable. \n\n- Aprovechamiento de capacidades ociosas y diversificación productiva. \n\nCon un modelo que combina protección estratégica, innovación y federalismo, la industria fueguina se consolida como un caso de éxito en la integración de competitividad, desarrollo local y soberanía productiva.",
     "CarouselImageNames": [
         "desarrollo-productivo_industria"
-
     ],
-    "PdfLinks": [
-        {
-            "Name": "",
-            "Url": ""
-        },
-        {
-            "Name": "",
-            "Url": ""
-        }
-    ]
+    "PdfLinks": []
 }

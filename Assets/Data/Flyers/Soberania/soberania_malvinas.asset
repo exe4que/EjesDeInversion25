@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: soberania_malvinas
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: malvinas
+  Id: soberania_malvinas
   Title: Malvinas
   Subtitle: "Memoria, Soberan\xEDa y Pertenencia Fueguina"
   DescriptionTitle: 

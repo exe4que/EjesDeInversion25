@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: desarrollo-productivo_forestal
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: forestal
+  Id: desarrollo-productivo_forestal
   Title: Forestal
   Subtitle: "Desarrollo Sostenible en los Bosques Subant\xE1rticos"
   DescriptionTitle: 
