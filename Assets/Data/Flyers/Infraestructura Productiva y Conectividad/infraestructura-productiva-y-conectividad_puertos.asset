@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: infraestructura-productiva-y-conectividad_puertos
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: infraestructura-productiva-y-conectividad_puertos
+  Id: puertos
   Title: Puertos
   Subtitle: Infraestructura para el Desarrollo Fueguino
   DescriptionTitle: 

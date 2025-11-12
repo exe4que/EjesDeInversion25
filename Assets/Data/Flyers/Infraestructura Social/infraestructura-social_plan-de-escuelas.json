@@ -5,9 +5,18 @@
     "DescriptionTitle": "",
     "Description": "La Provincia cuenta con una extensa red de más de 100 edificios educativos distribuidos en todo su territorio. Sin embargo, esta infraestructura dedicada a la enseñanza ha demostrado ser insuficiente para cubrir las necesidades de una población en crecimiento. \n\nFrente a este desafío, nuestro Gobierno Provincial ha decidido diseñar de manera inteligente, un Plan de Escuelas. \n\nEs una inversión de visión que apunta a dar una solución estructural y definitiva a la demanda educativa futura, sentando las bases para un sistema educativo robusto, moderno y preparado para las próximas generaciones de fueguinos.",
     "CarouselImageNames": [
-        "infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-rio-grande",
-        "infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-ushuaia",
-        "infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-tolhuin"
+        "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-río-grande",
+        "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-ushuaia",
+        "infraestructura-social_plan-de-escuelas_escuela-técnica-profesional-tolhuin"
     ],
-    "PdfLinks": []
+    "PdfLinks": [
+        {
+            "Name": "",
+            "Url": ""
+        },
+        {
+            "Name": "",
+            "Url": ""
+        }
+    ]
 }

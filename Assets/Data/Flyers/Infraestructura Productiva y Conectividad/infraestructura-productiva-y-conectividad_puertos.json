@@ -1,11 +1,22 @@
 {
-    "Id": "infraestructura-productiva-y-conectividad_puertos",
+    "Id": "puertos",
     "Title": "Puertos",
     "Subtitle": "Infraestructura para el Desarrollo Fueguino",
     "DescriptionTitle": "",
-    "Description": "El desarrollo productivo de la Provincia requiere de infraestructura moderna que acompañe su crecimiento. Si bien actualmente contamos con infraestructura portuaria, esta se ha vuelto poco eficiente debido a la falta de actualización permanente y a estar enfocada en una matriz antigua que ya no refleja las necesidades actuales. \n\nEsta situación impulsa la necesidad de construir nuevos puertos marítimos en la Provincia, que se conviertan en motores de crecimiento y desarrollo. \n\nEstas nuevas infraestructuras permitirán: \n\n- Generar oportunidades de conectividad y logística eficiente \n\n- Impulsar la producción local \n\n- Facilitar procesos de importación y exportación \n\nCon esta modernización portuaria, sentaremos las bases para una economía fueguina más competitiva y mejor integrada a los circuitos comerciales regionales e internacionales.",
+    "Description": "El desarrollo productivo de la Provincia requiere de infraestructura moderna que acompañe su crecimiento. Si bien actualmente contamos con infraestructura portuaria, esta se ha vuelto poco eficiente debido a la falta de actualización permanente y a estar enfocada en una matriz antigua que ya no refleja las necesidades actuales. \n\nEsta situación impulsa la necesidad de construir nuevos puertos marítimos en la Provincia, que se conviertan en motores de crecimiento y desarrollo. \n\nEstas nuevas infraestructuras permitirán: \n\n- Generar oportunidades de conectividad y logística eficiente \n\n- Impulsar la producción local \n\n- Facilitar procesos de importación y exportación \n\nCon esta modernización portuaria, sentaremos las bases para una economía fueguina más competitiva y mejor integrada a los circuitos comerciales regionales e internacionales." ,
+    
     "CarouselImageNames": [
         "infraestructura-productiva-y-conectividad_puertos"
+        
     ],
-    "PdfLinks": []
+    "PdfLinks": [
+        {
+            "Name": "",
+            "Url": ""
+        },
+        {
+            "Name": "",
+            "Url": ""
+        }
+    ]
 }
