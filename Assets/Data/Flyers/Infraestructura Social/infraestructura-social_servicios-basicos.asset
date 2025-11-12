@@ -28,8 +28,8 @@ MonoBehaviour:
     y generando nuevas oportunidades para que todos los fueguinos accedan a los servicios
     esenciales."
   CarouselImageNames:
-  - "infraestructura-social_servicios-b\xE1sicos_azud-ushuaia"
-  - "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-r\xEDo-grande"
-  - "infraestructura-social_servicios-b\xE1sicos_planta-de-tratamiento-cloacal-tolhuin"
-  - "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-r\xEDo-grande"
+  - infraestructura-social_servicios-basicos_azud-ushuaia
+  - infraestructura-social_servicios-basicos_planta-de-tratamiento-cloacal-rio-grande
+  - infraestructura-social_servicios-basicos_planta-de-tratamiento-cloacal-tolhuin
+  - infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-rio-grande
   PdfLinks: []

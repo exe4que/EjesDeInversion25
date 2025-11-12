@@ -19,5 +19,5 @@ MonoBehaviour:
   Description: "Alcance: 800 estudiantes. \n\nSuperficie: 1.944,98m2. \n\nPresupuesto:
     USD 5.874.606,45."
   CarouselImageNames:
-  - "infraestructura-social_plan-de-escuelas_escuela-t\xE9cnica-profesional-r\xEDo-grande"
+  - infraestructura-social_plan-de-escuelas_escuela-tecnica-profesional-rio-grande
   PdfLinks: []

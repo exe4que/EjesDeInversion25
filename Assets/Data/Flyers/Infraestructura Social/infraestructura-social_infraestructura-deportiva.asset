@@ -30,11 +30,11 @@ MonoBehaviour:
     que el deporte sea un derecho accesible para todos."
   CarouselImageNames:
   - infraestructura-social_infraestructura-deportiva_albergues-deportivos
-  - "infraestructura-social_infraestructura-deportiva_cancha-de-f\xFAtbol-r\xEDo-grande"
-  - "infraestructura-social_infraestructura-deportiva_cancha-de-f\xFAtbol-tolhuin"
-  - "infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-r\xEDo-grande"
-  - "infraestructura-social_infraestructura-deportiva_gimnasio-polideportivo-barrio-san-mart\xEDn-ushuaia"
+  - infraestructura-social_infraestructura-deportiva_cancha-de-futbol-rio-grande
+  - infraestructura-social_infraestructura-deportiva_cancha-de-futbol-tolhuin
+  - infraestructura-social_infraestructura-deportiva_gimnasio-barrio-ypf-rio-grande
+  - infraestructura-social_infraestructura-deportiva_gimnasio-polideportivo-barrio-san-martin-ushuaia
   - infraestructura-social_infraestructura-deportiva_natatorio-tolhuin
   - infraestructura-social_infraestructura-deportiva_pista-de-atletismo-ushuaia
-  - "infraestructura-social_infraestructura-deportiva_pista-de-hielo-r\xEDo-grande"
+  - infraestructura-social_infraestructura-deportiva_pista-de-hielo-rio-grande
   PdfLinks: []

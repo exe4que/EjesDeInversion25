@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: 52297bf17f394700782cf5916ebd714d
   m_SerializeEntries:
   - m_GUID: 0b248dd9efabf7a4191bde15ce92223a
-    m_Address: "infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-r\xEDo-grande"
+    m_Address: infraestructura-social_centros-de-salud_nuevos-centros-de-salud-en-rio-grande
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1171c36d3e2da1b41ab3f61b30d8147a
-    m_Address: "infraestructura-log\xEDstica_polo-log\xEDstico-ant\xE1rtico"
+    m_Address: infraestructura-logistica_polo-logistico-antartico
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 373a98a7dee421744bafb08d7bca11d9
-    m_Address: "infraestructura-productiva-y-conectividad_parques-e\xF3licos"
+    m_Address: infraestructura-productiva-y-conectividad_parques-eolicos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 57066a5b0eb9257409e2afaf5b3f8bcf
-    m_Address: "infraestructura-social_servicios-b\xE1sicos"
+    m_Address: infraestructura-social_servicios-basicos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -91,12 +91,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61d5e4e549be5d742a9b85341bb97d27
-    m_Address: "infraestructura-productiva-y-conectividad_recursos-energ\xE9ticos"
+    m_Address: infraestructura-productiva-y-conectividad_recursos-energeticos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 63d040af4c141cc41b1b70fc0e9099ef
-    m_Address: "infraestructura-log\xEDstica_playas-de-contenedores"
+    m_Address: infraestructura-logistica_playas-de-contenedores
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7f6b0a63bc9038f499500cd4e05a90a0
-    m_Address: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-r\xEDo-grande"
+    m_Address: infraestructura-social_innovacion_fabrica-de-talento-e-innovacion-en-rio-grande
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 99744b248d1fb7446b1069027f6c4ae3
-    m_Address: "infraestructura-social_innovaci\xF3n"
+    m_Address: infraestructura-social_innovacion
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b5de3f173f809264fb94354cb4b79981
-    m_Address: "infraestructura-productiva-y-conectividad_conexi\xF3nes-industriales"
+    m_Address: infraestructura-productiva-y-conectividad_conexiones-industriales
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -171,12 +171,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c72aec3e57b3205418a01ed9fafa8045
-    m_Address: "desarrollo-productivo_energ\xEDa"
+    m_Address: desarrollo-productivo_energia
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c93729b2071b84e478a8fadeeca5e302
-    m_Address: "infraestructura-productiva-y-conectividad_plantas-de-licuefacci\xF3n"
+    m_Address: infraestructura-productiva-y-conectividad_plantas-de-licuefaccion
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -191,12 +191,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cf479ef11b95068409cb765438fefa2d
-    m_Address: "recursos-energ\xE9ticos_explotaci\xF3n-de-hidrocarburos"
+    m_Address: recursos-energeticos_explotacion-de-hidrocarburos
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d0fdfb5137bb0cb45947a1086b8b873d
-    m_Address: "infraestructura-log\xEDstica_polo-almanza"
+    m_Address: infraestructura-logistica_polo-almanza
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -206,12 +206,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ef16169af03dd5241b8558fd68227934
-    m_Address: "recursos-energ\xE9ticos_nuevos-reservorios-on-y-off-shore"
+    m_Address: recursos-energeticos_nuevos-reservorios-on-y-off-shore
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f47f224fdaebb574587b6b151ea7f63d
-    m_Address: "infraestructura-social_innovaci\xF3n_f\xE1brica-de-talento-e-innovaci\xF3n-en-tolhuin"
+    m_Address: infraestructura-social_innovacion_fabrica-de-talento-e-innovacion-en-tolhuin
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

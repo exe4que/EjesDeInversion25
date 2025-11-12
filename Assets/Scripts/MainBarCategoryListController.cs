@@ -36,7 +36,6 @@ namespace EjesDeInversion
             _initialWidth = ((RectTransform)this.transform).rect.width;
             float containerSize = ((RectTransform)this.transform.parent).rect.width;
             float totalSize = _initialWidth + MIN_PADDING * 2;
-            Debug.Log($"Adjusting MainBarCategoryList width. ScreenWidth: {containerSize}, InitialWidth: {_initialWidth}, TotalSize: {totalSize}");
             if (totalSize > containerSize)
             {
                 float newWidth = containerSize - MIN_PADDING * 2;

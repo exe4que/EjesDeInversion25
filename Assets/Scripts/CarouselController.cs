@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using DG.Tweening;
+using EjesDeInversion.Managers;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -29,10 +30,10 @@ namespace EjesDeInversion
             Initialize();
         }*/
 
-        public async void SetData(string[] imageNames)
+        public void SetData(string[] imageNames)
         {
             ClearAll();
-            await LoadAndCreateImages(imageNames);
+            LoadAndCreateImages(imageNames);
             Initialize();
         }
 
@@ -49,9 +50,13 @@ namespace EjesDeInversion
             }
 
             // Clear dots
-            foreach (var dot in _dots)
+            foreach (Transform child in _dotsContainer)
             {
-                Destroy(dot.gameObject);
+                //avoid destroying the prefab template
+                if(child.gameObject.activeSelf)
+                {
+                    Destroy(child.gameObject);
+                }
             }
             _dots.Clear();
 
@@ -62,20 +67,14 @@ namespace EjesDeInversion
             _rightButton.gameObject.SetActive(true);
         }
 
-        private async Task LoadAndCreateImages(string[] imageNames)
+        private void LoadAndCreateImages(string[] imageNames)
         {
             // load images from addressables
             foreach (var imageName in imageNames)
             {
-                AsyncOperationHandle<Texture2D> handle = Addressables.LoadAssetAsync<Texture2D>(imageName);
-                await handle.Task;
-                if (handle.Status == AsyncOperationStatus.Succeeded)
+                if (DataManager.TryLoad<Sprite>(imageName, out var sprite))
                 {
-                    Texture2D texture = handle.Result;
-                    CreateNewImage(texture);
-
-                    // Release the handle if no longer needed
-                    Addressables.Release(handle);
+                    CreateNewImage(sprite);
                 }
                 else
                 {
@@ -84,12 +83,8 @@ namespace EjesDeInversion
             }
         }
 
-        private void CreateNewImage(Texture2D texture)
+        private void CreateNewImage(Sprite sprite)
         {
-            Sprite sprite = Sprite.Create(texture,
-                new Rect(0, 0, texture.width, texture.height),
-                new Vector2(0.5f, 0.5f));
-
             // Instantiate image prefab
             GameObject imageGO = Instantiate(_imagePrefab, _imagesContainer);
             Image imageComponent = imageGO.GetComponent<Image>();
