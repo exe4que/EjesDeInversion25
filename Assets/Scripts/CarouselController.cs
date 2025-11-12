@@ -23,6 +23,7 @@ namespace EjesDeInversion
         private int _imagesCount = 0;
         private int _currentIndex = 0;
         private float _imageWidth = 0f;
+        private List<GameObject> _images = new();
         private List<CarouselDotController> _dots = new();
 
         /*private void Start()
@@ -40,23 +41,16 @@ namespace EjesDeInversion
         private void ClearAll()
         {
             // Clear existing images
-            foreach (Transform child in _imagesContainer)
+            foreach (GameObject image in _images)
             {
-                //avoid destroying the prefab template
-                if(child.gameObject.activeSelf)
-                {
-                    Destroy(child.gameObject);
-                }
+                Destroy(image);
             }
+            _images.Clear();
 
             // Clear dots
-            foreach (Transform child in _dotsContainer)
+            foreach (CarouselDotController dot in _dots)
             {
-                //avoid destroying the prefab template
-                if(child.gameObject.activeSelf)
-                {
-                    Destroy(child.gameObject);
-                }
+                Destroy(dot.gameObject);
             }
             _dots.Clear();
 
@@ -90,15 +84,16 @@ namespace EjesDeInversion
             Image imageComponent = imageGO.GetComponent<Image>();
             imageComponent.sprite = sprite;
             imageGO.SetActive(true);
+            _images.Add(imageGO);
         }
 
         private void Initialize()
         {
             //only active children are counted
             _imagesCount = 0;
-            foreach (Transform child in _imagesContainer)
+            foreach (GameObject image in _images)
             {
-                if (child.gameObject.activeSelf)
+                if (image.activeSelf)
                 {
                     _imagesCount++;
                 }
