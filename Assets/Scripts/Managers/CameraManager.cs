@@ -4,6 +4,7 @@ using DG.Tweening;
 using EjesDeInversion.Utilities;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 namespace EjesDeInversion.Managers
@@ -62,9 +63,17 @@ namespace EjesDeInversion.Managers
         // Update is called once per frame
         void Update()
         {
-            // if cursor is over UI, do not process camera movement
+            // if cursor is over UI, do not process camera movement. Except if it's over something with "Pointer" tag
+            EventSystem currentEvent = EventSystem.current;
+            //Debug.Log($"Touch Count: {_touchCount}, IsPointerOverGameObject: {currentEvent.IsPointerOverGameObject()}, CurrentSelectedGameObject: {(currentEvent.currentSelectedGameObject ?  currentEvent.currentSelectedGameObject.name : "none" )}".Color(Color.yellow));
+            
+            bool isPointerOverUI = currentEvent != null && currentEvent.IsPointerOverGameObject();
+            float scrollValue = _scrollWheel.action.ReadValue<Vector2>().y;
             if (_touchCount == 0 && 
-                UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+                isPointerOverUI &&
+                scrollValue == 0 &&
+                (currentEvent.currentSelectedGameObject == null ||
+                 !currentEvent.currentSelectedGameObject.CompareTag("Pointer")))
             {
                 return;
             }
@@ -95,7 +104,7 @@ namespace EjesDeInversion.Managers
                 _isMiddleMousePressed = false;
             }
 
-            float scrollValue = _scrollWheel.action.ReadValue<Vector2>().y;
+            
             if ((_touch1Button.action.IsPressed() && _touch2Button.action.IsPressed()) || Mathf.Abs(scrollValue) > 0f || _isMiddleMousePressed)
             {
                 if (_touchCount != 2)
