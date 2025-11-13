@@ -4,7 +4,7 @@
             "Id": "infraestructura-social",
             "Name": "INFRAESTRUCTURA SOCIAL",
             "Icon": {
-                "instanceID": 54006
+                "instanceID": 53672
             },
             "Color": {
                 "r": 0.0,
@@ -51,7 +51,7 @@
             "Id": "infraestructura-productiva-y-conectividad",
             "Name": "INFRAESTRUCTURA PRODUCTIVA Y CONECTIVIDAD",
             "Icon": {
-                "instanceID": 54002
+                "instanceID": 53674
             },
             "Color": {
                 "r": 0.9647058844566345,
@@ -78,7 +78,7 @@
             "Id": "infraestructura-logistica",
             "Name": "INFRAESTRUCTURA LOGÍSTICA",
             "Icon": {
-                "instanceID": 53998
+                "instanceID": 53676
             },
             "Color": {
                 "r": 1.0,
@@ -101,7 +101,7 @@
             "Id": "desarrollo-productivo",
             "Name": "DESARROLLO PRODUCTIVO",
             "Icon": {
-                "instanceID": 52520
+                "instanceID": 52738
             },
             "Color": {
                 "r": 0.0470588244497776,
@@ -140,7 +140,7 @@
             "Id": "soberania",
             "Name": "SOBERANÍA",
             "Icon": {
-                "instanceID": 54014
+                "instanceID": 53678
             },
             "Color": {
                 "r": 0.0,
