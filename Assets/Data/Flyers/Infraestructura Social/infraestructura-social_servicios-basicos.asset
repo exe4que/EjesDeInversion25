@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: infraestructura-social_servicios-basicos
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: servicios-basicos
+  Id: infraestructura-social_servicios-basicos
   Title: "Servicios B\xE1sicos"
   Subtitle: Cimientos para el Crecimiento y el Arraigo
   DescriptionTitle: 
