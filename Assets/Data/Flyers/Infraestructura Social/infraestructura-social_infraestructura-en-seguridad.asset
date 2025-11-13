@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: infraestructura-social_infraestructura-en-seguridad
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: infraestructura-en-seguridad
+  Id: infraestructura-social_infraestructura-en-seguridad
   Title: Infraestructura en Seguridad
   Subtitle: Cimientos para una Provincia Protegida
   DescriptionTitle: 

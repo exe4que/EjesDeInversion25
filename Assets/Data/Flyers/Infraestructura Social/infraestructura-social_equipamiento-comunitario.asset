@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3770598e7e564bfd861ff222fe5e8583, type: 3}
   m_Name: infraestructura-social_equipamiento-comunitario
   m_EditorClassIdentifier: Assembly-CSharp::EjesDeInversion.Data.FlyerData
-  Id: equipamiento-comunitario
+  Id: infraestructura-social_equipamiento-comunitario
   Title: Equipamiento Comunitario
   Subtitle: Presencia del Estado y Acceso a Servicios Esenciales
   DescriptionTitle: 
