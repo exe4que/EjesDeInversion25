@@ -217,27 +217,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalScale.x
-      value: 94033.49
+      value: 20768.428
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalScale.y
-      value: 94033.49
+      value: 20768.428
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalScale.z
-      value: 94033.49
+      value: 20768.428
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 570
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -353
+      value: -400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -68
+      value: -494
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalRotation.w
@@ -274,6 +274,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_Name
       value: plano de mar
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2320,6 +2324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CinemachineCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 948504940067166348, guid: 7c5a034403dc02434a5002b0dc192e01, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1359804628463304302, guid: 7c5a034403dc02434a5002b0dc192e01, type: 3}
       propertyPath: BoundingShape2D
       value: 
@@ -3026,6 +3034,10 @@ PrefabInstance:
     - target: {fileID: 7515716409052581774, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
       propertyPath: m_Name
       value: Directional Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515716409052581774, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7550925725480599384, guid: 34e6383a323c2cdd8913858ed1e76a47, type: 3}
       propertyPath: m_Intensity
