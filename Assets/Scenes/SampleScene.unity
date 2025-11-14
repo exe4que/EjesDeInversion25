@@ -217,27 +217,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalScale.x
-      value: 20768.428
+      value: 19410.184
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalScale.y
-      value: 20768.428
+      value: 19410.184
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalScale.z
-      value: 20768.428
+      value: 19410.184
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 576
+      value: 9.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -400
+      value: -1.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -494
+      value: -66
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_LocalRotation.w
@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d0d8b2d5f8551c749b8fe93218e37230, type: 2}
     - target: {fileID: 919132149155446097, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_Name
-      value: plano de mar
+      value: plano de nubes isla grande
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -950,7 +950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820190950}
   m_Layer: 0
-  m_Name: mar
+  m_Name: nubes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -970,6 +970,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 53228795}
+  - {fileID: 1208270119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
@@ -1361,6 +1362,88 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 3f9665329da1e884d88ba73b4a6cfe78, type: 3}
+--- !u!1001 &1208270118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 820190950}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 45311.53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 45311.53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 45311.53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -796
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00083617494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 955ca674d597e9d429ab233d92297a04, type: 2}
+    - target: {fileID: 919132149155446097, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_Name
+      value: plano de nubes antartida
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+--- !u!4 &1208270119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 03df44ecd1dcb4c48a00d4ad94de1557, type: 3}
+  m_PrefabInstance: {fileID: 1208270118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1290617251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 191070266589135966, guid: 3f9665329da1e884d88ba73b4a6cfe78, type: 3}
@@ -1960,15 +2043,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6149838882272888227, guid: 59b469c817aa5f54bbca6c1851ae5d07, type: 3}
       propertyPath: m_Color.b
-      value: 0.5754717
+      value: 0.23921569
       objectReference: {fileID: 0}
     - target: {fileID: 6149838882272888227, guid: 59b469c817aa5f54bbca6c1851ae5d07, type: 3}
       propertyPath: m_Color.g
-      value: 0.43647105
+      value: 0.026797043
       objectReference: {fileID: 0}
     - target: {fileID: 6149838882272888227, guid: 59b469c817aa5f54bbca6c1851ae5d07, type: 3}
       propertyPath: m_Color.r
-      value: 0.20901565
+      value: 0.015619445
       objectReference: {fileID: 0}
     - target: {fileID: 6203880604372032735, guid: 59b469c817aa5f54bbca6c1851ae5d07, type: 3}
       propertyPath: m_LocalScale.x
