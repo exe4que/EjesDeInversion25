@@ -120,7 +120,7 @@ Material:
     - _alpha_clip_1: 0.6
     - _alpha_clip_1_1: 1.07
     - _escaladistorsion: 25.8
-    - _escalanubes: 143.9
+    - _escalanubes: 1000
     - _nubesalpha: 3.96
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -130,7 +130,7 @@ Material:
     - _Velocidad_distorsion: {r: 0.001, g: 0.009, b: 0, a: 0}
     - _alpha_clip: {r: 0.13, g: 2.76, b: 0, a: 0}
     - _smoothclip: {r: 0.81, g: -0.18, b: 0, a: 0}
-    - _velocidadnubes: {r: 0.009, g: 0.009, b: 0, a: 0}
+    - _velocidadnubes: {r: 0.001, g: 0.001, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &178625609987863715
